@@ -1,0 +1,534 @@
+{
+  "meta": {
+    "titulo": "Base Oficial de Idiomas dos Países das Ligas (1ª, 2ª e 3ª Língua)",
+    "descricao": "Mapeamento completo da 1ª Língua Oficial, 2ª Língua mais falada e 3ª Língua mais falada de cada país/liga para localização, narração e áudio no motor do jogo.",
+    "total_paises": 25
+  },
+  "paises_idiomas": [
+    {
+      "pais_ou_liga": "Brasileirao",
+      "nome_pais": "Brasil",
+      "codigo_iso_pais": "BR",
+      "lingua_oficial_1a": {
+        "nome": "Português Brasileiro",
+        "iso": "pt-BR",
+        "percentual_estimado": "98.5%"
+      },
+      "lingua_2a": {
+        "nome": "Libras / Alemão Riograndense (Hunsrik) / Talian",
+        "iso": "hrx-BR / vec-BR",
+        "percentual_estimado": "1.0%"
+      },
+      "lingua_3a": {
+        "nome": "Inglês / Espanhol (Fronteiras e Comércio)",
+        "iso": "en-US / es-ES",
+        "percentual_estimado": "0.5%"
+      },
+      "observacao_narracao_game": "Narração e interface primária em Português do Brasil com sotaques regionais (Sudeste, Nordeste, Sul)."
+    },
+    {
+      "pais_ou_liga": "Futebol Argentina",
+      "nome_pais": "Argentina",
+      "codigo_iso_pais": "AR",
+      "lingua_oficial_1a": {
+        "nome": "Espanhol Rioplatense",
+        "iso": "es-AR",
+        "percentual_estimado": "95.0%"
+      },
+      "lingua_2a": {
+        "nome": "Italiano (Forte herança cultural de imigração)",
+        "iso": "it-IT",
+        "percentual_estimado": "3.5%"
+      },
+      "lingua_3a": {
+        "nome": "Inglês / Quíchua / Guarani",
+        "iso": "en-US / qu-AR",
+        "percentual_estimado": "1.5%"
+      },
+      "observacao_narracao_game": "Espanhol Rioplatense com voseo característico."
+    },
+    {
+      "pais_ou_liga": "Futebol Inglaterra",
+      "nome_pais": "Inglaterra (Reino Unido)",
+      "codigo_iso_pais": "GB-ENG",
+      "lingua_oficial_1a": {
+        "nome": "Inglês Britânico",
+        "iso": "en-GB",
+        "percentual_estimado": "95.2%"
+      },
+      "lingua_2a": {
+        "nome": "Polonês",
+        "iso": "pl-PL",
+        "percentual_estimado": "1.8%"
+      },
+      "lingua_3a": {
+        "nome": "Punjabi / Urdu / Árabe",
+        "iso": "pa-IN / ur-PK",
+        "percentual_estimado": "1.5%"
+      },
+      "observacao_narracao_game": "Inglês Britânico padrão e variantes regionais (London, Mancunian, Scouse)."
+    },
+    {
+      "pais_ou_liga": "Futebol Espanha",
+      "nome_pais": "Espanha",
+      "codigo_iso_pais": "ES",
+      "lingua_oficial_1a": {
+        "nome": "Espanhol (Castelhano)",
+        "iso": "es-ES",
+        "percentual_estimado": "72.0%"
+      },
+      "lingua_2a": {
+        "nome": "Catalão / Valenciano",
+        "iso": "ca-ES",
+        "percentual_estimado": "17.0%"
+      },
+      "lingua_3a": {
+        "nome": "Galego / Basco (Euskera)",
+        "iso": "gl-ES / eu-ES",
+        "percentual_estimado": "9.0%"
+      },
+      "observacao_narracao_game": "Castelhano com opção de áudio/locução local em Catalão e Basco para dérbis."
+    },
+    {
+      "pais_ou_liga": "Futebol Italia",
+      "nome_pais": "Itália",
+      "codigo_iso_pais": "IT",
+      "lingua_oficial_1a": {
+        "nome": "Italiano",
+        "iso": "it-IT",
+        "percentual_estimado": "93.0%"
+      },
+      "lingua_2a": {
+        "nome": "Neapolitano / Siciliano (Dialetos Regionais)",
+        "iso": "nap-IT / scn-IT",
+        "percentual_estimado": "4.5%"
+      },
+      "lingua_3a": {
+        "nome": "Alemão (Südtirol) / Francês (Valle d'Aosta)",
+        "iso": "de-IT / fr-IT",
+        "percentual_estimado": "1.5%"
+      },
+      "observacao_narracao_game": "Italiano com entonação expressiva para cânticos e transmissões da Serie A."
+    },
+    {
+      "pais_ou_liga": "Futebol Alemanha",
+      "nome_pais": "Alemanha",
+      "codigo_iso_pais": "DE",
+      "lingua_oficial_1a": {
+        "nome": "Alemão",
+        "iso": "de-DE",
+        "percentual_estimado": "95.0%"
+      },
+      "lingua_2a": {
+        "nome": "Turco",
+        "iso": "tr-TR",
+        "percentual_estimado": "2.5%"
+      },
+      "lingua_3a": {
+        "nome": "Inglês / Polonês / Russo",
+        "iso": "en-GB / pl-PL",
+        "percentual_estimado": "2.0%"
+      },
+      "observacao_narracao_game": "Alemão padrão (Hochdeutsch) com cânticos em estádio."
+    },
+    {
+      "pais_ou_liga": "Futebol Franca",
+      "nome_pais": "França",
+      "codigo_iso_pais": "FR",
+      "lingua_oficial_1a": {
+        "nome": "Francês",
+        "iso": "fr-FR",
+        "percentual_estimado": "94.0%"
+      },
+      "lingua_2a": {
+        "nome": "Árabe (Magrebino)",
+        "iso": "ar-MA / ar-DZ",
+        "percentual_estimado": "4.0%"
+      },
+      "lingua_3a": {
+        "nome": "Alsaciano / Bretão / Occitano",
+        "iso": "gsw-FR / br-FR",
+        "percentual_estimado": "1.5%"
+      },
+      "observacao_narracao_game": "Francês refinado de transmissão esportiva."
+    },
+    {
+      "pais_ou_liga": "Futebol Holanda",
+      "nome_pais": "Holanda (Países Baixos)",
+      "codigo_iso_pais": "NL",
+      "lingua_oficial_1a": {
+        "nome": "Holandês / Neerlandês",
+        "iso": "nl-NL",
+        "percentual_estimado": "92.0%"
+      },
+      "lingua_2a": {
+        "nome": "Frísio (Frysk - Co-oficial no norte)",
+        "iso": "fy-NL",
+        "percentual_estimado": "3.0%"
+      },
+      "lingua_3a": {
+        "nome": "Inglês (Fluência geral altíssima) / Árabe",
+        "iso": "en-NL / ar-NL",
+        "percentual_estimado": "3.0%"
+      },
+      "observacao_narracao_game": "Neerlandês rápido e dinâmico."
+    },
+    {
+      "pais_ou_liga": "Futebol Portugal",
+      "nome_pais": "Portugal",
+      "codigo_iso_pais": "PT",
+      "lingua_oficial_1a": {
+        "nome": "Português Europeu",
+        "iso": "pt-PT",
+        "percentual_estimado": "96.0%"
+      },
+      "lingua_2a": {
+        "nome": "Mirandês (Língua co-oficial regional)",
+        "iso": "mwl-PT",
+        "percentual_estimado": "1.5%"
+      },
+      "lingua_3a": {
+        "nome": "Inglês / Espanhol",
+        "iso": "en-GB / es-ES",
+        "percentual_estimado": "1.5%"
+      },
+      "observacao_narracao_game": "Português de Portugal com fonética europeia clássica."
+    },
+    {
+      "pais_ou_liga": "Futebol Arabia Saudita",
+      "nome_pais": "Arábia Saudita",
+      "codigo_iso_pais": "SA",
+      "lingua_oficial_1a": {
+        "nome": "Árabe Saudita",
+        "iso": "ar-SA",
+        "percentual_estimado": "90.0%"
+      },
+      "lingua_2a": {
+        "nome": "Inglês (Negócios, Esportes e Elenco Internacional)",
+        "iso": "en-US",
+        "percentual_estimado": "7.5%"
+      },
+      "lingua_3a": {
+        "nome": "Tagalo / Urdu / Bengali",
+        "iso": "tl-PH / ur-PK",
+        "percentual_estimado": "2.5%"
+      },
+      "observacao_narracao_game": "Árabe emocionado e entusiasmado característico do Oriente Médio."
+    },
+    {
+      "pais_ou_liga": "Futebol Turquia",
+      "nome_pais": "Turquia",
+      "codigo_iso_pais": "TR",
+      "lingua_oficial_1a": {
+        "nome": "Turco",
+        "iso": "tr-TR",
+        "percentual_estimado": "85.0%"
+      },
+      "lingua_2a": {
+        "nome": "Curdo (Kurmanji)",
+        "iso": "ku-TR",
+        "percentual_estimado": "12.0%"
+      },
+      "lingua_3a": {
+        "nome": "Árabe / Inglês",
+        "iso": "ar-TR / en-TR",
+        "percentual_estimado": "2.0%"
+      },
+      "observacao_narracao_game": "Turco vibrante e intenso de narração de futebol."
+    },
+    {
+      "pais_ou_liga": "MLS",
+      "nome_pais": "Estados Unidos / Canadá",
+      "codigo_iso_pais": "US / CA",
+      "lingua_oficial_1a": {
+        "nome": "Inglês Americano",
+        "iso": "en-US",
+        "percentual_estimado": "78.0%"
+      },
+      "lingua_2a": {
+        "nome": "Espanhol (EUA)",
+        "iso": "es-US",
+        "percentual_estimado": "14.5%"
+      },
+      "lingua_3a": {
+        "nome": "Francês (Canadá/Quebec) / Chinês",
+        "iso": "fr-CA / zh-US",
+        "percentual_estimado": "4.5%"
+      },
+      "observacao_narracao_game": "Inglês no estilo transmissão americana de esportes + opção de transmissão em Espanhol."
+    },
+    {
+      "pais_ou_liga": "Futebol Escocia",
+      "nome_pais": "Escócia",
+      "codigo_iso_pais": "GB-SCT",
+      "lingua_oficial_1a": {
+        "nome": "Inglês Escocês",
+        "iso": "en-GB-SCT",
+        "percentual_estimado": "97.0%"
+      },
+      "lingua_2a": {
+        "nome": "Scots (Língua germânica histórica)",
+        "iso": "sco-GB",
+        "percentual_estimado": "30.0% (Bilinguismo)"
+      },
+      "lingua_3a": {
+        "nome": "Gaélico Escocês",
+        "iso": "gd-GB",
+        "percentual_estimado": "1.5%"
+      },
+      "observacao_narracao_game": "Inglês com sotaque escocês forte (Glasgow/Edinburgh)."
+    },
+    {
+      "pais_ou_liga": "Futebol Belgica",
+      "nome_pais": "Bélgica",
+      "codigo_iso_pais": "BE",
+      "lingua_oficial_1a": {
+        "nome": "Holandês / Flamenco (Flandres)",
+        "iso": "nl-BE",
+        "percentual_estimado": "60.0%"
+      },
+      "lingua_2a": {
+        "nome": "Francês Belga (Valônia e Bruxelas)",
+        "iso": "fr-BE",
+        "percentual_estimado": "39.0%"
+      },
+      "lingua_3a": {
+        "nome": "Alemão (Região Leste)",
+        "iso": "de-BE",
+        "percentual_estimado": "1.0%"
+      },
+      "observacao_narracao_game": "Bilinguismo oficial: opções em Flamenco e Francês."
+    },
+    {
+      "pais_ou_liga": "Futebol Japao",
+      "nome_pais": "Japão",
+      "codigo_iso_pais": "JP",
+      "lingua_oficial_1a": {
+        "nome": "Japonês",
+        "iso": "ja-JP",
+        "percentual_estimado": "99.0%"
+      },
+      "lingua_2a": {
+        "nome": "Ryukyuense (Okinawa)",
+        "iso": "ryu-JP",
+        "percentual_estimado": "0.5%"
+      },
+      "lingua_3a": {
+        "nome": "Inglês / Ainu",
+        "iso": "en-JP / ain-JP",
+        "percentual_estimado": "0.3%"
+      },
+      "observacao_narracao_game": "Japonês ágil de narração J-League."
+    },
+    {
+      "pais_ou_liga": "Futebol Egito",
+      "nome_pais": "Egito",
+      "codigo_iso_pais": "EG",
+      "lingua_oficial_1a": {
+        "nome": "Árabe Egípcio",
+        "iso": "ar-EG",
+        "percentual_estimado": "95.0%"
+      },
+      "lingua_2a": {
+        "nome": "Inglês (Turismo e Negócios)",
+        "iso": "en-EG",
+        "percentual_estimado": "3.5%"
+      },
+      "lingua_3a": {
+        "nome": "Francês / Núbio",
+        "iso": "fr-EG / fia-EG",
+        "percentual_estimado": "1.5%"
+      },
+      "observacao_narracao_game": "Árabe Egípcio com gritos festivos de gol."
+    },
+    {
+      "pais_ou_liga": "Futebol Russia",
+      "nome_pais": "Rússia",
+      "codigo_iso_pais": "RU",
+      "lingua_oficial_1a": {
+        "nome": "Russo",
+        "iso": "ru-RU",
+        "percentual_estimado": "96.0%"
+      },
+      "lingua_2a": {
+        "nome": "Tártaro",
+        "iso": "tt-RU",
+        "percentual_estimado": "2.5%"
+      },
+      "lingua_3a": {
+        "nome": "Checheno / Bashkir / Inglês",
+        "iso": "ce-RU / ba-RU",
+        "percentual_estimado": "1.5%"
+      },
+      "observacao_narracao_game": "Russo com voz firme de transmissão esportiva."
+    },
+    {
+      "pais_ou_liga": "Futebol Mexico",
+      "nome_pais": "México",
+      "codigo_iso_pais": "MX",
+      "lingua_oficial_1a": {
+        "nome": "Espanhol Mexicano",
+        "iso": "es-MX",
+        "percentual_estimado": "93.0%"
+      },
+      "lingua_2a": {
+        "nome": "Náuatle (Língua Indígena Asteca)",
+        "iso": "nah-MX",
+        "percentual_estimado": "1.7%"
+      },
+      "lingua_3a": {
+        "nome": "Maia / Inglês",
+        "iso": "yua-MX / en-MX",
+        "percentual_estimado": "1.5%"
+      },
+      "observacao_narracao_game": "Espanhol Mexicano apaixonado e icônico."
+    },
+    {
+      "pais_ou_liga": "Futebol Colombia",
+      "nome_pais": "Colômbia",
+      "codigo_iso_pais": "CO",
+      "lingua_oficial_1a": {
+        "nome": "Espanhol Colombiano",
+        "iso": "es-CO",
+        "percentual_estimado": "99.0%"
+      },
+      "lingua_2a": {
+        "nome": "Wayuu (Língua Indígena)",
+        "iso": "guc-CO",
+        "percentual_estimado": "0.5%"
+      },
+      "lingua_3a": {
+        "nome": "Inglês / Crioulo San Andrés",
+        "iso": "en-CO",
+        "percentual_estimado": "0.3%"
+      },
+      "observacao_narracao_game": "Espanhol Colombiano com ritmo alto."
+    },
+    {
+      "pais_ou_liga": "Futebol Equador",
+      "nome_pais": "Equador",
+      "codigo_iso_pais": "EC",
+      "lingua_oficial_1a": {
+        "nome": "Espanhol Equatoriano",
+        "iso": "es-EC",
+        "percentual_estimado": "93.0%"
+      },
+      "lingua_2a": {
+        "nome": "Quíchua (Kichwa - Língua Oficial de Relação Intercultural)",
+        "iso": "qu-EC",
+        "percentual_estimado": "4.1%"
+      },
+      "lingua_3a": {
+        "nome": "Shuar / Inglês",
+        "iso": "jiv-EC / en-EC",
+        "percentual_estimado": "1.0%"
+      },
+      "observacao_narracao_game": "Espanhol andino/costeiro."
+    },
+    {
+      "pais_ou_liga": "Futebol Chile",
+      "nome_pais": "Chile",
+      "codigo_iso_pais": "CL",
+      "lingua_oficial_1a": {
+        "nome": "Espanhol Chileno",
+        "iso": "es-CL",
+        "percentual_estimado": "98.0%"
+      },
+      "lingua_2a": {
+        "nome": "Mapudungun (Língua Mapuche)",
+        "iso": "arn-CL",
+        "percentual_estimado": "1.0%"
+      },
+      "lingua_3a": {
+        "nome": "Inglês / Rapa Nui",
+        "iso": "en-CL / rap-CL",
+        "percentual_estimado": "0.5%"
+      },
+      "observacao_narracao_game": "Espanhol Chileno característico."
+    },
+    {
+      "pais_ou_liga": "Futebol Uruguai",
+      "nome_pais": "Uruguai",
+      "codigo_iso_pais": "UY",
+      "lingua_oficial_1a": {
+        "nome": "Espanhol Uruguaio",
+        "iso": "es-UY",
+        "percentual_estimado": "98.0%"
+      },
+      "lingua_2a": {
+        "nome": "Portunhol / Português do Norte (Fronteira com Brasil)",
+        "iso": "pdm-UY",
+        "percentual_estimado": "1.5%"
+      },
+      "lingua_3a": {
+        "nome": "Inglês",
+        "iso": "en-UY",
+        "percentual_estimado": "0.5%"
+      },
+      "observacao_narracao_game": "Espanhol rioplatense uruguaio."
+    },
+    {
+      "pais_ou_liga": "Futebol Paraguai",
+      "nome_pais": "Paraguai",
+      "codigo_iso_pais": "PY",
+      "lingua_oficial_1a": {
+        "nome": "Guarani (Língua Oficial)",
+        "iso": "gn-PY",
+        "percentual_estimado": "87.0% (Bilinguismo Jopará)"
+      },
+      "lingua_2a": {
+        "nome": "Espanhol Paraguaio (Língua Oficial)",
+        "iso": "es-PY",
+        "percentual_estimado": "70.0%"
+      },
+      "lingua_3a": {
+        "nome": "Português (Brasiguaios) / Alemão",
+        "iso": "pt-PY / de-PY",
+        "percentual_estimado": "3.0%"
+      },
+      "observacao_narracao_game": "Bilinguismo Espanhol e Guarani."
+    },
+    {
+      "pais_ou_liga": "Futebol Peru",
+      "nome_pais": "Peru",
+      "codigo_iso_pais": "PE",
+      "lingua_oficial_1a": {
+        "nome": "Espanhol Peruano",
+        "iso": "es-PE",
+        "percentual_estimado": "82.6%"
+      },
+      "lingua_2a": {
+        "nome": "Quíchua (Quechua - Língua Oficial)",
+        "iso": "qu-PE",
+        "percentual_estimado": "13.9%"
+      },
+      "lingua_3a": {
+        "nome": "Aimará (Aymara - Língua Oficial)",
+        "iso": "ay-PE",
+        "percentual_estimado": "2.3%"
+      },
+      "observacao_narracao_game": "Espanhol peruano limpo."
+    },
+    {
+      "pais_ou_liga": "Futebol Bolivia",
+      "nome_pais": "Bolívia",
+      "codigo_iso_pais": "BO",
+      "lingua_oficial_1a": {
+        "nome": "Espanhol Boliviano",
+        "iso": "es-BO",
+        "percentual_estimado": "69.0%"
+      },
+      "lingua_2a": {
+        "nome": "Quíchua (Quechua - Língua Oficial)",
+        "iso": "qu-BO",
+        "percentual_estimado": "17.4%"
+      },
+      "lingua_3a": {
+        "nome": "Aimará (Aymara - Língua Oficial)",
+        "iso": "ay-BO",
+        "percentual_estimado": "10.6%"
+      },
+      "observacao_narracao_game": "Espanhol andino com termos em Quíchua e Aimará."
+    }
+  ]
+}
