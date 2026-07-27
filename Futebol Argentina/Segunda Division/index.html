@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futebol Argentina - Segunda División (Primera Nacional)</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-color: #f8fafc;
+            --accent-color: #7dd3fc;
+            --accent-glow: rgba(125, 211, 252, 0.2);
+            --border-color: #334155;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', system-ui, sans-serif; background: var(--bg-color); color: var(--text-color); padding: 2rem 1rem; }
+        header { text-align: center; margin-bottom: 3rem; }
+        header h1 { font-size: 2.5rem; font-weight: 800; background: linear-gradient(135deg, #7dd3fc, #38bdf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 0.5rem; }
+        header p { color: #94a3b8; font-size: 1.1rem; }
+        .stats-badge { display: inline-block; background: var(--accent-glow); border: 1px solid var(--accent-color); color: var(--accent-color); padding: 0.4rem 1rem; border-radius: 9999px; font-weight: 600; font-size: 0.9rem; margin-top: 1rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1.5rem; max-width: 1300px; margin: 0 auto; }
+        .card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 1rem; padding: 1.5rem; display: flex; flex-direction: column; align-items: center; transition: all 0.3s ease; }
+        .card:hover { transform: translateY(-5px); border-color: var(--accent-color); box-shadow: 0 10px 25px -5px var(--accent-glow); }
+        .img-container { width: 140px; height: 140px; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem; background-image: linear-gradient(45deg, #182234 25%, transparent 25%), linear-gradient(-45deg, #182234 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #182234 75%), linear-gradient(-45deg, transparent 75%, #182234 75%); background-size: 16px 16px; border-radius: 0.75rem; padding: 10px; }
+        .img-container img { max-width: 100%; max-height: 100%; object-fit: contain; filter: drop-shadow(0 4px 6px rgba(0,0,0,0.5)); }
+        .team-name { font-size: 1.1rem; font-weight: 700; text-align: center; margin-bottom: 0.5rem; }
+        .specs { font-size: 0.8rem; color: #64748b; text-align: center; }
+        footer { text-align: center; margin-top: 4rem; color: #64748b; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Futebol Argentina - Segunda División (Primera Nacional)</h1>
+        <p>Coleção de imagens e escudos dos 20 times da 2ª Divisão Argentina em alta resolução</p>
+        <div class="stats-badge">20 Imagens Padronizadas (1024x1024 PNG Transparente)</div>
+    </header>
+    <div class="grid">
+
+        <div class="card">
+            <div class="img-container"><img src="quilmes.png" alt="Quilmes"></div>
+            <div class="team-name">Quilmes</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="ferro_carril_oeste.png" alt="Ferro Carril Oeste"></div>
+            <div class="team-name">Ferro Carril Oeste</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="chacarita_juniors.png" alt="Chacarita Juniors"></div>
+            <div class="team-name">Chacarita Juniors</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="colon_santa_fe.png" alt="Colón de Santa Fe"></div>
+            <div class="team-name">Colón de Santa Fe</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="all_boys.png" alt="All Boys"></div>
+            <div class="team-name">All Boys</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="atlanta.png" alt="Atlanta"></div>
+            <div class="team-name">Atlanta</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="almagro.png" alt="Almagro"></div>
+            <div class="team-name">Almagro</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="aldosivi.png" alt="Aldosivi"></div>
+            <div class="team-name">Aldosivi</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="san_martin_tucuman.png" alt="San Martín de Tucumán"></div>
+            <div class="team-name">San Martín de Tucumán</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="san_martin_san_juan.png" alt="San Martín de San Juan"></div>
+            <div class="team-name">San Martín de San Juan</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="nueva_chicago.png" alt="Nueva Chicago"></div>
+            <div class="team-name">Nueva Chicago</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="gimnasia_mendoza.png" alt="Gimnasia de Mendoza"></div>
+            <div class="team-name">Gimnasia de Mendoza</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="deportivo_moron.png" alt="Deportivo Morón"></div>
+            <div class="team-name">Deportivo Morón</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="patronato.png" alt="Patronato"></div>
+            <div class="team-name">Patronato</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="arsenal_sarandi.png" alt="Arsenal de Sarandí"></div>
+            <div class="team-name">Arsenal de Sarandí</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="temperley.png" alt="Temperley"></div>
+            <div class="team-name">Temperley</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="defensores_belgrano.png" alt="Defensores de Belgrano"></div>
+            <div class="team-name">Defensores de Belgrano</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="estudiantes_caseros.png" alt="Estudiantes de Caseros"></div>
+            <div class="team-name">Estudiantes de Caseros</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="alvarado.png" alt="Alvarado"></div>
+            <div class="team-name">Alvarado</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="brown_adrogue.png" alt="Brown de Adrogué"></div>
+            <div class="team-name">Brown de Adrogué</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+    </div>
+    <footer>
+        <p>Formatos padronizados com fundo transparente e proporções mantidas.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futebol Uruguai - Primera División</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-color: #f8fafc;
+            --accent-color: #38bdf8;
+            --accent-glow: rgba(56, 189, 248, 0.2);
+            --border-color: #334155;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', system-ui, sans-serif; background: var(--bg-color); color: var(--text-color); padding: 2rem 1rem; }
+        header { text-align: center; margin-bottom: 3rem; }
+        header h1 { font-size: 2.5rem; font-weight: 800; background: linear-gradient(135deg, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 0.5rem; }
+        header p { color: #94a3b8; font-size: 1.1rem; }
+        .stats-badge { display: inline-block; background: var(--accent-glow); border: 1px solid var(--accent-color); color: var(--accent-color); padding: 0.4rem 1rem; border-radius: 9999px; font-weight: 600; font-size: 0.9rem; margin-top: 1rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1.5rem; max-width: 1300px; margin: 0 auto; }
+        .card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 1rem; padding: 1.5rem; display: flex; flex-direction: column; align-items: center; transition: all 0.3s ease; }
+        .card:hover { transform: translateY(-5px); border-color: var(--accent-color); box-shadow: 0 10px 25px -5px var(--accent-glow); }
+        .img-container { width: 140px; height: 140px; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem; background-image: linear-gradient(45deg, #182234 25%, transparent 25%), linear-gradient(-45deg, #182234 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #182234 75%), linear-gradient(-45deg, transparent 75%, #182234 75%); background-size: 16px 16px; border-radius: 0.75rem; padding: 10px; }
+        .img-container img { max-width: 100%; max-height: 100%; object-fit: contain; filter: drop-shadow(0 4px 6px rgba(0,0,0,0.5)); }
+        .team-name { font-size: 1.1rem; font-weight: 700; text-align: center; margin-bottom: 0.5rem; }
+        .specs { font-size: 0.8rem; color: #64748b; text-align: center; }
+        footer { text-align: center; margin-top: 4rem; color: #64748b; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Futebol Uruguai - Primera División</h1>
+        <p>Coleção de imagens e escudos dos times da 1ª Divisão do Uruguai em alta resolução</p>
+        <div class="stats-badge">16 Imagens Padronizadas (1024x1024 PNG Transparente)</div>
+    </header>
+    <div class="grid">
+
+        <div class="card">
+            <div class="img-container"><img src="penarol.png" alt="Peñarol"></div>
+            <div class="team-name">Peñarol</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="nacional.png" alt="Nacional"></div>
+            <div class="team-name">Nacional</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="danubio.png" alt="Danubio"></div>
+            <div class="team-name">Danubio</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="defensor_sporting.png" alt="Defensor Sporting"></div>
+            <div class="team-name">Defensor Sporting</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="boston_river.png" alt="Boston River"></div>
+            <div class="team-name">Boston River</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="cerro.png" alt="Cerro"></div>
+            <div class="team-name">Cerro</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="cerro_largo.png" alt="Cerro Largo"></div>
+            <div class="team-name">Cerro Largo</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="deportivo_maldonado.png" alt="Deportivo Maldonado"></div>
+            <div class="team-name">Deportivo Maldonado</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="fenix.png" alt="Fénix"></div>
+            <div class="team-name">Fénix</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="liverpool_uy.png" alt="Liverpool"></div>
+            <div class="team-name">Liverpool</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="wanderers.png" alt="Montevideo Wanderers"></div>
+            <div class="team-name">Montevideo Wanderers</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="progreso.png" alt="Progreso"></div>
+            <div class="team-name">Progreso</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="racing_montevideo.png" alt="Racing Montevideo"></div>
+            <div class="team-name">Racing Montevideo</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="river_plate_uy.png" alt="River Plate"></div>
+            <div class="team-name">River Plate</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="montevideo_city_torque.png" alt="Montevideo City Torque"></div>
+            <div class="team-name">Montevideo City Torque</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="albion.png" alt="Albion"></div>
+            <div class="team-name">Albion</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+    </div>
+    <footer>
+        <p>Formatos padronizados com fundo transparente e proporções mantidas.</p>
+    </footer>
+</body>
+</html>

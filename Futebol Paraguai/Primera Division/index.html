@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futebol Paraguai - Primera División</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-color: #f8fafc;
+            --accent-color: #ef4444;
+            --accent-glow: rgba(239, 68, 68, 0.2);
+            --border-color: #334155;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', system-ui, sans-serif; background: var(--bg-color); color: var(--text-color); padding: 2rem 1rem; }
+        header { text-align: center; margin-bottom: 3rem; }
+        header h1 { font-size: 2.5rem; font-weight: 800; background: linear-gradient(135deg, #ef4444, #3b82f6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 0.5rem; }
+        header p { color: #94a3b8; font-size: 1.1rem; }
+        .stats-badge { display: inline-block; background: var(--accent-glow); border: 1px solid var(--accent-color); color: var(--accent-color); padding: 0.4rem 1rem; border-radius: 9999px; font-weight: 600; font-size: 0.9rem; margin-top: 1rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1.5rem; max-width: 1300px; margin: 0 auto; }
+        .card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 1rem; padding: 1.5rem; display: flex; flex-direction: column; align-items: center; transition: all 0.3s ease; }
+        .card:hover { transform: translateY(-5px); border-color: var(--accent-color); box-shadow: 0 10px 25px -5px var(--accent-glow); }
+        .img-container { width: 140px; height: 140px; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem; background-image: linear-gradient(45deg, #182234 25%, transparent 25%), linear-gradient(-45deg, #182234 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #182234 75%), linear-gradient(-45deg, transparent 75%, #182234 75%); background-size: 16px 16px; border-radius: 0.75rem; padding: 10px; }
+        .img-container img { max-width: 100%; max-height: 100%; object-fit: contain; filter: drop-shadow(0 4px 6px rgba(0,0,0,0.5)); }
+        .team-name { font-size: 1.1rem; font-weight: 700; text-align: center; margin-bottom: 0.5rem; }
+        .specs { font-size: 0.8rem; color: #64748b; text-align: center; }
+        footer { text-align: center; margin-top: 4rem; color: #64748b; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Futebol Paraguai - Primera División</h1>
+        <p>Coleção de imagens e escudos dos 12 times da Primera División do Paraguai em alta resolução</p>
+        <div class="stats-badge">11 Imagens Padronizadas (1024x1024 PNG Transparente)</div>
+    </header>
+    <div class="grid">
+
+        <div class="card">
+            <div class="img-container"><img src="olimpia.png" alt="Olimpia"></div>
+            <div class="team-name">Olimpia</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="cerro_porteno.png" alt="Cerro Porteño"></div>
+            <div class="team-name">Cerro Porteño</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="libertad.png" alt="Libertad"></div>
+            <div class="team-name">Libertad</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="guarani_py.png" alt="Guaraní"></div>
+            <div class="team-name">Guaraní</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="nacional_py.png" alt="Nacional"></div>
+            <div class="team-name">Nacional</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="sportivo_luqueno.png" alt="Sportivo Luqueño"></div>
+            <div class="team-name">Sportivo Luqueño</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="sportivo_ameliano.png" alt="Sportivo Ameliano"></div>
+            <div class="team-name">Sportivo Ameliano</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="sportivo_trinidense.png" alt="Sportivo Trinidense"></div>
+            <div class="team-name">Sportivo Trinidense</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="sportivo_2_de_mayo.png" alt="Sportivo 2 de Mayo"></div>
+            <div class="team-name">Sportivo 2 de Mayo</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="rubio_nu.png" alt="Rubio Ñu"></div>
+            <div class="team-name">Rubio Ñu</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="san_lorenzo_py.png" alt="San Lorenzo"></div>
+            <div class="team-name">San Lorenzo</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+    </div>
+    <footer>
+        <p>Formatos padronizados com fundo transparente e proporções mantidas.</p>
+    </footer>
+</body>
+</html>

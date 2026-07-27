@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futebol EUA - Major League Soccer (MLS)</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-color: #f8fafc;
+            --accent-color: #3b82f6;
+            --accent-glow: rgba(59, 130, 246, 0.2);
+            --border-color: #334155;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', system-ui, sans-serif; background: var(--bg-color); color: var(--text-color); padding: 2rem 1rem; }
+        header { text-align: center; margin-bottom: 3rem; }
+        header h1 { font-size: 2.5rem; font-weight: 800; background: linear-gradient(135deg, #3b82f6, #ef4444); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 0.5rem; }
+        header p { color: #94a3b8; font-size: 1.1rem; }
+        .stats-badge { display: inline-block; background: var(--accent-glow); border: 1px solid var(--accent-color); color: var(--accent-color); padding: 0.4rem 1rem; border-radius: 9999px; font-weight: 600; font-size: 0.9rem; margin-top: 1rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1.5rem; max-width: 1400px; margin: 0 auto; }
+        .card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 1rem; padding: 1.5rem; display: flex; flex-direction: column; align-items: center; transition: all 0.3s ease; }
+        .card:hover { transform: translateY(-5px); border-color: var(--accent-color); box-shadow: 0 10px 25px -5px var(--accent-glow); }
+        .img-container { width: 140px; height: 140px; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem; background-image: linear-gradient(45deg, #182234 25%, transparent 25%), linear-gradient(-45deg, #182234 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #182234 75%), linear-gradient(-45deg, transparent 75%, #182234 75%); background-size: 16px 16px; border-radius: 0.75rem; padding: 10px; }
+        .img-container img { max-width: 100%; max-height: 100%; object-fit: contain; filter: drop-shadow(0 4px 6px rgba(0,0,0,0.5)); }
+        .team-name { font-size: 1.1rem; font-weight: 700; text-align: center; margin-bottom: 0.5rem; }
+        .specs { font-size: 0.8rem; color: #64748b; text-align: center; }
+        footer { text-align: center; margin-top: 4rem; color: #64748b; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Major League Soccer (MLS)</h1>
+        <p>Coleção de imagens e escudos dos 30 times da MLS dos Estados Unidos e Canadá em alta resolução</p>
+        <div class="stats-badge">30 Imagens Padronizadas (1024x1024 PNG Transparente)</div>
+    </header>
+    <div class="grid">
+
+        <div class="card">
+            <div class="img-container"><img src="atlanta_united.png" alt="Atlanta United FC"></div>
+            <div class="team-name">Atlanta United FC</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="austin_fc.png" alt="Austin FC"></div>
+            <div class="team-name">Austin FC</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="charlotte_fc.png" alt="Charlotte FC"></div>
+            <div class="team-name">Charlotte FC</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="chicago_fire.png" alt="Chicago Fire FC"></div>
+            <div class="team-name">Chicago Fire FC</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="cincinnati.png" alt="FC Cincinnati"></div>
+            <div class="team-name">FC Cincinnati</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="colorado_rapids.png" alt="Colorado Rapids"></div>
+            <div class="team-name">Colorado Rapids</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="columbus_crew.png" alt="Columbus Crew"></div>
+            <div class="team-name">Columbus Crew</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="dc_united.png" alt="D.C. United"></div>
+            <div class="team-name">D.C. United</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="fc_dallas.png" alt="FC Dallas"></div>
+            <div class="team-name">FC Dallas</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="houston_dynamo.png" alt="Houston Dynamo FC"></div>
+            <div class="team-name">Houston Dynamo FC</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="inter_miami.png" alt="Inter Miami CF"></div>
+            <div class="team-name">Inter Miami CF</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="la_galaxy.png" alt="LA Galaxy"></div>
+            <div class="team-name">LA Galaxy</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="lafc.png" alt="Los Angeles FC"></div>
+            <div class="team-name">Los Angeles FC</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="minnesota_united.png" alt="Minnesota United FC"></div>
+            <div class="team-name">Minnesota United FC</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="montreal.png" alt="CF Montréal"></div>
+            <div class="team-name">CF Montréal</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="nashville.png" alt="Nashville SC"></div>
+            <div class="team-name">Nashville SC</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="new_england_revolution.png" alt="New England Revolution"></div>
+            <div class="team-name">New England Revolution</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="ny_city.png" alt="New York City FC"></div>
+            <div class="team-name">New York City FC</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="ny_red_bulls.png" alt="New York Red Bulls"></div>
+            <div class="team-name">New York Red Bulls</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="orlando_city.png" alt="Orlando City SC"></div>
+            <div class="team-name">Orlando City SC</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="philadelphia_union.png" alt="Philadelphia Union"></div>
+            <div class="team-name">Philadelphia Union</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="portland_timbers.png" alt="Portland Timbers"></div>
+            <div class="team-name">Portland Timbers</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="real_salt_lake.png" alt="Real Salt Lake"></div>
+            <div class="team-name">Real Salt Lake</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="san_diego_fc.png" alt="San Diego FC"></div>
+            <div class="team-name">San Diego FC</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="san_jose_earthquakes.png" alt="San Jose Earthquakes"></div>
+            <div class="team-name">San Jose Earthquakes</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="seattle_sounders.png" alt="Seattle Sounders FC"></div>
+            <div class="team-name">Seattle Sounders FC</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="sporting_kc.png" alt="Sporting Kansas City"></div>
+            <div class="team-name">Sporting Kansas City</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="st_louis_city.png" alt="St. Louis City SC"></div>
+            <div class="team-name">St. Louis City SC</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="toronto_fc.png" alt="Toronto FC"></div>
+            <div class="team-name">Toronto FC</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="vancouver_whitecaps.png" alt="Vancouver Whitecaps FC"></div>
+            <div class="team-name">Vancouver Whitecaps FC</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+    </div>
+    <footer>
+        <p>Formatos padronizados com fundo transparente e proporções mantidas.</p>
+    </footer>
+</body>
+</html>

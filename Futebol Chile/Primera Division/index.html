@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futebol Chile - Primera División</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-color: #f8fafc;
+            --accent-color: #ef4444;
+            --accent-glow: rgba(239, 68, 68, 0.2);
+            --border-color: #334155;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', system-ui, sans-serif; background: var(--bg-color); color: var(--text-color); padding: 2rem 1rem; }
+        header { text-align: center; margin-bottom: 3rem; }
+        header h1 { font-size: 2.5rem; font-weight: 800; background: linear-gradient(135deg, #ef4444, #3b82f6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 0.5rem; }
+        header p { color: #94a3b8; font-size: 1.1rem; }
+        .stats-badge { display: inline-block; background: var(--accent-glow); border: 1px solid var(--accent-color); color: var(--accent-color); padding: 0.4rem 1rem; border-radius: 9999px; font-weight: 600; font-size: 0.9rem; margin-top: 1rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1.5rem; max-width: 1300px; margin: 0 auto; }
+        .card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 1rem; padding: 1.5rem; display: flex; flex-direction: column; align-items: center; transition: all 0.3s ease; }
+        .card:hover { transform: translateY(-5px); border-color: var(--accent-color); box-shadow: 0 10px 25px -5px var(--accent-glow); }
+        .img-container { width: 140px; height: 140px; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem; background-image: linear-gradient(45deg, #182234 25%, transparent 25%), linear-gradient(-45deg, #182234 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #182234 75%), linear-gradient(-45deg, transparent 75%, #182234 75%); background-size: 16px 16px; border-radius: 0.75rem; padding: 10px; }
+        .img-container img { max-width: 100%; max-height: 100%; object-fit: contain; filter: drop-shadow(0 4px 6px rgba(0,0,0,0.5)); }
+        .team-name { font-size: 1.1rem; font-weight: 700; text-align: center; margin-bottom: 0.5rem; }
+        .specs { font-size: 0.8rem; color: #64748b; text-align: center; }
+        footer { text-align: center; margin-top: 4rem; color: #64748b; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Futebol Chile - Primera División</h1>
+        <p>Coleção de imagens e escudos dos 16 times da Primera División do Chile em alta resolução</p>
+        <div class="stats-badge">16 Imagens Padronizadas (1024x1024 PNG Transparente)</div>
+    </header>
+    <div class="grid">
+
+        <div class="card">
+            <div class="img-container"><img src="colo_colo.png" alt="Colo-Colo"></div>
+            <div class="team-name">Colo-Colo</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="universidad_de_chile.png" alt="Universidad de Chile"></div>
+            <div class="team-name">Universidad de Chile</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="universidad_catolica.png" alt="Universidad Católica"></div>
+            <div class="team-name">Universidad Católica</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="cobreloa.png" alt="Cobreloa"></div>
+            <div class="team-name">Cobreloa</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="cobresal.png" alt="Cobresal"></div>
+            <div class="team-name">Cobresal</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="audax_italiano.png" alt="Audax Italiano"></div>
+            <div class="team-name">Audax Italiano</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="palestino.png" alt="Palestino"></div>
+            <div class="team-name">Palestino</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="coquimbo_unido.png" alt="Coquimbo Unido"></div>
+            <div class="team-name">Coquimbo Unido</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="everton_vm.png" alt="Everton de Viña del Mar"></div>
+            <div class="team-name">Everton de Viña del Mar</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="huachipato.png" alt="Huachipato"></div>
+            <div class="team-name">Huachipato</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="nublense.png" alt="Ñublense"></div>
+            <div class="team-name">Ñublense</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="ohiggins.png" alt="O'Higgins"></div>
+            <div class="team-name">O'Higgins</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="union_espanola.png" alt="Unión Española"></div>
+            <div class="team-name">Unión Española</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="union_la_calera.png" alt="Unión La Calera"></div>
+            <div class="team-name">Unión La Calera</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="deportes_iquique.png" alt="Deportes Iquique"></div>
+            <div class="team-name">Deportes Iquique</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="universidad_de_concepcion.png" alt="Universidad de Concepción"></div>
+            <div class="team-name">Universidad de Concepción</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+    </div>
+    <footer>
+        <p>Formatos padronizados com fundo transparente e proporções mantidas.</p>
+    </footer>
+</body>
+</html>

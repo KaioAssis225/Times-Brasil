@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brasileirão Série A 2026 - Escudos dos Times</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-color: #f8fafc;
+            --accent-color: #22c55e;
+            --accent-glow: rgba(34, 197, 94, 0.2);
+            --border-color: #334155;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            min-height: 100vh;
+            padding: 2rem 1rem;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #4ade80, #3b82f6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            color: #94a3b8;
+            font-size: 1.1rem;
+        }
+
+        .stats-badge {
+            display: inline-block;
+            background: var(--accent-glow);
+            border: 1px solid var(--accent-color);
+            color: var(--accent-color);
+            padding: 0.4rem 1rem;
+            border-radius: 9999px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-top: 1rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 1.5rem;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 1rem;
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent-color);
+            box-shadow: 0 10px 25px -5px var(--accent-glow);
+        }
+
+        .img-container {
+            width: 140px;
+            height: 140px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+            background-image: 
+                linear-gradient(45deg, #182234 25%, transparent 25%), 
+                linear-gradient(-45deg, #182234 25%, transparent 25%), 
+                linear-gradient(45deg, transparent 75%, #182234 75%), 
+                linear-gradient(-45deg, transparent 75%, #182234 75%);
+            background-size: 16px 16px;
+            background-position: 0 0, 0 8px, 8px -8px, -8px 0px;
+            border-radius: 0.75rem;
+            padding: 10px;
+        }
+
+        .img-container img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            filter: drop-shadow(0 4px 6px rgba(0,0,0,0.5));
+        }
+
+        .team-name {
+            font-size: 1.1rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .specs {
+            font-size: 0.8rem;
+            color: #64748b;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 4rem;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Brasileirão Série A 2026</h1>
+        <p>Coleção de imagens e escudos dos 20 times participantes em alta resolução</p>
+        <div class="stats-badge">20 / 20 Imagens Padronizadas (1024x1024 PNG Transparente)</div>
+    </header>
+
+    <div class="grid">
+        <div class="card">
+            <div class="img-container"><img src="athletico_paranaense.png" alt="Athletico Paranaense"></div>
+            <div class="team-name">Athletico Paranaense</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="atletico_mineiro.png" alt="Atlético Mineiro"></div>
+            <div class="team-name">Atlético Mineiro</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="bahia.png" alt="Bahia"></div>
+            <div class="team-name">Bahia</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="botafogo.png" alt="Botafogo"></div>
+            <div class="team-name">Botafogo</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="chapecoense.png" alt="Chapecoense"></div>
+            <div class="team-name">Chapecoense</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="corinthians.png" alt="Corinthians"></div>
+            <div class="team-name">Corinthians</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="coritiba.png" alt="Coritiba"></div>
+            <div class="team-name">Coritiba</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="cruzeiro.png" alt="Cruzeiro"></div>
+            <div class="team-name">Cruzeiro</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="flamengo.png" alt="Flamengo"></div>
+            <div class="team-name">Flamengo</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="fluminense.png" alt="Fluminense"></div>
+            <div class="team-name">Fluminense</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="gremio.png" alt="Grêmio"></div>
+            <div class="team-name">Grêmio</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="internacional.png" alt="Internacional"></div>
+            <div class="team-name">Internacional</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="mirassol.png" alt="Mirassol"></div>
+            <div class="team-name">Mirassol</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="palmeiras.png" alt="Palmeiras"></div>
+            <div class="team-name">Palmeiras</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="red_bull_bragantino.png" alt="Red Bull Bragantino"></div>
+            <div class="team-name">Red Bull Bragantino</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="remo.png" alt="Remo"></div>
+            <div class="team-name">Remo</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="santos.png" alt="Santos"></div>
+            <div class="team-name">Santos</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="sao_paulo.png" alt="São Paulo"></div>
+            <div class="team-name">São Paulo</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="vasco_da_gama.png" alt="Vasco da Gama"></div>
+            <div class="team-name">Vasco da Gama</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+
+        <div class="card">
+            <div class="img-container"><img src="vitoria.png" alt="Vitória"></div>
+            <div class="team-name">Vitória</div>
+            <div class="specs">1024 x 1024 PNG</div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Formatos padronizados com fundo transparente e proporções mantidas.</p>
+    </footer>
+
+</body>
+</html>

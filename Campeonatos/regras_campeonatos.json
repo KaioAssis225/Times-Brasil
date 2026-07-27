@@ -1,0 +1,510 @@
+{
+  "meta": {
+    "titulo": "Regras Oficiais e Formatos de Competições de Futebol",
+    "descricao": "Guia estruturado de regras, sistemas de disputa, vagas internacionais, rebaixamentos e critérios de desempate para desenvolvimento de motor de jogo de futebol.",
+    "versao": "1.0",
+    "total_competicoes": 98
+  },
+  "competicoes": [
+    {
+      "id": "uefa_champions_league",
+      "nome": "UEFA Champions League",
+      "pais_ou_regiao": "Europa (UEFA)",
+      "tipo": "Internacional de Clubes",
+      "num_participantes": 36,
+      "formato_disputa": "Fase de Liga Unificada (Swiss-system) + Mata-mata",
+      "criterio_qualificacao": "Top 4 das ligas principais (Inglaterra, Espanha, Itália, Alemanha), Top 3 da França, Campeão da Europa League e playoffs.",
+      "regras_fase_grupos_ou_liga": "8 partidas por equipe (4 em casa, 4 fora). Top 8 avançam direto para as oitavas; 9º ao 24º disputam playoffs de 16avos.",
+      "regras_mata_mata": "Jogos de ida e volta nas eliminatórias. Sem regra de gol fora de casa.",
+      "regras_final": "Jogo único em estádio neutro pré-definido.",
+      "prorrogacao_penaltis": "30 minutos de prorrogação (2 tempos de 15) + Disputa de pênaltis em caso de empate.",
+      "vagas_geradas": "Campeão garante vaga na UEFA Super Cup, FIFA Club World Cup e FIFA Intercontinental Cup."
+    },
+    {
+      "id": "uefa_europa_league",
+      "nome": "UEFA Europa League",
+      "pais_ou_regiao": "Europa (UEFA)",
+      "tipo": "Internacional de Clubes",
+      "num_participantes": 36,
+      "formato_disputa": "Fase de Liga Unificada + Mata-mata",
+      "criterio_qualificacao": "5º colocado das grandes ligas europeias, campeões das copas nacionais e eliminados nos playoffs da Champions League.",
+      "regras_fase_grupos_ou_liga": "8 partidas por equipe (4 em casa, 4 fora). Top 8 avançam para as oitavas; 9º ao 24º disputam playoffs.",
+      "regras_mata_mata": "Ida e volta sem gol fora de casa.",
+      "regras_final": "Jogo único em estádio neutro.",
+      "prorrogacao_penaltis": "Prorrogação de 30 min + Pênaltis.",
+      "vagas_geradas": "Campeão garante vaga na UEFA Champions League da temporada seguinte e na UEFA Super Cup."
+    },
+    {
+      "id": "uefa_conference_league",
+      "nome": "UEFA Conference League",
+      "pais_ou_regiao": "Europa (UEFA)",
+      "tipo": "Internacional de Clubes",
+      "num_participantes": 36,
+      "formato_disputa": "Fase de Liga Unificada + Mata-mata",
+      "criterio_qualificacao": "6º/7º colocados das principais ligas europeias e playoffs das ligas menores.",
+      "regras_fase_grupos_ou_liga": "6 partidas por equipe na fase de liga.",
+      "regras_mata_mata": "Ida e volta sem gol fora de casa.",
+      "regras_final": "Jogo único em estádio neutro.",
+      "prorrogacao_penaltis": "Prorrogação de 30 min + Pênaltis.",
+      "vagas_geradas": "Campeão garante vaga na fase de liga da UEFA Europa League."
+    },
+    {
+      "id": "uefa_super_cup",
+      "nome": "UEFA Super Cup (Supercopa da UEFA)",
+      "pais_ou_regiao": "Europa (UEFA)",
+      "tipo": "Supercopa Internacional",
+      "num_participantes": 2,
+      "formato_disputa": "Jogo Único de Decisão",
+      "criterio_qualificacao": "Campeão da UEFA Champions League vs. Campeão da UEFA Europa League.",
+      "regras_mata_mata": "Jogo único em campo neutro.",
+      "prorrogacao_penaltis": "Sem prorrogação. Em caso de empate nos 90 minutos, a decisão vai direto para cobrança de pênaltis.",
+      "vagas_geradas": "Título continental e premiação financeira."
+    },
+    {
+      "id": "copa_libertadores",
+      "nome": "CONMEBOL Libertadores",
+      "pais_ou_regiao": "América do Sul (CONMEBOL)",
+      "tipo": "Internacional de Clubes",
+      "num_participantes": 47,
+      "formato_disputa": "Fase Prévia (3 fases) + Fase de Grupos (32 times) + Mata-mata",
+      "criterio_qualificacao": "Principais colocados das ligas sul-americanas (Brasil 6 a 8 vagas, Argentina 6 vagas, demais países 4 vagas).",
+      "regras_fase_grupos_ou_liga": "8 grupos de 4 times (jogos de ida e volta). Top 2 de cada grupo avançam às oitavas. 3º colocado vai para a Copa Sudamericana.",
+      "regras_mata_mata": "Ida e volta das oitavas às semifinais. Sem gol fora de casa.",
+      "regras_final": "Jogo único em campo neutro pré-definido.",
+      "prorrogacao_penaltis": "Nas fases eliminatórias: empate em pontos/saldo vai direto para pênaltis. Na Final: prorrogação de 30 min + pênaltis.",
+      "vagas_geradas": "Campeão garante vaga no FIFA Club World Cup, FIFA Intercontinental Cup e CONMEBOL Recopa."
+    },
+    {
+      "id": "copa_sudamericana",
+      "nome": "CONMEBOL Sudamericana",
+      "pais_ou_regiao": "América do Sul (CONMEBOL)",
+      "tipo": "Internacional de Clubes",
+      "num_participantes": 56,
+      "formato_disputa": "Fase Nacional Prévia + Fase de Grupos + Playoff de 16avos + Mata-mata",
+      "criterio_qualificacao": "Equipes classificadas abaixo da zona de Libertadores de cada país sul-americano.",
+      "regras_fase_grupos_ou_liga": "8 grupos de 4 times. Líderes avançam direto às oitavas. Vice-líderes disputam playoff contra os 3ºs colocados da Libertadores.",
+      "regras_mata_mata": "Ida e volta. Sem gol fora de casa.",
+      "regras_final": "Jogo único em estádio neutro.",
+      "prorrogacao_penaltis": "Direto para pênaltis no mata-mata; prorrogação + pênaltis apenas na final.",
+      "vagas_geradas": "Campeão garante vaga na CONMEBOL Libertadores da temporada seguinte e na CONMEBOL Recopa."
+    },
+    {
+      "id": "recopa_sudamericana",
+      "nome": "CONMEBOL Recopa",
+      "pais_ou_regiao": "América do Sul (CONMEBOL)",
+      "tipo": "Supercopa Internacional",
+      "num_participantes": 2,
+      "formato_disputa": "Confronto Eliminatório em Ida e Volta",
+      "criterio_qualificacao": "Campeão da CONMEBOL Libertadores vs. Campeão da CONMEBOL Sudamericana.",
+      "regras_mata_mata": "Dois jogos (ida no estádio do campeão da Sudamericana, volta no estádio do campeão da Libertadores).",
+      "prorrogacao_penaltis": "Prorrogação de 30 minutos em caso de empate em saldo de gols + Disputa de pênaltis.",
+      "vagas_geradas": "Título continental e premiação."
+    },
+    {
+      "id": "caf_champions_league",
+      "nome": "CAF Champions League",
+      "pais_ou_regiao": "África (CAF)",
+      "tipo": "Internacional de Clubes",
+      "num_participantes": 54,
+      "formato_disputa": "Fases Eliminatórias Prévias + Fase de Grupos (16 de 4 em 4) + Mata-mata",
+      "criterio_qualificacao": "Campeões e vices das principais ligas nacionais africanas.",
+      "regras_mata_mata": "Ida e volta das oitavas até a final (ou jogo único conforme regulamento CAF).",
+      "prorrogacao_penaltis": "Prorrogação e pênaltis.",
+      "vagas_geradas": "Campeão vaga no FIFA Club World Cup e CAF Super Cup."
+    },
+    {
+      "id": "fifa_club_world_cup",
+      "nome": "FIFA Club World Cup (Mundial de Clubes FIFA)",
+      "pais_ou_regiao": "Mundial (FIFA)",
+      "tipo": "Torneio Quadrarienal de Clubes",
+      "num_participantes": 32,
+      "formato_disputa": "Fase de Grupos (8 grupos de 4) + Mata-mata direto",
+      "criterio_qualificacao": "Campeões continentais dos últimos 4 anos (UEFA, CONMEBOL, CAF, AFC, CONCACAF, OFC) + vagas por ranking.",
+      "regras_fase_grupos_ou_liga": "3 jogos por time no grupo. Top 2 avançam às oitavas de final.",
+      "regras_mata_mata": "Jogo único eliminatório.",
+      "prorrogacao_penaltis": "Prorrogação de 30 min + Pênaltis.",
+      "vagas_geradas": "Campeão Mundial de Clubes FIFA."
+    },
+    {
+      "id": "fifa_intercontinental_cup",
+      "nome": "FIFA Intercontinental Cup (Copa Intercontinental FIFA)",
+      "pais_ou_regiao": "Mundial (FIFA)",
+      "tipo": "Torneio Anual de Clubes",
+      "num_participantes": 6,
+      "formato_disputa": "Eliminatórias por Chave Continental + Final Contra Campeão da Champions League",
+      "criterio_qualificacao": "Os 6 campeões continentais vigentes (UEFA, CONMEBOL, CONCACAF, CAF, AFC, OFC).",
+      "regras_mata_mata": "Jogos únicos em sedes neutras nas fases finais.",
+      "prorrogacao_penaltis": "Prorrogação de 30 min + Pênaltis.",
+      "vagas_geradas": "Campeão da Copa Intercontinental FIFA."
+    },
+    {
+      "id": "brasileirao_serie_a",
+      "nome": "Brasileirão Série A",
+      "pais_ou_regiao": "Brasil",
+      "tipo": "Liga Nacional (1ª Divisão)",
+      "num_participantes": 20,
+      "formato_disputa": "Pontos Corridos (Turno e Returno - 38 rodadas)",
+      "criterio_qualificacao": "Permanência na Série A no ano anterior + Top 4 da Série B.",
+      "regras_fase_grupos_ou_liga": "Vitória = 3 pts, Empate = 1 pt. 1º Colocado é o Campeão Brasileiro.",
+      "criterios_desempate": [
+        "Número de vitórias",
+        "Saldo de gols",
+        "Gols pró",
+        "Confronto direto",
+        "Menor número de cartões vermelhos",
+        "Sorteio"
+      ],
+      "vagas_geradas": "Top 4 garantem vaga direta na fase de grupos da Libertadores. 5º e 6º vão para a Pré-Libertadores. 7º ao 12º vão para a Copa Sudamericana. Os 4 últimos (17º ao 20º) são rebaixados para a Série B."
+    },
+    {
+      "id": "brasileirao_serie_b",
+      "nome": "Brasileirão Série B",
+      "pais_ou_regiao": "Brasil",
+      "tipo": "Liga Nacional (2ª Divisão)",
+      "num_participantes": 20,
+      "formato_disputa": "Pontos Corridos (Turno e Returno - 38 rodadas)",
+      "criterios_desempate": [
+        "Número de vitórias",
+        "Saldo de gols",
+        "Gols pró",
+        "Confronto direto"
+      ],
+      "vagas_geradas": "Os 4 primeiros (1º ao 4º) são promovidos para a Série A. Os 4 últimos (17º ao 20º) são rebaixados para a Série C."
+    },
+    {
+      "id": "brasileirao_serie_c",
+      "nome": "Brasileirão Série C",
+      "pais_ou_regiao": "Brasil",
+      "tipo": "Liga Nacional (3ª Divisão)",
+      "num_participantes": 20,
+      "formato_disputa": "Primeira Fase (Turno Único - 19 rodadas) + Segunda Fase (2 grupos de 4) + Final",
+      "vagas_geradas": "Os 4 semifinalistas (top 2 de cada grupo da 2ª fase) são promovidos para a Série B. Os 4 últimos da 1ª fase caem para a Série D."
+    },
+    {
+      "id": "brasileirao_serie_d",
+      "nome": "Brasileirão Série D",
+      "pais_ou_regiao": "Brasil",
+      "tipo": "Liga Nacional (4ª Divisão)",
+      "num_participantes": 64,
+      "formato_disputa": "Fase de Grupos (8 grupos de 8) + Mata-mata eliminatório (Ida e Volta)",
+      "vagas_geradas": "Os 4 semifinalistas conquistam o acesso para a Série C."
+    },
+    {
+      "id": "copa_do_brasil",
+      "nome": "Copa do Brasil",
+      "pais_ou_regiao": "Brasil",
+      "tipo": "Copa Nacional (Mata-mata)",
+      "num_participantes": 92,
+      "formato_disputa": "Mata-mata Eliminatório em 7 fases",
+      "criterio_qualificacao": "Classificados via Campeonatos Estaduais + Times da Libertadores entram direto na 3ª fase.",
+      "regras_mata_mata": "1ª e 2ª fases em jogo único. A partir da 3ª fase: jogos de ida e volta sem gol fora de casa.",
+      "prorrogacao_penaltis": "Em caso de empate em saldo de gols nos dois jogos, a decisão vai direto para disputa de pênaltis (sem prorrogação).",
+      "vagas_geradas": "Campeão garante vaga direta na Fase de Grupos da Libertadores da América e na Supercopa do Brasil."
+    },
+    {
+      "id": "supercopa_do_brasil",
+      "nome": "Supercopa do Brasil (Supercopa Rei)",
+      "pais_ou_regiao": "Brasil",
+      "tipo": "Supercopa Nacional",
+      "num_participantes": 2,
+      "formato_disputa": "Jogo Único de Decisão",
+      "criterio_qualificacao": "Campeão do Brasileirão Série A vs. Campeão da Copa do Brasil.",
+      "regras_mata_mata": "Jogo único em estádio neutro.",
+      "prorrogacao_penaltis": "Direto para pênaltis em caso de empate nos 90 minutos.",
+      "vagas_geradas": "Título de Supercampeão do Brasil e premiação financeira."
+    },
+    {
+      "id": "premier_league",
+      "nome": "Premier League",
+      "pais_ou_regiao": "Inglaterra",
+      "tipo": "Liga Nacional (1ª Divisão)",
+      "num_participantes": 20,
+      "formato_disputa": "Pontos Corridos (Turno e Returno - 38 rodadas)",
+      "criterios_desempate": [
+        "Saldo de gols",
+        "Gols pró",
+        "Confronto direto",
+        "Jogo de desempate em campo neutro (se definir título/vagas)"
+      ],
+      "vagas_geradas": "Top 4 garantem vaga na UEFA Champions League. 5º vai para a Europa League. 6º/7º para a Conference League. 3 últimos (18º ao 20º) caem para a EFL Championship."
+    },
+    {
+      "id": "efl_championship",
+      "nome": "EFL Championship",
+      "pais_ou_regiao": "Inglaterra",
+      "tipo": "Liga Nacional (2ª Divisão)",
+      "num_participantes": 24,
+      "formato_disputa": "Pontos Corridos (46 rodadas) + Play-offs de Acesso",
+      "vagas_geradas": "1º e 2º sobem direto. 3º ao 6º disputam os Play-offs (semifinais ida e volta, final em Wembley em jogo único) pela 3ª vaga na Premier League. 3 últimos caem para a League One."
+    },
+    {
+      "id": "fa_cup",
+      "nome": "FA Cup (Copa da Inglaterra)",
+      "pais_ou_regiao": "Inglaterra",
+      "tipo": "Copa Nacional Eliminatória",
+      "num_participantes": 732,
+      "formato_disputa": "Mata-mata Eliminatório Direto",
+      "regras_mata_mata": "Jogo único com mando sorteado. Em fases iniciais pode haver Replay (jogo de desempate). Das oitavas em diante: jogo único com prorrogação e pênaltis.",
+      "regras_final": "Jogo único no lendário Estádio de Wembley.",
+      "vagas_geradas": "Campeão garante vaga na UEFA Europa League e no FA Community Shield."
+    },
+    {
+      "id": "efl_cup",
+      "nome": "EFL Cup (Carabao Cup / Copa da Liga)",
+      "pais_ou_regiao": "Inglaterra",
+      "tipo": "Copa da Liga Eliminatória",
+      "num_participantes": 92,
+      "formato_disputa": "Mata-mata entre os 92 clubes das 4 primeiras divisões profissionais",
+      "regras_mata_mata": "Jogo único da 1ª à 5ª fase. Semifinais disputadas em jogos de ida e volta.",
+      "regras_final": "Jogo único no Estádio de Wembley.",
+      "prorrogacao_penaltis": "Direto para pênaltis em caso de empate até as quartas; prorrogação + pênaltis nas semis e final.",
+      "vagas_geradas": "Campeão garante vaga na UEFA Conference League."
+    },
+    {
+      "id": "community_shield",
+      "nome": "FA Community Shield",
+      "pais_ou_regiao": "Inglaterra",
+      "tipo": "Supercopa Nacional",
+      "num_participantes": 2,
+      "formato_disputa": "Jogo Único no Estádio de Wembley",
+      "criterio_qualificacao": "Campeão da Premier League vs. Campeão da FA Cup.",
+      "prorrogacao_penaltis": "Sem prorrogação. Direto para cobrança de pênaltis se empatar nos 90 min.",
+      "vagas_geradas": "Título de Campeão do Community Shield."
+    },
+    {
+      "id": "la_liga",
+      "nome": "LaLiga EA Sports",
+      "pais_ou_regiao": "Espanha",
+      "tipo": "Liga Nacional (1ª Divisão)",
+      "num_participantes": 20,
+      "formato_disputa": "Pontos Corridos (Turno e Returno - 38 rodadas)",
+      "criterios_desempate": [
+        "Confronto direto (pontos)",
+        "Confronto direto (saldo de gols)",
+        "Saldo de gols geral",
+        "Gols pró",
+        "Fair Play"
+      ],
+      "vagas_geradas": "Top 4 entram na UEFA Champions League. 5º na Europa League. 6º na Conference League. 3 últimos caem para LaLiga Hypermotion."
+    },
+    {
+      "id": "la_liga_2",
+      "nome": "LaLiga Hypermotion (Segunda División)",
+      "pais_ou_regiao": "Espanha",
+      "tipo": "Liga Nacional (2ª Divisão)",
+      "num_participantes": 22,
+      "formato_disputa": "Pontos Corridos (42 rodadas) + Play-offs de Acesso",
+      "vagas_geradas": "1º e 2º sobem direto. 3º ao 6º jogam semifinais e final de Play-off (ida e volta) pela 3ª vaga de acesso."
+    },
+    {
+      "id": "copa_del_rey",
+      "nome": "Copa del Rey",
+      "pais_ou_regiao": "Espanha",
+      "tipo": "Copa Nacional Eliminatória",
+      "num_participantes": 125,
+      "formato_disputa": "Mata-mata Eliminatório",
+      "regras_mata_mata": "Jogo único da 1ª fase às quartas de final na casa do time de menor divisão. Semifinais em ida e volta.",
+      "regras_final": "Jogo único em estádio neutro (Estádio La Cartuja, Sevilha).",
+      "vagas_geradas": "Campeão garante vaga na UEFA Europa League e vaga no Final Four da Supercopa de España."
+    },
+    {
+      "id": "supercopa_de_espana",
+      "nome": "Supercopa de España",
+      "pais_ou_regiao": "Espanha",
+      "tipo": "Supercopa (Final Four)",
+      "num_participantes": 4,
+      "formato_disputa": "Torneio Final Four (Semifinais e Final)",
+      "criterio_qualificacao": "Campeão e Vice de LaLiga + Campeão e Vice da Copa del Rey.",
+      "regras_mata_mata": "Jogos únicos disputados em sede neutra internacional (Riad, Arábia Saudita).",
+      "prorrogacao_penaltis": "Prorrogação de 30 min + Pênaltis."
+    },
+    {
+      "id": "serie_a_italiana",
+      "nome": "Serie A Enilive",
+      "pais_ou_regiao": "Itália",
+      "tipo": "Liga Nacional (1ª Divisão)",
+      "num_participantes": 20,
+      "formato_disputa": "Pontos Corridos (Turno e Returno - 38 rodadas)",
+      "criterios_desempate": [
+        "Jogo de Desempate (Spareggio - se empatar em pontos pelo 1º lugar ou 17º lugar)",
+        "Confronto direto",
+        "Saldo de gols no confronto direto",
+        "Saldo de gols geral"
+      ],
+      "vagas_geradas": "Top 4 entram na UEFA Champions League. 5º na Europa League. 6º na Conference League. 3 últimos caem para a Serie B."
+    },
+    {
+      "id": "coppa_italia",
+      "nome": "Coppa Italia Frecciarossa",
+      "pais_ou_regiao": "Itália",
+      "tipo": "Copa Nacional Eliminatória",
+      "num_participantes": 44,
+      "formato_disputa": "Mata-mata Eliminatório Direct",
+      "regras_mata_mata": "Jogo único da 1ª fase às quartas de final. Semifinais em jogos de ida e volta. Final em jogo único no Stadio Olimpico (Roma).",
+      "vagas_geradas": "Campeão garante vaga na UEFA Europa League e na Supercoppa Italiana."
+    },
+    {
+      "id": "supercoppa_italiana",
+      "nome": "Supercoppa Italiana (EA Sports FC Supercup)",
+      "pais_ou_regiao": "Itália",
+      "tipo": "Supercopa (Final Four)",
+      "num_participantes": 4,
+      "formato_disputa": "Semifinais e Final em jogo único em sede neutra.",
+      "criterio_qualificacao": "Campeão e Vice da Serie A + Campeão e Vice da Coppa Italia."
+    },
+    {
+      "id": "bundesliga",
+      "nome": "Bundesliga",
+      "pais_ou_regiao": "Alemanha",
+      "tipo": "Liga Nacional (1ª Divisão)",
+      "num_participantes": 18,
+      "formato_disputa": "Pontos Corridos (Turno e Returno - 34 rodadas)",
+      "criterios_desempate": [
+        "Saldo de gols geral",
+        "Gols pró geral",
+        "Confronto direto",
+        "Gols fora no confronto direto"
+      ],
+      "vagas_geradas": "Top 4 sobem para a UEFA Champions League. 5º para Europa League. 6º para Conference League. 17º e 18º caem direto. 16º disputam a Relegation Playoff contra o 3º da 2. Bundesliga."
+    },
+    {
+      "id": "dfb_pokal",
+      "nome": "DFB-Pokal (Copa da Alemanha)",
+      "pais_ou_regiao": "Alemanha",
+      "tipo": "Copa Nacional Eliminatória",
+      "num_participantes": 64,
+      "formato_disputa": "Mata-mata em Jogo Único da 1ª Fase até a Final",
+      "regras_final": "Jogo único disputado no Olympiastadion em Berlim.",
+      "prorrogacao_penaltis": "Prorrogação de 30 min + Pênaltis.",
+      "vagas_geradas": "Campeão garante vaga na UEFA Europa League e na DFL-Supercup."
+    },
+    {
+      "id": "dfl_supercup",
+      "nome": "DFL-Supercup",
+      "pais_ou_regiao": "Alemanha",
+      "tipo": "Supercopa Nacional",
+      "num_participantes": 2,
+      "formato_disputa": "Jogo Único de Decisão",
+      "criterio_qualificacao": "Campeão da Bundesliga vs. Campeão da DFB-Pokal.",
+      "prorrogacao_penaltis": "Direto para cobrança de pênaltis se empatar nos 90 min."
+    },
+    {
+      "id": "ligue_1",
+      "nome": "Ligue 1 McDonald's",
+      "pais_ou_regiao": "França",
+      "tipo": "Liga Nacional (1ª Divisão)",
+      "num_participantes": 18,
+      "formato_disputa": "Pontos Corridos (34 rodadas)",
+      "vagas_geradas": "Top 3 sobem direto para a fase de liga da Champions League; 4º vai para a 3ª fase prévia da Champions. 5º vai para a Europa League. 17º e 18º caem; 16º disputa playoff de rebaixamento."
+    },
+    {
+      "id": "coupe_de_france",
+      "nome": "Coupe de France",
+      "pais_ou_regiao": "França",
+      "tipo": "Copa Nacional Eliminatória",
+      "num_participantes": 7000,
+      "formato_disputa": "Mata-mata em Jogo Único",
+      "vagas_geradas": "Campeão garante vaga na UEFA Europa League e no Trophée des Champions."
+    },
+    {
+      "id": "trophee_des_champions",
+      "nome": "Trophée des Champions",
+      "pais_ou_regiao": "França",
+      "tipo": "Supercopa Nacional",
+      "num_participantes": 2,
+      "formato_disputa": "Jogo Único em Sede Internacional Neutra",
+      "criterio_qualificacao": "Campeão da Ligue 1 vs. Campeão da Coupe de France."
+    },
+    {
+      "id": "liga_profesional_argentina",
+      "nome": "Liga Profesional de Fútbol",
+      "pais_ou_regiao": "Argentina",
+      "tipo": "Liga Nacional (1ª Divisão)",
+      "num_participantes": 28,
+      "formato_disputa": "Pontos Corridos (Turno Único - 27 rodadas)",
+      "vagas_geradas": "Campeão garante vaga na Libertadores. Classificação Anual Acumulada (Liga + Copa de la Liga) define vagas na Libertadores, Sudamericana e 2 rebaixamentos (Promedios e Tabela Anual)."
+    },
+    {
+      "id": "copa_de_la_liga_profesional",
+      "nome": "Copa de la Liga Profesional",
+      "pais_ou_regiao": "Argentina",
+      "tipo": "Copa de Liga (Fase de Grupos + Mata-mata)",
+      "num_participantes": 28,
+      "formato_disputa": "2 Grupos de 14 times (14 rodadas incluindo Data de Clássicos) + Quartas, Semis e Final em Jogo Único",
+      "vagas_geradas": "Campeão garante vaga na Copa Libertadores e Trofeo de Campeones."
+    },
+    {
+      "id": "copa_argentina",
+      "nome": "Copa Argentina (AXION energy)",
+      "pais_ou_regiao": "Argentina",
+      "tipo": "Copa Nacional Eliminatória",
+      "num_participantes": 64,
+      "formato_disputa": "Mata-mata Eliminatório em Jogo Único em Estádio Neutro",
+      "vagas_geradas": "Campeão garante vaga na Copa Libertadores e Supercopa Argentina."
+    },
+    {
+      "id": "mls",
+      "nome": "Major League Soccer (MLS)",
+      "pais_ou_regiao": "Estados Unidos / Canadá",
+      "tipo": "Liga Nacional (Franquias)",
+      "num_participantes": 29,
+      "formato_disputa": "Fase Regular (Conferência Leste e Oeste - 34 jogos) + Wild Card + Play-offs MLS Cup (Melhor de 3 + Eliminatória Simples)",
+      "regras_fase_grupos_ou_liga": "Sem rebaixamento (sistema de franquias fechadas). Vencedor da Fase Regular ganha o MLS Supporters' Shield.",
+      "vagas_geradas": "Campeão do MLS Cup e Campeão do Supporters' Shield garantem vaga na CONCACAF Champions Cup."
+    },
+    {
+      "id": "us_open_cup",
+      "nome": "Lamar Hunt U.S. Open Cup",
+      "pais_ou_regiao": "Estados Unidos",
+      "tipo": "Copa Nacional Eliminatória",
+      "num_participantes": 100,
+      "formato_disputa": "Mata-mata em Jogo Único",
+      "vagas_geradas": "Campeão garante vaga na CONCACAF Champions Cup."
+    },
+    {
+      "id": "leagues_cup",
+      "nome": "Leagues Cup",
+      "pais_ou_regiao": "América do Norte (MLS + Liga MX)",
+      "tipo": "Torneio Binacional Oficial",
+      "num_participantes": 47,
+      "formato_disputa": "Fase de Grupos (3 em 3) + Mata-mata Eliminatório Direto",
+      "vagas_geradas": "Top 3 colocados garantem vaga na CONCACAF Champions Cup (Campeão vai direto paras oitavas)."
+    },
+    {
+      "id": "primeira_liga",
+      "nome": "Liga Portugal Betclic (Primeira Liga)",
+      "pais_ou_regiao": "Portugal",
+      "tipo": "Liga Nacional (1ª Divisão)",
+      "num_participantes": 18,
+      "formato_disputa": "Pontos Corridos (34 rodadas)",
+      "vagas_geradas": "1º vai direto para a fase de liga da Champions League; 2º entra nas qualificações da Champions. 3º vai para a Europa League. 4º para a Conference League. 17º e 18º caem direto; 16º joga playoff de despromoção."
+    },
+    {
+      "id": "taca_de_portugal",
+      "nome": "Taça de Portugal Generali Tranquilidade",
+      "pais_ou_regiao": "Portugal",
+      "tipo": "Copa Nacional Eliminatória",
+      "num_participantes": 150,
+      "formato_disputa": "Mata-mata (Semis em Ida e Volta, demais fases e Final em Jogo Único no Estádio Nacional do Jamor).",
+      "vagas_geradas": "Campeão garante vaga na UEFA Europa League e na Supertaça Cândido de Oliveira."
+    },
+    {
+      "id": "saudi_pro_league",
+      "nome": "Saudi Pro League (Roshn Saudi League)",
+      "pais_ou_regiao": "Arábia Saudita",
+      "tipo": "Liga Nacional (1ª Divisão)",
+      "num_participantes": 18,
+      "formato_disputa": "Pontos Corridos (34 rodadas)",
+      "vagas_geradas": "Top 3 garantem vaga na AFC Champions League Elite. 3 últimos caem para a First Division."
+    },
+    {
+      "id": "kings_cup_saudi",
+      "nome": "King Cup (Copa do Rei Saudita)",
+      "pais_ou_regiao": "Arábia Saudita",
+      "tipo": "Copa Nacional Eliminatória",
+      "num_participantes": 32,
+      "formato_disputa": "Mata-mata em Jogo Único",
+      "vagas_geradas": "Campeão garante vaga na AFC Champions League 2 e na Saudi Super Cup."
+    }
+  ]
+}
