@@ -1,7 +1,7 @@
 {
   "meta": {
-    "titulo": "Base Genérica e Global de Idiomas por País/Liga (Game Engine)",
-    "descricao": "Mapeamento genérico e internacional da 1ª Língua Oficial, 2ª Língua Global e 3ª Língua Global de cada país/liga para localização de UI, dublagem, narração e imprensa no jogo.",
+    "titulo": "Base Oficial de Idiomas dos Países das Ligas (1ª e 2ª Língua)",
+    "descricao": "Mapeamento simplificado de 2 idiomas por país/liga (1ª Língua Oficial + 2ª Língua Global/Internacional) para localização de UI, narração, coletivas de imprensa e áudio no jogo.",
     "total_paises": 25
   },
   "paises_idiomas": [
@@ -17,14 +17,9 @@
       "lingua_2a": {
         "nome": "Inglês",
         "iso": "en-US",
-        "uso_no_jogo": "2º Idioma mais estudado e utilizado no comércio/negócios"
+        "uso_no_jogo": "2º Idioma de comércio global, transferências e interface secundária"
       },
-      "lingua_3a": {
-        "nome": "Espanhol",
-        "iso": "es-ES",
-        "uso_no_jogo": "3º Idioma mais falado (Integração com América Latina/Mercosul)"
-      },
-      "resumo_localizacao_game": "Interface em Português BR; Coletivas e contratações internacionais em Inglês e Espanhol."
+      "resumo_localizacao_game": "Nativo em Português BR; Internacional em Inglês."
     },
     {
       "pais_ou_liga": "Futebol Argentina",
@@ -38,14 +33,9 @@
       "lingua_2a": {
         "nome": "Inglês",
         "iso": "en-US",
-        "uso_no_jogo": "Idioma internacional secundário de negócios e turismo"
+        "uso_no_jogo": "Idioma internacional secundário de negócios e imprensa"
       },
-      "lingua_3a": {
-        "nome": "Português",
-        "iso": "pt-BR",
-        "uso_no_jogo": "Comércio regional com Brasil e América do Sul"
-      },
-      "resumo_localizacao_game": "Nativo em Espanhol Rioplatense; Secundário em Inglês e Português."
+      "resumo_localizacao_game": "Nativo em Espanhol Rioplatense; Internacional em Inglês."
     },
     {
       "pais_ou_liga": "Futebol Espanha",
@@ -61,12 +51,7 @@
         "iso": "en-GB",
         "uso_no_jogo": "Idioma global de turismo e transferências"
       },
-      "lingua_3a": {
-        "nome": "Francês",
-        "iso": "fr-FR",
-        "uso_no_jogo": "Idioma europeu vizinho amplamente ensinado"
-      },
-      "resumo_localizacao_game": "Nativo em Espanhol; Internacional em Inglês e Francês."
+      "resumo_localizacao_game": "Nativo em Espanhol; Internacional em Inglês."
     },
     {
       "pais_ou_liga": "Futebol Inglaterra",
@@ -80,14 +65,9 @@
       "lingua_2a": {
         "nome": "Francês",
         "iso": "fr-FR",
-        "uso_no_jogo": "2ª Língua europeia mais ensinada nas escolas"
+        "uso_no_jogo": "2ª Língua europeia mais ensinada e utilizada no futebol"
       },
-      "lingua_3a": {
-        "nome": "Espanhol",
-        "iso": "es-ES",
-        "uso_no_jogo": "3ª Língua mais estudada e falada por jogadores importados"
-      },
-      "resumo_localizacao_game": "Inglês global; Secundários em Francês e Espanhol."
+      "resumo_localizacao_game": "Nativo em Inglês Britânico; Secundário em Francês."
     },
     {
       "pais_ou_liga": "Futebol Italia",
@@ -103,12 +83,7 @@
         "iso": "en-US",
         "uso_no_jogo": "Idioma internacional para imprensa e torneios europeus"
       },
-      "lingua_3a": {
-        "nome": "Francês",
-        "iso": "fr-FR",
-        "uso_no_jogo": "Língua vizinha ensinada no sistema educacional"
-      },
-      "resumo_localizacao_game": "Nativo em Italiano; Internacional em Inglês e Francês."
+      "resumo_localizacao_game": "Nativo em Italiano; Internacional em Inglês."
     },
     {
       "pais_ou_liga": "Futebol Alemanha",
@@ -123,11 +98,6 @@
         "nome": "Inglês",
         "iso": "en-GB",
         "uso_no_jogo": "2ª Língua com altíssima fluência na população e futebol"
-      },
-      "lingua_3a": {
-        "nome": "Francês",
-        "iso": "fr-FR",
-        "uso_no_jogo": "3ª Língua mais estudada e usada em comércio europeu"
       },
       "resumo_localizacao_game": "Nativo em Alemão; Bilinguismo operacional em Inglês."
     },
@@ -145,12 +115,7 @@
         "iso": "en-GB",
         "uso_no_jogo": "2ª Língua internacional de negócios e futebol europeu"
       },
-      "lingua_3a": {
-        "nome": "Espanhol",
-        "iso": "es-ES",
-        "uso_no_jogo": "3ª Língua mais estudada nas escolas francesas"
-      },
-      "resumo_localizacao_game": "Nativo em Francês; Internacional em Inglês e Espanhol."
+      "resumo_localizacao_game": "Nativo em Francês; Internacional em Inglês."
     },
     {
       "pais_ou_liga": "Futebol Holanda",
@@ -164,12 +129,7 @@
       "lingua_2a": {
         "nome": "Inglês",
         "iso": "en-GB",
-        "uso_no_jogo": "Fluência extrema (>90% da população fala fluentemente)"
-      },
-      "lingua_3a": {
-        "nome": "Alemão",
-        "iso": "de-DE",
-        "uso_no_jogo": "Língua vizinha com alto uso comercial e esportivo"
+        "uso_no_jogo": "Fluência extrema na população nacional (>90%)"
       },
       "resumo_localizacao_game": "Nativo em Neerlandês; Praticamente bilíngue em Inglês."
     },
@@ -187,12 +147,7 @@
         "iso": "en-GB",
         "uso_no_jogo": "2ª Língua com altíssima fluência no turismo e futebol"
       },
-      "lingua_3a": {
-        "nome": "Espanhol",
-        "iso": "es-ES",
-        "uso_no_jogo": "Língua vizinha ibérica de fácil compreensão"
-      },
-      "resumo_localizacao_game": "Nativo em Português PT; Fluência ampla em Inglês e Espanhol."
+      "resumo_localizacao_game": "Nativo em Português PT; Fluência ampla em Inglês."
     },
     {
       "pais_ou_liga": "Futebol Arabia Saudita",
@@ -207,11 +162,6 @@
         "nome": "Inglês",
         "iso": "en-US",
         "uso_no_jogo": "Língua franca obrigatória na liga para astros e comissões internacionais"
-      },
-      "lingua_3a": {
-        "nome": "Francês / Português",
-        "iso": "fr-FR / pt-BR",
-        "uso_no_jogo": "Línguas trazidas por comissões técnicas e estrelas estrangeiras"
       },
       "resumo_localizacao_game": "Nativo em Árabe; Operação esportiva internacional em Inglês."
     },
@@ -229,12 +179,7 @@
         "iso": "en-US",
         "uso_no_jogo": "2ª Língua comercial e de transferências de atletas"
       },
-      "lingua_3a": {
-        "nome": "Alemão",
-        "iso": "de-DE",
-        "uso_no_jogo": "Língua da forte comunidade turco-alemã"
-      },
-      "resumo_localizacao_game": "Nativo em Turco; Internacional em Inglês e Alemão."
+      "resumo_localizacao_game": "Nativo em Turco; Internacional em Inglês."
     },
     {
       "pais_ou_liga": "MLS",
@@ -249,11 +194,6 @@
         "nome": "Espanhol",
         "iso": "es-US",
         "uso_no_jogo": "2ª Língua mais falada (Base gigante latina na MLS)"
-      },
-      "lingua_3a": {
-        "nome": "Francês",
-        "iso": "fr-CA",
-        "uso_no_jogo": "Língua oficial do Canadá (Times de Montreal, Toronto e Vancouver)"
       },
       "resumo_localizacao_game": "Inglês e Espanhol como línguas primárias de mídia."
     },
@@ -271,12 +211,7 @@
         "iso": "fr-FR",
         "uso_no_jogo": "2ª Língua europeia ensinada nas escolas"
       },
-      "lingua_3a": {
-        "nome": "Espanhol",
-        "iso": "es-ES",
-        "uso_no_jogo": "3ª Língua mais estudada"
-      },
-      "resumo_localizacao_game": "Nativo em Inglês; Secundários em Francês e Espanhol."
+      "resumo_localizacao_game": "Nativo em Inglês; Secundário em Francês."
     },
     {
       "pais_ou_liga": "Futebol Belgica",
@@ -292,12 +227,7 @@
         "iso": "fr-BE",
         "uso_no_jogo": "Idioma oficial (40% da população na Valônia e Bruxelas)"
       },
-      "lingua_3a": {
-        "nome": "Inglês / Alemão",
-        "iso": "en-GB / de-BE",
-        "uso_no_jogo": "Inglês para uso internacional e Alemão como 3ª língua oficial"
-      },
-      "resumo_localizacao_game": "Bilíngue nacional em Holandês e Francês; Internacional em Inglês."
+      "resumo_localizacao_game": "Bilíngue nacional em Holandês e Francês."
     },
     {
       "pais_ou_liga": "Futebol Japao",
@@ -313,12 +243,7 @@
         "iso": "en-US",
         "uso_no_jogo": "2ª Língua estudada obrigatória para negócios e esporte"
       },
-      "lingua_3a": {
-        "nome": "Português / Chinês",
-        "iso": "pt-BR / zh-CN",
-        "uso_no_jogo": "Tradição de jogadores/técnicos brasileiros na J-League"
-      },
-      "resumo_localizacao_game": "Nativo em Japonês; Internacional em Inglês e Português."
+      "resumo_localizacao_game": "Nativo em Japonês; Internacional em Inglês."
     },
     {
       "pais_ou_liga": "Futebol Egito",
@@ -333,11 +258,6 @@
         "nome": "Inglês",
         "iso": "en-EG",
         "uso_no_jogo": "2ª Língua amplamente ensinada para negócios e turismo"
-      },
-      "lingua_3a": {
-        "nome": "Francês",
-        "iso": "fr-EG",
-        "uso_no_jogo": "Língua diplomática e cultural secundária"
       },
       "resumo_localizacao_game": "Nativo em Árabe Egípcio; Internacional em Inglês."
     },
@@ -355,11 +275,6 @@
         "iso": "en-US",
         "uso_no_jogo": "2ª Língua estudada para torneios internacionais"
       },
-      "lingua_3a": {
-        "nome": "Alemão",
-        "iso": "de-DE",
-        "uso_no_jogo": "3ª Língua mais ensinada nas universidades"
-      },
       "resumo_localizacao_game": "Nativo em Russo; Internacional em Inglês."
     },
     {
@@ -375,11 +290,6 @@
         "nome": "Inglês",
         "iso": "en-US",
         "uso_no_jogo": "2ª Língua mais falada (Fronteira e comércio massivo com EUA)"
-      },
-      "lingua_3a": {
-        "nome": "Francês",
-        "iso": "fr-FR",
-        "uso_no_jogo": "3ª Língua de negócios internacionais"
       },
       "resumo_localizacao_game": "Nativo em Espanhol; Forte presença do Inglês."
     },
@@ -397,12 +307,7 @@
         "iso": "en-US",
         "uso_no_jogo": "2ª Língua de educação e comércio internacional"
       },
-      "lingua_3a": {
-        "nome": "Português",
-        "iso": "pt-BR",
-        "uso_no_jogo": "Língua de integração regional e futebol sul-americano"
-      },
-      "resumo_localizacao_game": "Nativo em Espanhol; Internacional em Inglês e Português."
+      "resumo_localizacao_game": "Nativo em Espanhol; Internacional em Inglês."
     },
     {
       "pais_ou_liga": "Futebol Equador",
@@ -417,11 +322,6 @@
         "nome": "Inglês",
         "iso": "en-US",
         "uso_no_jogo": "2ª Língua de comércio exterior (Economia dolarizada)"
-      },
-      "lingua_3a": {
-        "nome": "Português",
-        "iso": "pt-BR",
-        "uso_no_jogo": "Integração esportiva sul-americana"
       },
       "resumo_localizacao_game": "Nativo em Espanhol; Internacional em Inglês."
     },
@@ -439,11 +339,6 @@
         "iso": "en-US",
         "uso_no_jogo": "2ª Língua de negócios e turismo internacional"
       },
-      "lingua_3a": {
-        "nome": "Português",
-        "iso": "pt-BR",
-        "uso_no_jogo": "Comércio e futebol da América do Sul"
-      },
       "resumo_localizacao_game": "Nativo em Espanhol; Internacional em Inglês."
     },
     {
@@ -460,12 +355,7 @@
         "iso": "pt-BR",
         "uso_no_jogo": "2ª Língua amplamente compreendida (Fronteira com Brasil)"
       },
-      "lingua_3a": {
-        "nome": "Inglês",
-        "iso": "en-US",
-        "uso_no_jogo": "3ª Língua de negócios e imprensa global"
-      },
-      "resumo_localizacao_game": "Nativo em Espanhol; Ampla fluência em Português e Inglês."
+      "resumo_localizacao_game": "Nativo em Espanhol; Ampla fluência em Português."
     },
     {
       "pais_ou_liga": "Futebol Paraguai",
@@ -479,14 +369,9 @@
       "lingua_2a": {
         "nome": "Português",
         "iso": "pt-BR",
-        "uso_no_jogo": "2ª Língua mais falada comercialmente (Fronteira e Brasiguaios)"
+        "uso_no_jogo": "2ª Língua mais falada comercialmente (Fronteira com Brasil)"
       },
-      "lingua_3a": {
-        "nome": "Inglês",
-        "iso": "en-US",
-        "uso_no_jogo": "3ª Língua de negócios e imprensa internacional"
-      },
-      "resumo_localizacao_game": "Espanhol nativo com forte presença do Português e Inglês."
+      "resumo_localizacao_game": "Espanhol nativo com forte presença do Português."
     },
     {
       "pais_ou_liga": "Futebol Peru",
@@ -501,11 +386,6 @@
         "nome": "Inglês",
         "iso": "en-US",
         "uso_no_jogo": "2ª Língua de turismo e negócios internacionais"
-      },
-      "lingua_3a": {
-        "nome": "Português",
-        "iso": "pt-BR",
-        "uso_no_jogo": "3ª Língua de integração comercial e futebol"
       },
       "resumo_localizacao_game": "Nativo em Espanhol; Internacional em Inglês."
     },
@@ -523,12 +403,7 @@
         "iso": "en-US",
         "uso_no_jogo": "2ª Língua de negócios internacionais e turismo"
       },
-      "lingua_3a": {
-        "nome": "Português",
-        "iso": "pt-BR",
-        "uso_no_jogo": "3ª Língua de comércio fronteiriço com o Brasil"
-      },
-      "resumo_localizacao_game": "Nativo em Espanhol; Internacional em Inglês e Português."
+      "resumo_localizacao_game": "Nativo em Espanhol; Internacional em Inglês."
     }
   ]
 }
