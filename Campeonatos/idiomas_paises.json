@@ -1,7 +1,7 @@
 {
   "meta": {
-    "titulo": "Base Oficial de Idiomas dos Países das Ligas (1ª, 2ª e 3ª Língua)",
-    "descricao": "Mapeamento completo da 1ª Língua Oficial, 2ª Língua mais falada e 3ª Língua mais falada de cada país/liga para localização, narração e áudio no motor do jogo.",
+    "titulo": "Base Genérica e Global de Idiomas por País/Liga (Game Engine)",
+    "descricao": "Mapeamento genérico e internacional da 1ª Língua Oficial, 2ª Língua Global e 3ª Língua Global de cada país/liga para localização de UI, dublagem, narração e imprensa no jogo.",
     "total_paises": 25
   },
   "paises_idiomas": [
@@ -10,63 +10,42 @@
       "nome_pais": "Brasil",
       "codigo_iso_pais": "BR",
       "lingua_oficial_1a": {
-        "nome": "Português Brasileiro",
+        "nome": "Português",
         "iso": "pt-BR",
-        "percentual_estimado": "98.5%"
+        "uso_no_jogo": "Idioma principal do país e narração oficial"
       },
       "lingua_2a": {
-        "nome": "Libras / Alemão Riograndense (Hunsrik) / Talian",
-        "iso": "hrx-BR / vec-BR",
-        "percentual_estimado": "1.0%"
+        "nome": "Inglês",
+        "iso": "en-US",
+        "uso_no_jogo": "2º Idioma mais estudado e utilizado no comércio/negócios"
       },
       "lingua_3a": {
-        "nome": "Inglês / Espanhol (Fronteiras e Comércio)",
-        "iso": "en-US / es-ES",
-        "percentual_estimado": "0.5%"
+        "nome": "Espanhol",
+        "iso": "es-ES",
+        "uso_no_jogo": "3º Idioma mais falado (Integração com América Latina/Mercosul)"
       },
-      "observacao_narracao_game": "Narração e interface primária em Português do Brasil com sotaques regionais (Sudeste, Nordeste, Sul)."
+      "resumo_localizacao_game": "Interface em Português BR; Coletivas e contratações internacionais em Inglês e Espanhol."
     },
     {
       "pais_ou_liga": "Futebol Argentina",
       "nome_pais": "Argentina",
       "codigo_iso_pais": "AR",
       "lingua_oficial_1a": {
-        "nome": "Espanhol Rioplatense",
+        "nome": "Espanhol",
         "iso": "es-AR",
-        "percentual_estimado": "95.0%"
+        "uso_no_jogo": "Idioma oficial e narração nativa"
       },
       "lingua_2a": {
-        "nome": "Italiano (Forte herança cultural de imigração)",
-        "iso": "it-IT",
-        "percentual_estimado": "3.5%"
+        "nome": "Inglês",
+        "iso": "en-US",
+        "uso_no_jogo": "Idioma internacional secundário de negócios e turismo"
       },
       "lingua_3a": {
-        "nome": "Inglês / Quíchua / Guarani",
-        "iso": "en-US / qu-AR",
-        "percentual_estimado": "1.5%"
+        "nome": "Português",
+        "iso": "pt-BR",
+        "uso_no_jogo": "Comércio regional com Brasil e América do Sul"
       },
-      "observacao_narracao_game": "Espanhol Rioplatense com voseo característico."
-    },
-    {
-      "pais_ou_liga": "Futebol Inglaterra",
-      "nome_pais": "Inglaterra (Reino Unido)",
-      "codigo_iso_pais": "GB-ENG",
-      "lingua_oficial_1a": {
-        "nome": "Inglês Britânico",
-        "iso": "en-GB",
-        "percentual_estimado": "95.2%"
-      },
-      "lingua_2a": {
-        "nome": "Polonês",
-        "iso": "pl-PL",
-        "percentual_estimado": "1.8%"
-      },
-      "lingua_3a": {
-        "nome": "Punjabi / Urdu / Árabe",
-        "iso": "pa-IN / ur-PK",
-        "percentual_estimado": "1.5%"
-      },
-      "observacao_narracao_game": "Inglês Britânico padrão e variantes regionais (London, Mancunian, Scouse)."
+      "resumo_localizacao_game": "Nativo em Espanhol Rioplatense; Secundário em Inglês e Português."
     },
     {
       "pais_ou_liga": "Futebol Espanha",
@@ -75,19 +54,40 @@
       "lingua_oficial_1a": {
         "nome": "Espanhol (Castelhano)",
         "iso": "es-ES",
-        "percentual_estimado": "72.0%"
+        "uso_no_jogo": "Idioma oficial nacional"
       },
       "lingua_2a": {
-        "nome": "Catalão / Valenciano",
-        "iso": "ca-ES",
-        "percentual_estimado": "17.0%"
+        "nome": "Inglês",
+        "iso": "en-GB",
+        "uso_no_jogo": "Idioma global de turismo e transferências"
       },
       "lingua_3a": {
-        "nome": "Galego / Basco (Euskera)",
-        "iso": "gl-ES / eu-ES",
-        "percentual_estimado": "9.0%"
+        "nome": "Francês",
+        "iso": "fr-FR",
+        "uso_no_jogo": "Idioma europeu vizinho amplamente ensinado"
       },
-      "observacao_narracao_game": "Castelhano com opção de áudio/locução local em Catalão e Basco para dérbis."
+      "resumo_localizacao_game": "Nativo em Espanhol; Internacional em Inglês e Francês."
+    },
+    {
+      "pais_ou_liga": "Futebol Inglaterra",
+      "nome_pais": "Inglaterra (Reino Unido)",
+      "codigo_iso_pais": "GB-ENG",
+      "lingua_oficial_1a": {
+        "nome": "Inglês",
+        "iso": "en-GB",
+        "uso_no_jogo": "Idioma oficial e lingua franca mundial"
+      },
+      "lingua_2a": {
+        "nome": "Francês",
+        "iso": "fr-FR",
+        "uso_no_jogo": "2ª Língua europeia mais ensinada nas escolas"
+      },
+      "lingua_3a": {
+        "nome": "Espanhol",
+        "iso": "es-ES",
+        "uso_no_jogo": "3ª Língua mais estudada e falada por jogadores importados"
+      },
+      "resumo_localizacao_game": "Inglês global; Secundários em Francês e Espanhol."
     },
     {
       "pais_ou_liga": "Futebol Italia",
@@ -96,19 +96,19 @@
       "lingua_oficial_1a": {
         "nome": "Italiano",
         "iso": "it-IT",
-        "percentual_estimado": "93.0%"
+        "uso_no_jogo": "Idioma oficial nativo"
       },
       "lingua_2a": {
-        "nome": "Neapolitano / Siciliano (Dialetos Regionais)",
-        "iso": "nap-IT / scn-IT",
-        "percentual_estimado": "4.5%"
+        "nome": "Inglês",
+        "iso": "en-US",
+        "uso_no_jogo": "Idioma internacional para imprensa e torneios europeus"
       },
       "lingua_3a": {
-        "nome": "Alemão (Südtirol) / Francês (Valle d'Aosta)",
-        "iso": "de-IT / fr-IT",
-        "percentual_estimado": "1.5%"
+        "nome": "Francês",
+        "iso": "fr-FR",
+        "uso_no_jogo": "Língua vizinha ensinada no sistema educacional"
       },
-      "observacao_narracao_game": "Italiano com entonação expressiva para cânticos e transmissões da Serie A."
+      "resumo_localizacao_game": "Nativo em Italiano; Internacional em Inglês e Francês."
     },
     {
       "pais_ou_liga": "Futebol Alemanha",
@@ -117,19 +117,19 @@
       "lingua_oficial_1a": {
         "nome": "Alemão",
         "iso": "de-DE",
-        "percentual_estimado": "95.0%"
+        "uso_no_jogo": "Idioma oficial nacional"
       },
       "lingua_2a": {
-        "nome": "Turco",
-        "iso": "tr-TR",
-        "percentual_estimado": "2.5%"
+        "nome": "Inglês",
+        "iso": "en-GB",
+        "uso_no_jogo": "2ª Língua com altíssima fluência na população e futebol"
       },
       "lingua_3a": {
-        "nome": "Inglês / Polonês / Russo",
-        "iso": "en-GB / pl-PL",
-        "percentual_estimado": "2.0%"
+        "nome": "Francês",
+        "iso": "fr-FR",
+        "uso_no_jogo": "3ª Língua mais estudada e usada em comércio europeu"
       },
-      "observacao_narracao_game": "Alemão padrão (Hochdeutsch) com cânticos em estádio."
+      "resumo_localizacao_game": "Nativo em Alemão; Bilinguismo operacional em Inglês."
     },
     {
       "pais_ou_liga": "Futebol Franca",
@@ -138,19 +138,19 @@
       "lingua_oficial_1a": {
         "nome": "Francês",
         "iso": "fr-FR",
-        "percentual_estimado": "94.0%"
+        "uso_no_jogo": "Idioma oficial nacional"
       },
       "lingua_2a": {
-        "nome": "Árabe (Magrebino)",
-        "iso": "ar-MA / ar-DZ",
-        "percentual_estimado": "4.0%"
+        "nome": "Inglês",
+        "iso": "en-GB",
+        "uso_no_jogo": "2ª Língua internacional de negócios e futebol europeu"
       },
       "lingua_3a": {
-        "nome": "Alsaciano / Bretão / Occitano",
-        "iso": "gsw-FR / br-FR",
-        "percentual_estimado": "1.5%"
+        "nome": "Espanhol",
+        "iso": "es-ES",
+        "uso_no_jogo": "3ª Língua mais estudada nas escolas francesas"
       },
-      "observacao_narracao_game": "Francês refinado de transmissão esportiva."
+      "resumo_localizacao_game": "Nativo em Francês; Internacional em Inglês e Espanhol."
     },
     {
       "pais_ou_liga": "Futebol Holanda",
@@ -159,61 +159,61 @@
       "lingua_oficial_1a": {
         "nome": "Holandês / Neerlandês",
         "iso": "nl-NL",
-        "percentual_estimado": "92.0%"
+        "uso_no_jogo": "Idioma oficial nativo"
       },
       "lingua_2a": {
-        "nome": "Frísio (Frysk - Co-oficial no norte)",
-        "iso": "fy-NL",
-        "percentual_estimado": "3.0%"
+        "nome": "Inglês",
+        "iso": "en-GB",
+        "uso_no_jogo": "Fluência extrema (>90% da população fala fluentemente)"
       },
       "lingua_3a": {
-        "nome": "Inglês (Fluência geral altíssima) / Árabe",
-        "iso": "en-NL / ar-NL",
-        "percentual_estimado": "3.0%"
+        "nome": "Alemão",
+        "iso": "de-DE",
+        "uso_no_jogo": "Língua vizinha com alto uso comercial e esportivo"
       },
-      "observacao_narracao_game": "Neerlandês rápido e dinâmico."
+      "resumo_localizacao_game": "Nativo em Neerlandês; Praticamente bilíngue em Inglês."
     },
     {
       "pais_ou_liga": "Futebol Portugal",
       "nome_pais": "Portugal",
       "codigo_iso_pais": "PT",
       "lingua_oficial_1a": {
-        "nome": "Português Europeu",
+        "nome": "Português",
         "iso": "pt-PT",
-        "percentual_estimado": "96.0%"
+        "uso_no_jogo": "Idioma oficial nativo"
       },
       "lingua_2a": {
-        "nome": "Mirandês (Língua co-oficial regional)",
-        "iso": "mwl-PT",
-        "percentual_estimado": "1.5%"
+        "nome": "Inglês",
+        "iso": "en-GB",
+        "uso_no_jogo": "2ª Língua com altíssima fluência no turismo e futebol"
       },
       "lingua_3a": {
-        "nome": "Inglês / Espanhol",
-        "iso": "en-GB / es-ES",
-        "percentual_estimado": "1.5%"
+        "nome": "Espanhol",
+        "iso": "es-ES",
+        "uso_no_jogo": "Língua vizinha ibérica de fácil compreensão"
       },
-      "observacao_narracao_game": "Português de Portugal com fonética europeia clássica."
+      "resumo_localizacao_game": "Nativo em Português PT; Fluência ampla em Inglês e Espanhol."
     },
     {
       "pais_ou_liga": "Futebol Arabia Saudita",
       "nome_pais": "Arábia Saudita",
       "codigo_iso_pais": "SA",
       "lingua_oficial_1a": {
-        "nome": "Árabe Saudita",
+        "nome": "Árabe",
         "iso": "ar-SA",
-        "percentual_estimado": "90.0%"
+        "uso_no_jogo": "Idioma oficial nacional e narração nativa"
       },
       "lingua_2a": {
-        "nome": "Inglês (Negócios, Esportes e Elenco Internacional)",
+        "nome": "Inglês",
         "iso": "en-US",
-        "percentual_estimado": "7.5%"
+        "uso_no_jogo": "Língua franca obrigatória na liga para astros e comissões internacionais"
       },
       "lingua_3a": {
-        "nome": "Tagalo / Urdu / Bengali",
-        "iso": "tl-PH / ur-PK",
-        "percentual_estimado": "2.5%"
+        "nome": "Francês / Português",
+        "iso": "fr-FR / pt-BR",
+        "uso_no_jogo": "Línguas trazidas por comissões técnicas e estrelas estrangeiras"
       },
-      "observacao_narracao_game": "Árabe emocionado e entusiasmado característico do Oriente Médio."
+      "resumo_localizacao_game": "Nativo em Árabe; Operação esportiva internacional em Inglês."
     },
     {
       "pais_ou_liga": "Futebol Turquia",
@@ -222,82 +222,82 @@
       "lingua_oficial_1a": {
         "nome": "Turco",
         "iso": "tr-TR",
-        "percentual_estimado": "85.0%"
+        "uso_no_jogo": "Idioma oficial nacional"
       },
       "lingua_2a": {
-        "nome": "Curdo (Kurmanji)",
-        "iso": "ku-TR",
-        "percentual_estimado": "12.0%"
+        "nome": "Inglês",
+        "iso": "en-US",
+        "uso_no_jogo": "2ª Língua comercial e de transferências de atletas"
       },
       "lingua_3a": {
-        "nome": "Árabe / Inglês",
-        "iso": "ar-TR / en-TR",
-        "percentual_estimado": "2.0%"
+        "nome": "Alemão",
+        "iso": "de-DE",
+        "uso_no_jogo": "Língua da forte comunidade turco-alemã"
       },
-      "observacao_narracao_game": "Turco vibrante e intenso de narração de futebol."
+      "resumo_localizacao_game": "Nativo em Turco; Internacional em Inglês e Alemão."
     },
     {
       "pais_ou_liga": "MLS",
       "nome_pais": "Estados Unidos / Canadá",
       "codigo_iso_pais": "US / CA",
       "lingua_oficial_1a": {
-        "nome": "Inglês Americano",
+        "nome": "Inglês",
         "iso": "en-US",
-        "percentual_estimado": "78.0%"
+        "uso_no_jogo": "Idioma oficial primário"
       },
       "lingua_2a": {
-        "nome": "Espanhol (EUA)",
+        "nome": "Espanhol",
         "iso": "es-US",
-        "percentual_estimado": "14.5%"
+        "uso_no_jogo": "2ª Língua mais falada (Base gigante latina na MLS)"
       },
       "lingua_3a": {
-        "nome": "Francês (Canadá/Quebec) / Chinês",
-        "iso": "fr-CA / zh-US",
-        "percentual_estimado": "4.5%"
+        "nome": "Francês",
+        "iso": "fr-CA",
+        "uso_no_jogo": "Língua oficial do Canadá (Times de Montreal, Toronto e Vancouver)"
       },
-      "observacao_narracao_game": "Inglês no estilo transmissão americana de esportes + opção de transmissão em Espanhol."
+      "resumo_localizacao_game": "Inglês e Espanhol como línguas primárias de mídia."
     },
     {
       "pais_ou_liga": "Futebol Escocia",
       "nome_pais": "Escócia",
       "codigo_iso_pais": "GB-SCT",
       "lingua_oficial_1a": {
-        "nome": "Inglês Escocês",
+        "nome": "Inglês",
         "iso": "en-GB-SCT",
-        "percentual_estimado": "97.0%"
+        "uso_no_jogo": "Idioma oficial nacional"
       },
       "lingua_2a": {
-        "nome": "Scots (Língua germânica histórica)",
-        "iso": "sco-GB",
-        "percentual_estimado": "30.0% (Bilinguismo)"
+        "nome": "Francês",
+        "iso": "fr-FR",
+        "uso_no_jogo": "2ª Língua europeia ensinada nas escolas"
       },
       "lingua_3a": {
-        "nome": "Gaélico Escocês",
-        "iso": "gd-GB",
-        "percentual_estimado": "1.5%"
+        "nome": "Espanhol",
+        "iso": "es-ES",
+        "uso_no_jogo": "3ª Língua mais estudada"
       },
-      "observacao_narracao_game": "Inglês com sotaque escocês forte (Glasgow/Edinburgh)."
+      "resumo_localizacao_game": "Nativo em Inglês; Secundários em Francês e Espanhol."
     },
     {
       "pais_ou_liga": "Futebol Belgica",
       "nome_pais": "Bélgica",
       "codigo_iso_pais": "BE",
       "lingua_oficial_1a": {
-        "nome": "Holandês / Flamenco (Flandres)",
+        "nome": "Holandês / Neerlandês",
         "iso": "nl-BE",
-        "percentual_estimado": "60.0%"
+        "uso_no_jogo": "Idioma oficial (60% da população em Flandres)"
       },
       "lingua_2a": {
-        "nome": "Francês Belga (Valônia e Bruxelas)",
+        "nome": "Francês",
         "iso": "fr-BE",
-        "percentual_estimado": "39.0%"
+        "uso_no_jogo": "Idioma oficial (40% da população na Valônia e Bruxelas)"
       },
       "lingua_3a": {
-        "nome": "Alemão (Região Leste)",
-        "iso": "de-BE",
-        "percentual_estimado": "1.0%"
+        "nome": "Inglês / Alemão",
+        "iso": "en-GB / de-BE",
+        "uso_no_jogo": "Inglês para uso internacional e Alemão como 3ª língua oficial"
       },
-      "observacao_narracao_game": "Bilinguismo oficial: opções em Flamenco e Francês."
+      "resumo_localizacao_game": "Bilíngue nacional em Holandês e Francês; Internacional em Inglês."
     },
     {
       "pais_ou_liga": "Futebol Japao",
@@ -306,40 +306,40 @@
       "lingua_oficial_1a": {
         "nome": "Japonês",
         "iso": "ja-JP",
-        "percentual_estimado": "99.0%"
+        "uso_no_jogo": "Idioma oficial nacional"
       },
       "lingua_2a": {
-        "nome": "Ryukyuense (Okinawa)",
-        "iso": "ryu-JP",
-        "percentual_estimado": "0.5%"
+        "nome": "Inglês",
+        "iso": "en-US",
+        "uso_no_jogo": "2ª Língua estudada obrigatória para negócios e esporte"
       },
       "lingua_3a": {
-        "nome": "Inglês / Ainu",
-        "iso": "en-JP / ain-JP",
-        "percentual_estimado": "0.3%"
+        "nome": "Português / Chinês",
+        "iso": "pt-BR / zh-CN",
+        "uso_no_jogo": "Tradição de jogadores/técnicos brasileiros na J-League"
       },
-      "observacao_narracao_game": "Japonês ágil de narração J-League."
+      "resumo_localizacao_game": "Nativo em Japonês; Internacional em Inglês e Português."
     },
     {
       "pais_ou_liga": "Futebol Egito",
       "nome_pais": "Egito",
       "codigo_iso_pais": "EG",
       "lingua_oficial_1a": {
-        "nome": "Árabe Egípcio",
+        "nome": "Árabe",
         "iso": "ar-EG",
-        "percentual_estimado": "95.0%"
+        "uso_no_jogo": "Idioma oficial nacional"
       },
       "lingua_2a": {
-        "nome": "Inglês (Turismo e Negócios)",
+        "nome": "Inglês",
         "iso": "en-EG",
-        "percentual_estimado": "3.5%"
+        "uso_no_jogo": "2ª Língua amplamente ensinada para negócios e turismo"
       },
       "lingua_3a": {
-        "nome": "Francês / Núbio",
-        "iso": "fr-EG / fia-EG",
-        "percentual_estimado": "1.5%"
+        "nome": "Francês",
+        "iso": "fr-EG",
+        "uso_no_jogo": "Língua diplomática e cultural secundária"
       },
-      "observacao_narracao_game": "Árabe Egípcio com gritos festivos de gol."
+      "resumo_localizacao_game": "Nativo em Árabe Egípcio; Internacional em Inglês."
     },
     {
       "pais_ou_liga": "Futebol Russia",
@@ -348,187 +348,187 @@
       "lingua_oficial_1a": {
         "nome": "Russo",
         "iso": "ru-RU",
-        "percentual_estimado": "96.0%"
+        "uso_no_jogo": "Idioma oficial nacional"
       },
       "lingua_2a": {
-        "nome": "Tártaro",
-        "iso": "tt-RU",
-        "percentual_estimado": "2.5%"
+        "nome": "Inglês",
+        "iso": "en-US",
+        "uso_no_jogo": "2ª Língua estudada para torneios internacionais"
       },
       "lingua_3a": {
-        "nome": "Checheno / Bashkir / Inglês",
-        "iso": "ce-RU / ba-RU",
-        "percentual_estimado": "1.5%"
+        "nome": "Alemão",
+        "iso": "de-DE",
+        "uso_no_jogo": "3ª Língua mais ensinada nas universidades"
       },
-      "observacao_narracao_game": "Russo com voz firme de transmissão esportiva."
+      "resumo_localizacao_game": "Nativo em Russo; Internacional em Inglês."
     },
     {
       "pais_ou_liga": "Futebol Mexico",
       "nome_pais": "México",
       "codigo_iso_pais": "MX",
       "lingua_oficial_1a": {
-        "nome": "Espanhol Mexicano",
+        "nome": "Espanhol",
         "iso": "es-MX",
-        "percentual_estimado": "93.0%"
+        "uso_no_jogo": "Idioma oficial nacional"
       },
       "lingua_2a": {
-        "nome": "Náuatle (Língua Indígena Asteca)",
-        "iso": "nah-MX",
-        "percentual_estimado": "1.7%"
+        "nome": "Inglês",
+        "iso": "en-US",
+        "uso_no_jogo": "2ª Língua mais falada (Fronteira e comércio massivo com EUA)"
       },
       "lingua_3a": {
-        "nome": "Maia / Inglês",
-        "iso": "yua-MX / en-MX",
-        "percentual_estimado": "1.5%"
+        "nome": "Francês",
+        "iso": "fr-FR",
+        "uso_no_jogo": "3ª Língua de negócios internacionais"
       },
-      "observacao_narracao_game": "Espanhol Mexicano apaixonado e icônico."
+      "resumo_localizacao_game": "Nativo em Espanhol; Forte presença do Inglês."
     },
     {
       "pais_ou_liga": "Futebol Colombia",
       "nome_pais": "Colômbia",
       "codigo_iso_pais": "CO",
       "lingua_oficial_1a": {
-        "nome": "Espanhol Colombiano",
+        "nome": "Espanhol",
         "iso": "es-CO",
-        "percentual_estimado": "99.0%"
+        "uso_no_jogo": "Idioma oficial nacional"
       },
       "lingua_2a": {
-        "nome": "Wayuu (Língua Indígena)",
-        "iso": "guc-CO",
-        "percentual_estimado": "0.5%"
+        "nome": "Inglês",
+        "iso": "en-US",
+        "uso_no_jogo": "2ª Língua de educação e comércio internacional"
       },
       "lingua_3a": {
-        "nome": "Inglês / Crioulo San Andrés",
-        "iso": "en-CO",
-        "percentual_estimado": "0.3%"
+        "nome": "Português",
+        "iso": "pt-BR",
+        "uso_no_jogo": "Língua de integração regional e futebol sul-americano"
       },
-      "observacao_narracao_game": "Espanhol Colombiano com ritmo alto."
+      "resumo_localizacao_game": "Nativo em Espanhol; Internacional em Inglês e Português."
     },
     {
       "pais_ou_liga": "Futebol Equador",
       "nome_pais": "Equador",
       "codigo_iso_pais": "EC",
       "lingua_oficial_1a": {
-        "nome": "Espanhol Equatoriano",
+        "nome": "Espanhol",
         "iso": "es-EC",
-        "percentual_estimado": "93.0%"
+        "uso_no_jogo": "Idioma oficial nacional"
       },
       "lingua_2a": {
-        "nome": "Quíchua (Kichwa - Língua Oficial de Relação Intercultural)",
-        "iso": "qu-EC",
-        "percentual_estimado": "4.1%"
+        "nome": "Inglês",
+        "iso": "en-US",
+        "uso_no_jogo": "2ª Língua de comércio exterior (Economia dolarizada)"
       },
       "lingua_3a": {
-        "nome": "Shuar / Inglês",
-        "iso": "jiv-EC / en-EC",
-        "percentual_estimado": "1.0%"
+        "nome": "Português",
+        "iso": "pt-BR",
+        "uso_no_jogo": "Integração esportiva sul-americana"
       },
-      "observacao_narracao_game": "Espanhol andino/costeiro."
+      "resumo_localizacao_game": "Nativo em Espanhol; Internacional em Inglês."
     },
     {
       "pais_ou_liga": "Futebol Chile",
       "nome_pais": "Chile",
       "codigo_iso_pais": "CL",
       "lingua_oficial_1a": {
-        "nome": "Espanhol Chileno",
+        "nome": "Espanhol",
         "iso": "es-CL",
-        "percentual_estimado": "98.0%"
+        "uso_no_jogo": "Idioma oficial nacional"
       },
       "lingua_2a": {
-        "nome": "Mapudungun (Língua Mapuche)",
-        "iso": "arn-CL",
-        "percentual_estimado": "1.0%"
+        "nome": "Inglês",
+        "iso": "en-US",
+        "uso_no_jogo": "2ª Língua de negócios e turismo internacional"
       },
       "lingua_3a": {
-        "nome": "Inglês / Rapa Nui",
-        "iso": "en-CL / rap-CL",
-        "percentual_estimado": "0.5%"
+        "nome": "Português",
+        "iso": "pt-BR",
+        "uso_no_jogo": "Comércio e futebol da América do Sul"
       },
-      "observacao_narracao_game": "Espanhol Chileno característico."
+      "resumo_localizacao_game": "Nativo em Espanhol; Internacional em Inglês."
     },
     {
       "pais_ou_liga": "Futebol Uruguai",
       "nome_pais": "Uruguai",
       "codigo_iso_pais": "UY",
       "lingua_oficial_1a": {
-        "nome": "Espanhol Uruguaio",
+        "nome": "Espanhol",
         "iso": "es-UY",
-        "percentual_estimado": "98.0%"
+        "uso_no_jogo": "Idioma oficial nacional"
       },
       "lingua_2a": {
-        "nome": "Portunhol / Português do Norte (Fronteira com Brasil)",
-        "iso": "pdm-UY",
-        "percentual_estimado": "1.5%"
+        "nome": "Português",
+        "iso": "pt-BR",
+        "uso_no_jogo": "2ª Língua amplamente compreendida (Fronteira com Brasil)"
       },
       "lingua_3a": {
         "nome": "Inglês",
-        "iso": "en-UY",
-        "percentual_estimado": "0.5%"
+        "iso": "en-US",
+        "uso_no_jogo": "3ª Língua de negócios e imprensa global"
       },
-      "observacao_narracao_game": "Espanhol rioplatense uruguaio."
+      "resumo_localizacao_game": "Nativo em Espanhol; Ampla fluência em Português e Inglês."
     },
     {
       "pais_ou_liga": "Futebol Paraguai",
       "nome_pais": "Paraguai",
       "codigo_iso_pais": "PY",
       "lingua_oficial_1a": {
-        "nome": "Guarani (Língua Oficial)",
-        "iso": "gn-PY",
-        "percentual_estimado": "87.0% (Bilinguismo Jopará)"
+        "nome": "Espanhol",
+        "iso": "es-PY",
+        "uso_no_jogo": "Idioma oficial de governo e mídia"
       },
       "lingua_2a": {
-        "nome": "Espanhol Paraguaio (Língua Oficial)",
-        "iso": "es-PY",
-        "percentual_estimado": "70.0%"
+        "nome": "Português",
+        "iso": "pt-BR",
+        "uso_no_jogo": "2ª Língua mais falada comercialmente (Fronteira e Brasiguaios)"
       },
       "lingua_3a": {
-        "nome": "Português (Brasiguaios) / Alemão",
-        "iso": "pt-PY / de-PY",
-        "percentual_estimado": "3.0%"
+        "nome": "Inglês",
+        "iso": "en-US",
+        "uso_no_jogo": "3ª Língua de negócios e imprensa internacional"
       },
-      "observacao_narracao_game": "Bilinguismo Espanhol e Guarani."
+      "resumo_localizacao_game": "Espanhol nativo com forte presença do Português e Inglês."
     },
     {
       "pais_ou_liga": "Futebol Peru",
       "nome_pais": "Peru",
       "codigo_iso_pais": "PE",
       "lingua_oficial_1a": {
-        "nome": "Espanhol Peruano",
+        "nome": "Espanhol",
         "iso": "es-PE",
-        "percentual_estimado": "82.6%"
+        "uso_no_jogo": "Idioma oficial nacional"
       },
       "lingua_2a": {
-        "nome": "Quíchua (Quechua - Língua Oficial)",
-        "iso": "qu-PE",
-        "percentual_estimado": "13.9%"
+        "nome": "Inglês",
+        "iso": "en-US",
+        "uso_no_jogo": "2ª Língua de turismo e negócios internacionais"
       },
       "lingua_3a": {
-        "nome": "Aimará (Aymara - Língua Oficial)",
-        "iso": "ay-PE",
-        "percentual_estimado": "2.3%"
+        "nome": "Português",
+        "iso": "pt-BR",
+        "uso_no_jogo": "3ª Língua de integração comercial e futebol"
       },
-      "observacao_narracao_game": "Espanhol peruano limpo."
+      "resumo_localizacao_game": "Nativo em Espanhol; Internacional em Inglês."
     },
     {
       "pais_ou_liga": "Futebol Bolivia",
       "nome_pais": "Bolívia",
       "codigo_iso_pais": "BO",
       "lingua_oficial_1a": {
-        "nome": "Espanhol Boliviano",
+        "nome": "Espanhol",
         "iso": "es-BO",
-        "percentual_estimado": "69.0%"
+        "uso_no_jogo": "Idioma oficial de transmissão esportiva"
       },
       "lingua_2a": {
-        "nome": "Quíchua (Quechua - Língua Oficial)",
-        "iso": "qu-BO",
-        "percentual_estimado": "17.4%"
+        "nome": "Inglês",
+        "iso": "en-US",
+        "uso_no_jogo": "2ª Língua de negócios internacionais e turismo"
       },
       "lingua_3a": {
-        "nome": "Aimará (Aymara - Língua Oficial)",
-        "iso": "ay-BO",
-        "percentual_estimado": "10.6%"
+        "nome": "Português",
+        "iso": "pt-BR",
+        "uso_no_jogo": "3ª Língua de comércio fronteiriço com o Brasil"
       },
-      "observacao_narracao_game": "Espanhol andino com termos em Quíchua e Aimará."
+      "resumo_localizacao_game": "Nativo em Espanhol; Internacional em Inglês e Português."
     }
   ]
 }
