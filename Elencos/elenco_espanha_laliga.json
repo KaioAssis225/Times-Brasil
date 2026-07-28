@@ -1,0 +1,516 @@
+{
+  "meta": {
+    "titulo": "Base Oficial de Elencos do Futebol Espanhol - La Liga",
+    "divisao": "Primera División",
+    "pais": "Espanha",
+    "temporada_base": "2026/2025",
+    "total_times": 3
+  },
+  "elencos": [
+    {
+      "id_time": "real_madrid",
+      "nome_time": "Real Madrid",
+      "jogadores": [
+        {
+          "nome": "Thibaut Courtois",
+          "idade": 34,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Bélgica",
+          "camisa": 1
+        },
+        {
+          "nome": "Andriy Lunin",
+          "idade": 27,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Ucrânia",
+          "camisa": 13
+        },
+        {
+          "nome": "Éder Militão",
+          "idade": 28,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "LD"
+          ],
+          "nac": "Brasil",
+          "camisa": 3
+        },
+        {
+          "nome": "Antonio Rüdiger",
+          "idade": 33,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Alemanha",
+          "camisa": 22
+        },
+        {
+          "nome": "David Alaba",
+          "idade": 34,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "LE"
+          ],
+          "nac": "Áustria",
+          "camisa": 4
+        },
+        {
+          "nome": "Ferland Mendy",
+          "idade": 31,
+          "pos_prim": "LE",
+          "pos_sec": [],
+          "nac": "França",
+          "camisa": 23
+        },
+        {
+          "nome": "Fran García",
+          "idade": 26,
+          "pos_prim": "LE",
+          "pos_sec": [],
+          "nac": "Espanha",
+          "camisa": 20
+        },
+        {
+          "nome": "Dani Carvajal",
+          "idade": 34,
+          "pos_prim": "LD",
+          "pos_sec": [],
+          "nac": "Espanha",
+          "camisa": 2
+        },
+        {
+          "nome": "Lucas Vázquez",
+          "idade": 35,
+          "pos_prim": "LD",
+          "pos_sec": [
+            "PD"
+          ],
+          "nac": "Espanha",
+          "camisa": 17
+        },
+        {
+          "nome": "Aurélien Tchouaméni",
+          "idade": 26,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "ZAG"
+          ],
+          "nac": "França",
+          "camisa": 14
+        },
+        {
+          "nome": "Eduardo Camavinga",
+          "idade": 23,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "VOL",
+            "LE"
+          ],
+          "nac": "França",
+          "camisa": 6
+        },
+        {
+          "nome": "Federico Valverde",
+          "idade": 28,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "PD",
+            "LD"
+          ],
+          "nac": "Uruguai",
+          "camisa": 8
+        },
+        {
+          "nome": "Luka Modrić",
+          "idade": 40,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Croácia",
+          "camisa": 10
+        },
+        {
+          "nome": "Jude Bellingham",
+          "idade": 23,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "MC",
+            "ATA"
+          ],
+          "nac": "Inglaterra",
+          "camisa": 5
+        },
+        {
+          "nome": "Arda Güler",
+          "idade": 21,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "PD"
+          ],
+          "nac": "Turquia",
+          "camisa": 15
+        },
+        {
+          "nome": "Vinícius Júnior",
+          "idade": 26,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "ATA"
+          ],
+          "nac": "Brasil",
+          "camisa": 7
+        },
+        {
+          "nome": "Rodrygo",
+          "idade": 25,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "PE",
+            "ATA"
+          ],
+          "nac": "Brasil",
+          "camisa": 11
+        },
+        {
+          "nome": "Kylian Mbappé",
+          "idade": 27,
+          "pos_prim": "ATA",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "França",
+          "camisa": 9
+        },
+        {
+          "nome": "Endrick",
+          "idade": 20,
+          "pos_prim": "ATA",
+          "pos_sec": [
+            "PD"
+          ],
+          "nac": "Brasil",
+          "camisa": 16
+        },
+        {
+          "nome": "Brahim Díaz",
+          "idade": 26,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Marrocos",
+          "camisa": 21
+        }
+      ]
+    },
+    {
+      "id_time": "barcelona",
+      "nome_time": "Barcelona",
+      "jogadores": [
+        {
+          "nome": "Marc-André ter Stegen",
+          "idade": 34,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Alemanha",
+          "camisa": 1
+        },
+        {
+          "nome": "Iñaki Peña",
+          "idade": 27,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Espanha",
+          "camisa": 13
+        },
+        {
+          "nome": "Ronald Araújo",
+          "idade": 27,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "LD"
+          ],
+          "nac": "Uruguai",
+          "camisa": 4
+        },
+        {
+          "nome": "Pau Cubarsí",
+          "idade": 19,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Espanha",
+          "camisa": 2
+        },
+        {
+          "nome": "Andreas Christensen",
+          "idade": 30,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "VOL"
+          ],
+          "nac": "Dinamarca",
+          "camisa": 15
+        },
+        {
+          "nome": "Jules Koundé",
+          "idade": 27,
+          "pos_prim": "LD",
+          "pos_sec": [
+            "ZAG"
+          ],
+          "nac": "França",
+          "camisa": 23
+        },
+        {
+          "nome": "Alejandro Balde",
+          "idade": 22,
+          "pos_prim": "LE",
+          "pos_sec": [],
+          "nac": "Espanha",
+          "camisa": 3
+        },
+        {
+          "nome": "Frenkie de Jong",
+          "idade": 29,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "VOL"
+          ],
+          "nac": "Holanda",
+          "camisa": 21
+        },
+        {
+          "nome": "Pedri",
+          "idade": 23,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Espanha",
+          "camisa": 8
+        },
+        {
+          "nome": "Gavi",
+          "idade": 21,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Espanha",
+          "camisa": 6
+        },
+        {
+          "nome": "Fermín López",
+          "idade": 23,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Espanha",
+          "camisa": 16
+        },
+        {
+          "nome": "Dani Olmo",
+          "idade": 28,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "PE",
+            "PD"
+          ],
+          "nac": "Espanha",
+          "camisa": 20
+        },
+        {
+          "nome": "Lamine Yamal",
+          "idade": 19,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Espanha",
+          "camisa": 19
+        },
+        {
+          "nome": "Raphinha",
+          "idade": 29,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "PD",
+            "MEI"
+          ],
+          "nac": "Brasil",
+          "camisa": 11
+        },
+        {
+          "nome": "Ferran Torres",
+          "idade": 26,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "ATA",
+            "PD"
+          ],
+          "nac": "Espanha",
+          "camisa": 7
+        },
+        {
+          "nome": "Robert Lewandowski",
+          "idade": 37,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Polônia",
+          "camisa": 9
+        },
+        {
+          "nome": "Ansu Fati",
+          "idade": 23,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "ATA"
+          ],
+          "nac": "Espanha",
+          "camisa": 10
+        }
+      ]
+    },
+    {
+      "id_time": "atletico_madrid",
+      "nome_time": "Atlético de Madrid",
+      "jogadores": [
+        {
+          "nome": "Jan Oblak",
+          "idade": 33,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Eslovênia",
+          "camisa": 1
+        },
+        {
+          "nome": "José María Giménez",
+          "idade": 31,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Uruguai",
+          "camisa": 2
+        },
+        {
+          "nome": "Robin Le Normand",
+          "idade": 29,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Espanha",
+          "camisa": 24
+        },
+        {
+          "nome": "Axel Witsel",
+          "idade": 37,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "VOL"
+          ],
+          "nac": "Bélgica",
+          "camisa": 20
+        },
+        {
+          "nome": "Reinildo Mandava",
+          "idade": 32,
+          "pos_prim": "LE",
+          "pos_sec": [
+            "ZAG"
+          ],
+          "nac": "Moçambique",
+          "camisa": 23
+        },
+        {
+          "nome": "Nahuel Molina",
+          "idade": 28,
+          "pos_prim": "LD",
+          "pos_sec": [],
+          "nac": "Argentina",
+          "camisa": 16
+        },
+        {
+          "nome": "Koke",
+          "idade": 34,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Espanha",
+          "camisa": 6
+        },
+        {
+          "nome": "Rodrigo De Paul",
+          "idade": 32,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Argentina",
+          "camisa": 5
+        },
+        {
+          "nome": "Conor Gallagher",
+          "idade": 26,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "VOL"
+          ],
+          "nac": "Inglaterra",
+          "camisa": 4
+        },
+        {
+          "nome": "Marcos Llorente",
+          "idade": 31,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "LD",
+            "PD"
+          ],
+          "nac": "Espanha",
+          "camisa": 14
+        },
+        {
+          "nome": "Antoine Griezmann",
+          "idade": 35,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "ATA"
+          ],
+          "nac": "França",
+          "camisa": 7
+        },
+        {
+          "nome": "Julián Álvarez",
+          "idade": 26,
+          "pos_prim": "ATA",
+          "pos_sec": [
+            "MEI",
+            "PE"
+          ],
+          "nac": "Argentina",
+          "camisa": 19
+        },
+        {
+          "nome": "Alexander Sørloth",
+          "idade": 30,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Noruega",
+          "camisa": 9
+        },
+        {
+          "nome": "Angel Correa",
+          "idade": 31,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "ATA"
+          ],
+          "nac": "Argentina",
+          "camisa": 10
+        }
+      ]
+    }
+  ]
+}
