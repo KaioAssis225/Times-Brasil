@@ -1,0 +1,471 @@
+{
+  "meta": {
+    "titulo": "Base Oficial de Elencos do Futebol Português - Liga Portugal",
+    "divisao": "Primeira Liga",
+    "pais": "Portugal",
+    "temporada_base": "2026/2025",
+    "total_times": 3
+  },
+  "elencos": [
+    {
+      "id_time": "benfica",
+      "nome_time": "Benfica",
+      "jogadores": [
+        {
+          "nome": "Anatoliy Trubin",
+          "idade": 25,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Ucrânia",
+          "camisa": 1
+        },
+        {
+          "nome": "Samuel Soares",
+          "idade": 24,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Portugal",
+          "camisa": 24
+        },
+        {
+          "nome": "Nicolas Otamendi",
+          "idade": 38,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Argentina",
+          "camisa": 30
+        },
+        {
+          "nome": "António Silva",
+          "idade": 22,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Portugal",
+          "camisa": 4
+        },
+        {
+          "nome": "Tomás Araújo",
+          "idade": 24,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "LD"
+          ],
+          "nac": "Portugal",
+          "camisa": 44
+        },
+        {
+          "nome": "Álvaro Carreras",
+          "idade": 23,
+          "pos_prim": "LE",
+          "pos_sec": [],
+          "nac": "Espanha",
+          "camisa": 3
+        },
+        {
+          "nome": "Alexander Bah",
+          "idade": 28,
+          "pos_prim": "LD",
+          "pos_sec": [],
+          "nac": "Dinamarca",
+          "camisa": 6
+        },
+        {
+          "nome": "Florentino Luís",
+          "idade": 26,
+          "pos_prim": "VOL",
+          "pos_sec": [],
+          "nac": "Portugal",
+          "camisa": 61
+        },
+        {
+          "nome": "Leandro Barreiro",
+          "idade": 26,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "VOL"
+          ],
+          "nac": "Luxemburgo",
+          "camisa": 18
+        },
+        {
+          "nome": "Orkun Kökçü",
+          "idade": 25,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Turquia",
+          "camisa": 10
+        },
+        {
+          "nome": "Fredrik Aursnes",
+          "idade": 30,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "LD",
+            "LE",
+            "MD"
+          ],
+          "nac": "Noruega",
+          "camisa": 8
+        },
+        {
+          "nome": "Angel Di María",
+          "idade": 38,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Argentina",
+          "camisa": 11
+        },
+        {
+          "nome": "Kerem Aktürkoglu",
+          "idade": 27,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Turquia",
+          "camisa": 17
+        },
+        {
+          "nome": "Gianluca Prestianni",
+          "idade": 20,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Argentina",
+          "camisa": 25
+        },
+        {
+          "nome": "Vangelis Pavlidis",
+          "idade": 27,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Grécia",
+          "camisa": 14
+        },
+        {
+          "nome": "Arthur Cabral",
+          "idade": 28,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 9
+        },
+        {
+          "nome": "Zeki Amdouni",
+          "idade": 25,
+          "pos_prim": "ATA",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Suíça",
+          "camisa": 7
+        }
+      ]
+    },
+    {
+      "id_time": "sporting",
+      "nome_time": "Sporting CP",
+      "jogadores": [
+        {
+          "nome": "Franco Israel",
+          "idade": 26,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Uruguai",
+          "camisa": 1
+        },
+        {
+          "nome": "Rui Silva / Vladan Kovacevic",
+          "idade": 28,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Bósnia",
+          "camisa": 13
+        },
+        {
+          "nome": "Gonçalo Inácio",
+          "idade": 24,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "LE"
+          ],
+          "nac": "Portugal",
+          "camisa": 25
+        },
+        {
+          "nome": "Ousmane Diomande",
+          "idade": 22,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Costa do Marfim",
+          "camisa": 26
+        },
+        {
+          "nome": "Zeno Debast",
+          "idade": 22,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "VOL"
+          ],
+          "nac": "Bélgica",
+          "camisa": 6
+        },
+        {
+          "nome": "Matheus Reis",
+          "idade": 31,
+          "pos_prim": "LE",
+          "pos_sec": [
+            "ZAG"
+          ],
+          "nac": "Brasil",
+          "camisa": 2
+        },
+        {
+          "nome": "Nuno Santos",
+          "idade": 31,
+          "pos_prim": "LE",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Portugal",
+          "camisa": 11
+        },
+        {
+          "nome": "Geovany Quenda",
+          "idade": 19,
+          "pos_prim": "LD",
+          "pos_sec": [
+            "PD"
+          ],
+          "nac": "Portugal",
+          "camisa": 57
+        },
+        {
+          "nome": "Morten Hjulmand",
+          "idade": 27,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Dinamarca",
+          "camisa": 42
+        },
+        {
+          "nome": "Hidemasa Morita",
+          "idade": 31,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "VOL"
+          ],
+          "nac": "Japão",
+          "camisa": 5
+        },
+        {
+          "nome": "Daniel Bragança",
+          "idade": 27,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Portugal",
+          "camisa": 23
+        },
+        {
+          "nome": "Pedro Gonçalves (Pote)",
+          "idade": 28,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "MEI",
+            "MC"
+          ],
+          "nac": "Portugal",
+          "camisa": 8
+        },
+        {
+          "nome": "Francisco Trincão",
+          "idade": 26,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Portugal",
+          "camisa": 17
+        },
+        {
+          "nome": "Viktor Gyökeres",
+          "idade": 28,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Suécia",
+          "camisa": 9
+        },
+        {
+          "nome": "Conrad Harder",
+          "idade": 21,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Dinamarca",
+          "camisa": 19
+        }
+      ]
+    },
+    {
+      "id_time": "porto",
+      "nome_time": "Porto",
+      "jogadores": [
+        {
+          "nome": "Diogo Costa",
+          "idade": 26,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Portugal",
+          "camisa": 99
+        },
+        {
+          "nome": "Cláudio Ramos",
+          "idade": 34,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Portugal",
+          "camisa": 14
+        },
+        {
+          "nome": "Nehuén Pérez",
+          "idade": 26,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Argentina",
+          "camisa": 24
+        },
+        {
+          "nome": "Tiago Djaló",
+          "idade": 26,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "LD"
+          ],
+          "nac": "Portugal",
+          "camisa": 3
+        },
+        {
+          "nome": "Zaidu Sanusi",
+          "idade": 29,
+          "pos_prim": "LE",
+          "pos_sec": [],
+          "nac": "Nigéria",
+          "camisa": 12
+        },
+        {
+          "nome": "Francisco Moura",
+          "idade": 26,
+          "pos_prim": "LE",
+          "pos_sec": [],
+          "nac": "Portugal",
+          "camisa": 74
+        },
+        {
+          "nome": "Martim Fernandes",
+          "idade": 20,
+          "pos_prim": "LD",
+          "pos_sec": [],
+          "nac": "Portugal",
+          "camisa": 52
+        },
+        {
+          "nome": "Joao Mário",
+          "idade": 26,
+          "pos_prim": "LD",
+          "pos_sec": [
+            "PD"
+          ],
+          "nac": "Portugal",
+          "camisa": 23
+        },
+        {
+          "nome": "Alan Varela",
+          "idade": 25,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Argentina",
+          "camisa": 22
+        },
+        {
+          "nome": "Stephen Eustaquio",
+          "idade": 29,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "VOL"
+          ],
+          "nac": "Canadá",
+          "camisa": 6
+        },
+        {
+          "nome": "Nico González",
+          "idade": 24,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "VOL"
+          ],
+          "nac": "Espanha",
+          "camisa": 16
+        },
+        {
+          "nome": "Fábio Vieira",
+          "idade": 26,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "PD"
+          ],
+          "nac": "Portugal",
+          "camisa": 10
+        },
+        {
+          "nome": "Pepê",
+          "idade": 29,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "PE",
+            "LD"
+          ],
+          "nac": "Brasil",
+          "camisa": 11
+        },
+        {
+          "nome": "Galeno",
+          "idade": 28,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "LE"
+          ],
+          "nac": "Brasil",
+          "camisa": 13
+        },
+        {
+          "nome": "Samu Omorodion",
+          "idade": 22,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Espanha",
+          "camisa": 9
+        },
+        {
+          "nome": "Danny Namaso",
+          "idade": 25,
+          "pos_prim": "ATA",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Inglaterra",
+          "camisa": 19
+        }
+      ]
+    }
+  ]
+}
