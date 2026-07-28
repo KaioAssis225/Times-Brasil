@@ -1,0 +1,286 @@
+{
+  "meta": {
+    "titulo": "Base Oficial de Moedas dos Países e Cotação Atualizada em Relação ao Dólar (USD)",
+    "descricao": "Mapeamento completo da Moeda Oficial, Símbolo, Código ISO, Cotação (1 USD = X moeda local) e Valor em Dólares de 1 Unidade da Moeda Local para o motor financeiro do jogo.",
+    "data_cotacao": "27 de Julho de 2026",
+    "moeda_base_referencia": "Dólar Americano (USD)",
+    "total_paises": 25
+  },
+  "paises_moedas": [
+    {
+      "pais_ou_liga": "MLS",
+      "nome_pais": "Estados Unidos",
+      "moeda_oficial": "Dólar Americano",
+      "codigo_iso": "USD",
+      "simbolo": "$",
+      "cotacao_1_usd_em_moeda_local": 1.0,
+      "valor_1_unidade_local_em_usd": 1.0,
+      "forca_mercado_estrelas": 5.0,
+      "observacao_game": "Moeda base oficial do motor financeiro do jogo."
+    },
+    {
+      "pais_ou_liga": "Futebol Inglaterra",
+      "nome_pais": "Inglaterra (Reino Unido)",
+      "moeda_oficial": "Libra Esterlina",
+      "codigo_iso": "GBP",
+      "simbolo": "£",
+      "cotacao_1_usd_em_moeda_local": 0.78,
+      "valor_1_unidade_local_em_usd": 1.28,
+      "forca_mercado_estrelas": 5.0,
+      "observacao_game": "Moeda mais valiosa da elite europeia e Premier League."
+    },
+    {
+      "pais_ou_liga": "Futebol Escocia",
+      "nome_pais": "Escócia (Reino Unido)",
+      "moeda_oficial": "Libra Esterlina",
+      "codigo_iso": "GBP",
+      "simbolo": "£",
+      "cotacao_1_usd_em_moeda_local": 0.78,
+      "valor_1_unidade_local_em_usd": 1.28,
+      "forca_mercado_estrelas": 4.0,
+      "observacao_game": "Mesma moeda do Reino Unido."
+    },
+    {
+      "pais_ou_liga": "Futebol Espanha",
+      "nome_pais": "Espanha",
+      "moeda_oficial": "Euro",
+      "codigo_iso": "EUR",
+      "simbolo": "€",
+      "cotacao_1_usd_em_moeda_local": 0.92,
+      "valor_1_unidade_local_em_usd": 1.09,
+      "forca_mercado_estrelas": 4.8,
+      "observacao_game": "Moeda da Zona do Euro."
+    },
+    {
+      "pais_ou_liga": "Futebol Alemanha",
+      "nome_pais": "Alemanha",
+      "moeda_oficial": "Euro",
+      "codigo_iso": "EUR",
+      "simbolo": "€",
+      "cotacao_1_usd_em_moeda_local": 0.92,
+      "valor_1_unidade_local_em_usd": 1.09,
+      "forca_mercado_estrelas": 4.8,
+      "observacao_game": "Moeda da Zona do Euro."
+    },
+    {
+      "pais_ou_liga": "Futebol Italia",
+      "nome_pais": "Itália",
+      "moeda_oficial": "Euro",
+      "codigo_iso": "EUR",
+      "simbolo": "€",
+      "cotacao_1_usd_em_moeda_local": 0.92,
+      "valor_1_unidade_local_em_usd": 1.09,
+      "forca_mercado_estrelas": 4.5,
+      "observacao_game": "Moeda da Zona do Euro."
+    },
+    {
+      "pais_ou_liga": "Futebol Franca",
+      "nome_pais": "França",
+      "moeda_oficial": "Euro",
+      "codigo_iso": "EUR",
+      "simbolo": "€",
+      "cotacao_1_usd_em_moeda_local": 0.92,
+      "valor_1_unidade_local_em_usd": 1.09,
+      "forca_mercado_estrelas": 4.5,
+      "observacao_game": "Moeda da Zona do Euro."
+    },
+    {
+      "pais_ou_liga": "Futebol Holanda",
+      "nome_pais": "Holanda (Países Baixos)",
+      "moeda_oficial": "Euro",
+      "codigo_iso": "EUR",
+      "simbolo": "€",
+      "cotacao_1_usd_em_moeda_local": 0.92,
+      "valor_1_unidade_local_em_usd": 1.09,
+      "forca_mercado_estrelas": 4.0,
+      "observacao_game": "Moeda da Zona do Euro."
+    },
+    {
+      "pais_ou_liga": "Futebol Portugal",
+      "nome_pais": "Portugal",
+      "moeda_oficial": "Euro",
+      "codigo_iso": "EUR",
+      "simbolo": "€",
+      "cotacao_1_usd_em_moeda_local": 0.92,
+      "valor_1_unidade_local_em_usd": 1.09,
+      "forca_mercado_estrelas": 4.0,
+      "observacao_game": "Moeda da Zona do Euro."
+    },
+    {
+      "pais_ou_liga": "Futebol Belgica",
+      "nome_pais": "Bélgica",
+      "moeda_oficial": "Euro",
+      "codigo_iso": "EUR",
+      "simbolo": "€",
+      "cotacao_1_usd_em_moeda_local": 0.92,
+      "valor_1_unidade_local_em_usd": 1.09,
+      "forca_mercado_estrelas": 3.8,
+      "observacao_game": "Moeda da Zona do Euro."
+    },
+    {
+      "pais_ou_liga": "Futebol Arabia Saudita",
+      "nome_pais": "Arábia Saudita",
+      "moeda_oficial": "Riyal Saudita",
+      "codigo_iso": "SAR",
+      "simbolo": "SR",
+      "cotacao_1_usd_em_moeda_local": 3.75,
+      "valor_1_unidade_local_em_usd": 0.267,
+      "forca_mercado_estrelas": 4.8,
+      "observacao_game": "Moeda atrelada (pegged) ao Dólar Americano com fundos do PIF."
+    },
+    {
+      "pais_ou_liga": "Brasileirao",
+      "nome_pais": "Brasil",
+      "moeda_oficial": "Real Brasileiro",
+      "codigo_iso": "BRL",
+      "simbolo": "R$",
+      "cotacao_1_usd_em_moeda_local": 5.65,
+      "valor_1_unidade_local_em_usd": 0.177,
+      "forca_mercado_estrelas": 3.2,
+      "observacao_game": "Principal moeda do futebol sul-americano."
+    },
+    {
+      "pais_ou_liga": "Futebol Mexico",
+      "nome_pais": "México",
+      "moeda_oficial": "Peso Mexicano",
+      "codigo_iso": "MXN",
+      "simbolo": "$",
+      "cotacao_1_usd_em_moeda_local": 18.4,
+      "valor_1_unidade_local_em_usd": 0.054,
+      "forca_mercado_estrelas": 3.5,
+      "observacao_game": "Moeda forte no mercado interno da América do Norte."
+    },
+    {
+      "pais_ou_liga": "Futebol Turquia",
+      "nome_pais": "Turquia",
+      "moeda_oficial": "Lira Turca",
+      "codigo_iso": "TRY",
+      "simbolo": "₺",
+      "cotacao_1_usd_em_moeda_local": 33.2,
+      "valor_1_unidade_local_em_usd": 0.03,
+      "forca_mercado_estrelas": 3.0,
+      "observacao_game": "Moeda de volatilidade para contratos em Euros no futebol."
+    },
+    {
+      "pais_ou_liga": "Futebol Japao",
+      "nome_pais": "Japão",
+      "moeda_oficial": "Iene Japonês",
+      "codigo_iso": "JPY",
+      "simbolo": "¥",
+      "cotacao_1_usd_em_moeda_local": 154.5,
+      "valor_1_unidade_local_em_usd": 0.0065,
+      "forca_mercado_estrelas": 3.2,
+      "observacao_game": "Moeda asiática com economia altamente estável."
+    },
+    {
+      "pais_ou_liga": "Futebol Russia",
+      "nome_pais": "Rússia",
+      "moeda_oficial": "Rublo Russo",
+      "codigo_iso": "RUB",
+      "simbolo": "₽",
+      "cotacao_1_usd_em_moeda_local": 87.5,
+      "valor_1_unidade_local_em_usd": 0.0114,
+      "forca_mercado_estrelas": 3.0,
+      "observacao_game": "Moeda com mercado regional regulado."
+    },
+    {
+      "pais_ou_liga": "Futebol Egito",
+      "nome_pais": "Egito",
+      "moeda_oficial": "Libra Egípcia",
+      "codigo_iso": "EGP",
+      "simbolo": "E£",
+      "cotacao_1_usd_em_moeda_local": 48.3,
+      "valor_1_unidade_local_em_usd": 0.0207,
+      "forca_mercado_estrelas": 2.2,
+      "observacao_game": "Moeda africana com orçamento forte dos dois grandes (Al-Ahly/Zamalek)."
+    },
+    {
+      "pais_ou_liga": "Futebol Argentina",
+      "nome_pais": "Argentina",
+      "moeda_oficial": "Peso Argentino",
+      "codigo_iso": "ARS",
+      "simbolo": "$",
+      "cotacao_1_usd_em_moeda_local": 930.0,
+      "valor_1_unidade_local_em_usd": 0.00107,
+      "forca_mercado_estrelas": 2.2,
+      "observacao_game": "Moeda com desvalorização cambial (Contratos em dólar na Libertadores)."
+    },
+    {
+      "pais_ou_liga": "Futebol Equador",
+      "nome_pais": "Equador",
+      "moeda_oficial": "Dólar Americano",
+      "codigo_iso": "USD",
+      "simbolo": "$",
+      "cotacao_1_usd_em_moeda_local": 1.0,
+      "valor_1_unidade_local_em_usd": 1.0,
+      "forca_mercado_estrelas": 2.8,
+      "observacao_game": "País com economia totalmente dolarizada."
+    },
+    {
+      "pais_ou_liga": "Futebol Peru",
+      "nome_pais": "Peru",
+      "moeda_oficial": "Sol Peruano",
+      "codigo_iso": "PEN",
+      "simbolo": "S/",
+      "cotacao_1_usd_em_moeda_local": 3.74,
+      "valor_1_unidade_local_em_usd": 0.267,
+      "forca_mercado_estrelas": 2.2,
+      "observacao_game": "Moeda andina com estabilidade macroeconômica."
+    },
+    {
+      "pais_ou_liga": "Futebol Colombia",
+      "nome_pais": "Colômbia",
+      "moeda_oficial": "Peso Colombiano",
+      "codigo_iso": "COP",
+      "simbolo": "$",
+      "cotacao_1_usd_em_moeda_local": 4050.0,
+      "valor_1_unidade_local_em_usd": 0.000247,
+      "forca_mercado_estrelas": 2.0,
+      "observacao_game": "Moeda de valor nominal alto no mercado local."
+    },
+    {
+      "pais_ou_liga": "Futebol Chile",
+      "nome_pais": "Chile",
+      "moeda_oficial": "Peso Chileno",
+      "codigo_iso": "CLP",
+      "simbolo": "$",
+      "cotacao_1_usd_em_moeda_local": 945.0,
+      "valor_1_unidade_local_em_usd": 0.00105,
+      "forca_mercado_estrelas": 2.2,
+      "observacao_game": "Moeda tradicional do Pacífico."
+    },
+    {
+      "pais_ou_liga": "Futebol Uruguai",
+      "nome_pais": "Uruguai",
+      "moeda_oficial": "Peso Uruguaio",
+      "codigo_iso": "UYU",
+      "simbolo": "$U",
+      "cotacao_1_usd_em_moeda_local": 40.2,
+      "valor_1_unidade_local_em_usd": 0.0248,
+      "forca_mercado_estrelas": 2.2,
+      "observacao_game": "Moeda estável para mercado de exportação."
+    },
+    {
+      "pais_ou_liga": "Futebol Paraguai",
+      "nome_pais": "Paraguai",
+      "moeda_oficial": "Guarani Paraguaio",
+      "codigo_iso": "PYG",
+      "simbolo": "₲",
+      "cotacao_1_usd_em_moeda_local": 7580.0,
+      "valor_1_unidade_local_em_usd": 0.000132,
+      "forca_mercado_estrelas": 2.0,
+      "observacao_game": "Moeda de valor nominal elevado."
+    },
+    {
+      "pais_ou_liga": "Futebol Bolivia",
+      "nome_pais": "Bolívia",
+      "moeda_oficial": "Boliviano",
+      "codigo_iso": "BOB",
+      "simbolo": "Bs.",
+      "cotacao_1_usd_em_moeda_local": 6.91,
+      "valor_1_unidade_local_em_usd": 0.144,
+      "forca_mercado_estrelas": 1.8,
+      "observacao_game": "Moeda de mercado interno boliviano."
+    }
+  ]
+}

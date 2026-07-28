@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "titulo": "Base Oficial de Elencos - Primera División (Paraguai)",
+    "divisao": "Primera División",
+    "pais": "Paraguai",
+    "temporada_base": "2026/2025",
+    "total_times": 1
+  },
+  "elencos": [
+    {
+      "id_time": "olimpia",
+      "nome_time": "Olimpia",
+      "jogadores": [
+        {
+          "nome": "Gastón Olveira",
+          "idade": 33,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Uruguai",
+          "camisa": 12
+        },
+        {
+          "nome": "Junior Barreto",
+          "idade": 28,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Paraguai",
+          "camisa": 5
+        },
+        {
+          "nome": "Manuel Capasso",
+          "idade": 30,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Argentina",
+          "camisa": 2
+        },
+        {
+          "nome": "Facundo Zabala",
+          "idade": 27,
+          "pos_prim": "LE",
+          "pos_sec": [],
+          "nac": "Argentina",
+          "camisa": 36
+        },
+        {
+          "nome": "César Olmedo",
+          "idade": 23,
+          "pos_prim": "LD",
+          "pos_sec": [],
+          "nac": "Paraguai",
+          "camisa": 22
+        },
+        {
+          "nome": "Richard Ortiz",
+          "idade": 36,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Paraguai",
+          "camisa": 6
+        },
+        {
+          "nome": "Alex Franco",
+          "idade": 25,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Paraguai",
+          "camisa": 8
+        },
+        {
+          "nome": "Rodney Redes",
+          "idade": 26,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Paraguai",
+          "camisa": 11
+        },
+        {
+          "nome": "Derlis González",
+          "idade": 32,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "MEI",
+            "ATA"
+          ],
+          "nac": "Paraguai",
+          "camisa": 10
+        },
+        {
+          "nome": "Lucas Pratto",
+          "idade": 38,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Argentina",
+          "camisa": 19
+        }
+      ]
+    }
+  ]
+}

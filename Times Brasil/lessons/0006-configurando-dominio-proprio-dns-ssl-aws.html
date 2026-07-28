@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lição 06: Como Configurar Domínio Próprio e SSL/HTTPS na AWS</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #c9d1d9;
+      --heading: #f0f6fc;
+      --accent: #58a6ff;
+      --accent-green: #3fb950;
+      --accent-orange: #d29922;
+      --accent-purple: #bc8cff;
+      --accent-cyan: #39c5bb;
+      --radius: 12px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding-bottom: 4rem;
+    }
+
+    /* NAV BAR */
+    .top-nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(22, 27, 34, 0.95);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--border);
+      padding: 0.75rem 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+
+    .nav-brand {
+      font-weight: bold;
+      color: var(--heading);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .nav-btn {
+      background: var(--bg);
+      color: var(--text);
+      border: 1px solid var(--border);
+      padding: 0.4rem 0.8rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+
+    .nav-btn:hover, .nav-btn.active {
+      background: var(--accent);
+      color: #000;
+      border-color: var(--accent);
+      font-weight: 600;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .badge {
+      display: inline-block;
+      background: rgba(210, 153, 34, 0.15);
+      color: var(--accent-orange);
+      padding: 0.25rem 0.75rem;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    h1 {
+      color: var(--heading);
+      font-size: 2.1rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    p.lead {
+      font-size: 1.1rem;
+      color: #8b949e;
+    }
+
+    .step-box {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      margin-bottom: 1.75rem;
+    }
+
+    .step-title {
+      font-size: 1.2rem;
+      color: var(--heading);
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+    }
+
+    .step-num {
+      background: var(--accent-orange);
+      color: #000;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.95rem;
+      font-weight: bold;
+    }
+
+    pre {
+      background: #090d13;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem;
+      overflow-x: auto;
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+      font-size: 0.9rem;
+      color: #79c0ff;
+      margin: 1rem 0;
+    }
+
+    code {
+      font-family: inherit;
+    }
+
+    .interactive-section {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.75rem;
+      margin-top: 2.5rem;
+    }
+
+    .quiz-option {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      padding: 1rem;
+      border-radius: 8px;
+      margin-bottom: 0.75rem;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .quiz-option:hover {
+      background: rgba(88, 166, 255, 0.1);
+      border-color: var(--accent);
+    }
+
+    .feedback {
+      margin-top: 1rem;
+      padding: 1rem;
+      border-radius: 8px;
+      display: none;
+      font-weight: 500;
+    }
+
+    .feedback.correct {
+      display: block;
+      background: rgba(63, 185, 80, 0.15);
+      border: 1px solid var(--accent-green);
+      color: var(--accent-green);
+    }
+
+    .feedback.incorrect {
+      display: block;
+      background: rgba(248, 81, 73, 0.15);
+      border: 1px solid #f85149;
+      color: #ff7b72;
+    }
+
+    .bottom-nav {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .nav-arrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--card-bg);
+      color: var(--heading);
+      border: 1px solid var(--border);
+      padding: 0.75rem 1.25rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+
+    .nav-arrow:hover {
+      background: var(--accent);
+      color: #000;
+      border-color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <nav class="top-nav">
+    <div class="nav-brand">☁️ AWS Learning Portal</div>
+    <div class="nav-links">
+      <a href="0001-mapa-de-servicos-aws.html" class="nav-btn">Lição 01</a>
+      <a href="0002-arquitetura-aws-fastapi-node-postgres-docker.html" class="nav-btn">Lição 02</a>
+      <a href="0003-deploy-fastapi-docker-ecr-app-runner.html" class="nav-btn">Lição 03 (FastAPI)</a>
+      <a href="0004-deploy-frontend-typescript-s3-cloudfront.html" class="nav-btn">Lição 04 (Frontend TS)</a>
+      <a href="0005-banco-de-dados-postgresql-amazon-rds.html" class="nav-btn">Lição 05 (RDS Postgres)</a>
+      <a href="0006-configurando-dominio-proprio-dns-ssl-aws.html" class="nav-btn active">Lição 06 (Domínio & SSL)</a>
+      <a href="0007-atualizacao-automatica-git-push-aws-cicd.html" class="nav-btn">Lição 07 (CI/CD Git Push)</a>
+      <a href="../reference/0001-mapa-aws-cheat-sheet.html" class="nav-btn">Cheat Sheet</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <header>
+      <span class="badge">Lição 06 • DNS & HTTPS</span>
+      <h1>Como Configurar Domínio Próprio e SSL na AWS</h1>
+      <p class="lead">Conecte seu domínio (ex: <code>seusite.com.br</code>) com HTTPS grátis ao Frontend e Backend.</p>
+    </header>
+
+    <!-- STEP 1 -->
+    <div class="step-box">
+      <div class="step-title">
+        <span class="step-num">1</span>
+        Onde comprar o seu Domínio?
+      </div>
+      <p>Você pode comprar o domínio em dois caminhos principais:</p>
+      <ul style="padding-left: 1.5rem; margin-top: 0.5rem; line-height: 1.8;">
+        <li><strong>Registro.br</strong>: Recomendado para domínios nacionais <code>.com.br</code> (R$ 40/ano).</li>
+        <li><strong>Amazon Route 53</strong>: Diretamente na AWS para domínios <code>.com</code>, <code>.dev</code>, <code>.net</code>.</li>
+        <li><strong>Outros</strong>: GoDaddy, Namecheap, Hostinger, Cloudflare.</li>
+      </ul>
+    </div>
+
+    <!-- STEP 2 -->
+    <div class="step-box">
+      <div class="step-title">
+        <span class="step-num">2</span>
+        Conectando o DNS no Amazon Route 53 (Hosted Zone)
+      </div>
+      <p>Se você comprou fora da AWS (ex: Registro.br):</p>
+      <ol style="padding-left: 1.5rem; margin-top: 0.5rem; line-height: 1.8;">
+        <li>No console AWS, acesse o <strong>Amazon Route 53</strong> e crie uma <strong>Hosted Zone</strong> com o nome do seu domínio (ex: <code>meudominio.com.br</code>).</li>
+        <li>A AWS gerará 4 servidores de nome (NS - Name Servers), por exemplo:<br>
+          <code>ns-123.awsdns-45.org</code><br>
+          <code>ns-678.awsdns-12.co.uk</code>
+        </li>
+        <li>Vá no Registro.br ou GoDaddy, edite os servidores DNS do seu domínio e cole esses 4 endereços da AWS.</li>
+      </ol>
+    </div>
+
+    <!-- STEP 3 -->
+    <div class="step-box">
+      <div class="step-title">
+        <span class="step-num">3</span>
+        Gerando Certificado SSL/HTTPS Grátis (AWS Certificate Manager - ACM)
+      </div>
+      <p>Para ter o cadeado verde HTTPS de segurança sem pagar nada:</p>
+      <ol style="padding-left: 1.5rem; margin-top: 0.5rem; line-height: 1.8;">
+        <li>Abra o <strong>AWS Certificate Manager (ACM)</strong> na região <code>us-east-1</code> (exigido pelo CloudFront).</li>
+        <li>Clique em <strong>Request Certificate</strong> e digite: <code>meudominio.com.br</code> e <code>*.meudominio.com.br</code>.</li>
+        <li>Selecione validação por <strong>DNS Validation</strong>.</li>
+        <li>Clique no botão <em>"Create records in Route 53"</em>. Em cerca de 2 minutos, seu certificado SSL estará emitido e ativo!</li>
+      </ol>
+    </div>
+
+    <!-- STEP 4 -->
+    <div class="step-box">
+      <div class="step-title">
+        <span class="step-num">4</span>
+        Apontando o Frontend e o Backend
+      </div>
+      <p>Estrutura profissional de subdomínios:</p>
+      
+      <div style="background: #090d13; border: 1px solid var(--border); padding: 1rem; border-radius: 8px; margin: 1rem 0;">
+        <p>🌐 <strong>Frontend (Site):</strong> <code>meudominio.com.br</code><br>
+        👉 No CloudFront, adicione em <em>Alternate Domain Names (CNAMEs)</em> o seu domínio e selecione o Certificado ACM.<br>
+        👉 No Route 53, crie um registro <strong>Type A (Alias)</strong> apontando para a sua distribuição CloudFront.</p>
+        
+        <br>
+        <p>⚙️ <strong>Backend (API FastAPI):</strong> <code>api.meudominio.com.br</code><br>
+        👉 No AWS App Runner, vá em <em>Custom Domains</em>, digite <code>api.meudominio.com.br</code>.<br>
+        👉 O App Runner fornecerá os registros CNAME para você adicionar no Route 53.</p>
+      </div>
+    </div>
+
+    <div class="interactive-section">
+      <h2>🧠 Teste de Fixação</h2>
+      <p style="margin-bottom: 1.25rem;">Qual serviço da AWS fornece certificados digitais SSL/HTTPS válidos inteiramente gratuitos para usar com CloudFront e App Runner?</p>
+
+      <div class="quiz-option" onclick="checkAnswer(this, false)">
+        A) Amazon S3
+      </div>
+      <div class="quiz-option" onclick="checkAnswer(this, true)">
+        B) AWS Certificate Manager (ACM)
+      </div>
+      <div class="quiz-option" onclick="checkAnswer(this, false)">
+        C) Amazon EC2
+      </div>
+
+      <div id="feedback" class="feedback"></div>
+    </div>
+
+    <!-- Bottom Navigation Bar -->
+    <div class="bottom-nav">
+      <a href="0005-banco-de-dados-postgresql-amazon-rds.html" class="nav-arrow">
+        ⬅ Lição 05: Amazon RDS Postgres
+      </a>
+      <a href="0007-atualizacao-automatica-git-push-aws-cicd.html" class="nav-arrow">
+        Lição 07: Atualização Automática ao Dar Git Push ➔
+      </a>
+    </div>
+  </div>
+
+  <script>
+    function checkAnswer(element, isCorrect) {
+      const feedback = document.getElementById('feedback');
+      if (isCorrect) {
+        feedback.className = 'feedback correct';
+        feedback.innerHTML = '✨ <strong>Exatamente!</strong> O AWS Certificate Manager (ACM) emite e renova automaticamente certificados SSL/HTTPS para seus domínios na AWS sem qualquer custo adicional!';
+      } else {
+        feedback.className = 'feedback incorrect';
+        feedback.innerHTML = '❌ <strong>Incorreto.</strong> Tente novamente!';
+      }
+    }
+  </script>
+</body>
+</html>

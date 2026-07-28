@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "titulo": "Base Oficial de Elencos - Süper Lig (Turquia)",
+    "divisao": "Süper Lig",
+    "pais": "Turquia",
+    "temporada_base": "2026/2025",
+    "total_times": 1
+  },
+  "elencos": [
+    {
+      "id_time": "galatasaray",
+      "nome_time": "Galatasaray",
+      "jogadores": [
+        {
+          "nome": "Fernando Muslera",
+          "idade": 40,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Uruguai",
+          "camisa": 1
+        },
+        {
+          "nome": "Davinson Sánchez",
+          "idade": 30,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Colômbia",
+          "camisa": 6
+        },
+        {
+          "nome": "Abdulkerim Bardakci",
+          "idade": 31,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "LE"
+          ],
+          "nac": "Turquia",
+          "camisa": 42
+        },
+        {
+          "nome": "Ismail Jakobs",
+          "idade": 26,
+          "pos_prim": "LE",
+          "pos_sec": [],
+          "nac": "Senegal",
+          "camisa": 4
+        },
+        {
+          "nome": "Kaan Ayhan",
+          "idade": 31,
+          "pos_prim": "LD",
+          "pos_sec": [
+            "ZAG",
+            "VOL"
+          ],
+          "nac": "Turquia",
+          "camisa": 23
+        },
+        {
+          "nome": "Lucas Torreira",
+          "idade": 30,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Uruguai",
+          "camisa": 34
+        },
+        {
+          "nome": "Gabriel Sara",
+          "idade": 27,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Brasil",
+          "camisa": 20
+        },
+        {
+          "nome": "Hakim Ziyech",
+          "idade": 33,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "PD"
+          ],
+          "nac": "Marrocos",
+          "camisa": 22
+        },
+        {
+          "nome": "Dries Mertens",
+          "idade": 39,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "ATA"
+          ],
+          "nac": "Bélgica",
+          "camisa": 10
+        },
+        {
+          "nome": "Baris Alper Yilmaz",
+          "idade": 26,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "PE",
+            "LD"
+          ],
+          "nac": "Turquia",
+          "camisa": 53
+        },
+        {
+          "nome": "Roland Sallai",
+          "idade": 29,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Húngria",
+          "camisa": 7
+        },
+        {
+          "nome": "Victor Osimhen",
+          "idade": 27,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Nigéria",
+          "camisa": 45
+        },
+        {
+          "nome": "Mauro Icardi",
+          "idade": 33,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Argentina",
+          "camisa": 9
+        }
+      ]
+    }
+  ]
+}

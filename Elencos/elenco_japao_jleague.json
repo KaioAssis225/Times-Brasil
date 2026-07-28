@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "titulo": "Base Oficial de Elencos - J1 League (Japão)",
+    "divisao": "J1 League",
+    "pais": "Japão",
+    "temporada_base": "2026/2025",
+    "total_times": 1
+  },
+  "elencos": [
+    {
+      "id_time": "vissel_kobe",
+      "nome_time": "Vissel Kobe",
+      "jogadores": [
+        {
+          "nome": "Daiya Maekawa",
+          "idade": 31,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Japão",
+          "camisa": 1
+        },
+        {
+          "nome": "Tetsushi Yamakawa",
+          "idade": 28,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Japão",
+          "camisa": 4
+        },
+        {
+          "nome": "Thuler",
+          "idade": 27,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 3
+        },
+        {
+          "nome": "Ryo Hatsuse",
+          "idade": 29,
+          "pos_prim": "LE",
+          "pos_sec": [],
+          "nac": "Japão",
+          "camisa": 19
+        },
+        {
+          "nome": "Gotoku Sakai",
+          "idade": 35,
+          "pos_prim": "LD",
+          "pos_sec": [
+            "LE"
+          ],
+          "nac": "Japão",
+          "camisa": 24
+        },
+        {
+          "nome": "Hotaru Yamaguchi",
+          "idade": 35,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Japão",
+          "camisa": 5
+        },
+        {
+          "nome": "Takahiro Ogihara",
+          "idade": 34,
+          "pos_prim": "VOL",
+          "pos_sec": [],
+          "nac": "Japão",
+          "camisa": 6
+        },
+        {
+          "nome": "Haruya Ide",
+          "idade": 32,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Japão",
+          "camisa": 18
+        },
+        {
+          "nome": "Yoshinori Muto",
+          "idade": 34,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "ATA"
+          ],
+          "nac": "Japão",
+          "camisa": 11
+        },
+        {
+          "nome": "Daiju Sasaki",
+          "idade": 26,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Japão",
+          "camisa": 22
+        },
+        {
+          "nome": "Yuya Osako",
+          "idade": 36,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Japão",
+          "camisa": 10
+        }
+      ]
+    }
+  ]
+}

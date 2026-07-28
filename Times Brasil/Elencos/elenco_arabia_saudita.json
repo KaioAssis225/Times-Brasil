@@ -1,0 +1,404 @@
+{
+  "meta": {
+    "titulo": "Base Oficial de Elencos do Futebol Saudita - Saudi Pro League",
+    "divisao": "Saudi Pro League",
+    "pais": "Arábia Saudita",
+    "temporada_base": "2026/2025",
+    "total_times": 3
+  },
+  "elencos": [
+    {
+      "id_time": "al_hilal",
+      "nome_time": "Al-Hilal",
+      "jogadores": [
+        {
+          "nome": "Yassine Bounou (Bono)",
+          "idade": 35,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Marrocos",
+          "camisa": 37
+        },
+        {
+          "nome": "Mohammed Al-Owais",
+          "idade": 34,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Arábia Saudita",
+          "camisa": 21
+        },
+        {
+          "nome": "Kalidou Koulibaly",
+          "idade": 35,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Senegal",
+          "camisa": 3
+        },
+        {
+          "nome": "Ali Al-Bulaihi",
+          "idade": 36,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Arábia Saudita",
+          "camisa": 5
+        },
+        {
+          "nome": "Renan Lodi",
+          "idade": 28,
+          "pos_prim": "LE",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Brasil",
+          "camisa": 6
+        },
+        {
+          "nome": "Yasser Al-Shahrani",
+          "idade": 34,
+          "pos_prim": "LE",
+          "pos_sec": [
+            "LD"
+          ],
+          "nac": "Arábia Saudita",
+          "camisa": 12
+        },
+        {
+          "nome": "João Cancelo",
+          "idade": 32,
+          "pos_prim": "LD",
+          "pos_sec": [
+            "LE",
+            "MD"
+          ],
+          "nac": "Portugal",
+          "camisa": 20
+        },
+        {
+          "nome": "Rúben Neves",
+          "idade": 29,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Portugal",
+          "camisa": 8
+        },
+        {
+          "nome": "Sergej Milinkovic-Savic",
+          "idade": 31,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Sérvia",
+          "camisa": 22
+        },
+        {
+          "nome": "Nasser Al-Dawsari",
+          "idade": 27,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "LE"
+          ],
+          "nac": "Arábia Saudita",
+          "camisa": 16
+        },
+        {
+          "nome": "Salem Al-Dawsari",
+          "idade": 34,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Arábia Saudita",
+          "camisa": 29
+        },
+        {
+          "nome": "Malcom",
+          "idade": 29,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "MEI",
+            "ATA"
+          ],
+          "nac": "Brasil",
+          "camisa": 77
+        },
+        {
+          "nome": "Neymar Jr.",
+          "idade": 34,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "PE",
+            "ATA"
+          ],
+          "nac": "Brasil",
+          "camisa": 10
+        },
+        {
+          "nome": "Aleksandar Mitrovic",
+          "idade": 31,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Sérvia",
+          "camisa": 9
+        },
+        {
+          "nome": "Marcos Leonardo",
+          "idade": 23,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 99
+        }
+      ]
+    },
+    {
+      "id_time": "al_nassr",
+      "nome_time": "Al-Nassr",
+      "jogadores": [
+        {
+          "nome": "Bento",
+          "idade": 27,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 24
+        },
+        {
+          "nome": "Nawaf Al-Aqidi",
+          "idade": 26,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Arábia Saudita",
+          "camisa": 44
+        },
+        {
+          "nome": "Aymeric Laporte",
+          "idade": 32,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Espanha",
+          "camisa": 27
+        },
+        {
+          "nome": "Mohamed Simakan",
+          "idade": 26,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "LD"
+          ],
+          "nac": "França",
+          "camisa": 3
+        },
+        {
+          "nome": "Ali Lajami",
+          "idade": 30,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Arábia Saudita",
+          "camisa": 78
+        },
+        {
+          "nome": "Sultan Al-Ghannam",
+          "idade": 32,
+          "pos_prim": "LD",
+          "pos_sec": [
+            "MD"
+          ],
+          "nac": "Arábia Saudita",
+          "camisa": 2
+        },
+        {
+          "nome": "Salem Al-Najdi",
+          "idade": 23,
+          "pos_prim": "LE",
+          "pos_sec": [],
+          "nac": "Arábia Saudita",
+          "camisa": 12
+        },
+        {
+          "nome": "Marcelo Brozovic",
+          "idade": 33,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Croácia",
+          "camisa": 77
+        },
+        {
+          "nome": "Otávio",
+          "idade": 31,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "MEI",
+            "PD"
+          ],
+          "nac": "Portugal",
+          "camisa": 25
+        },
+        {
+          "nome": "Abdulrahman Ghareeb",
+          "idade": 29,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Arábia Saudita",
+          "camisa": 29
+        },
+        {
+          "nome": "Sadio Mané",
+          "idade": 34,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "ATA"
+          ],
+          "nac": "Senegal",
+          "camisa": 10
+        },
+        {
+          "nome": "Ângelo Gabriel",
+          "idade": 21,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Brasil",
+          "camisa": 21
+        },
+        {
+          "nome": "Cristiano Ronaldo",
+          "idade": 41,
+          "pos_prim": "ATA",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Portugal",
+          "camisa": 7
+        },
+        {
+          "nome": "Talisca",
+          "idade": 32,
+          "pos_prim": "ATA",
+          "pos_sec": [
+            "MEI",
+            "PD"
+          ],
+          "nac": "Brasil",
+          "camisa": 94
+        }
+      ]
+    },
+    {
+      "id_time": "al_ittihad",
+      "nome_time": "Al-Ittihad",
+      "jogadores": [
+        {
+          "nome": "Predrag Rajkovic",
+          "idade": 30,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Sérvia",
+          "camisa": 1
+        },
+        {
+          "nome": "Luiz Felipe",
+          "idade": 29,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Itália",
+          "camisa": 5
+        },
+        {
+          "nome": "Danilo Pereira",
+          "idade": 34,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "VOL"
+          ],
+          "nac": "Portugal",
+          "camisa": 15
+        },
+        {
+          "nome": "Hassan Kadesh",
+          "idade": 33,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "LE"
+          ],
+          "nac": "Arábia Saudita",
+          "camisa": 13
+        },
+        {
+          "nome": "Muhannad Al-Shanqeeti",
+          "idade": 27,
+          "pos_prim": "LD",
+          "pos_sec": [],
+          "nac": "Arábia Saudita",
+          "camisa": 27
+        },
+        {
+          "nome": "N'Golo Kanté",
+          "idade": 35,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "França",
+          "camisa": 7
+        },
+        {
+          "nome": "Fabinho",
+          "idade": 32,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "ZAG"
+          ],
+          "nac": "Brasil",
+          "camisa": 8
+        },
+        {
+          "nome": "Houssem Aouar",
+          "idade": 28,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Argélia",
+          "camisa": 10
+        },
+        {
+          "nome": "Steven Bergwijn",
+          "idade": 28,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "PD"
+          ],
+          "nac": "Holanda",
+          "camisa": 34
+        },
+        {
+          "nome": "Moussa Diaby",
+          "idade": 27,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "França",
+          "camisa": 19
+        },
+        {
+          "nome": "Karim Benzema",
+          "idade": 38,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "França",
+          "camisa": 9
+        }
+      ]
+    }
+  ]
+}

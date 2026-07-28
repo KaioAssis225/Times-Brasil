@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cheat Sheet: AWS Services for Hosting & Storage</title>
+  <style>
+    body { font-family: sans-serif; padding: 2rem; background: #fafafa; color: #333; line-height: 1.6; }
+    h1 { border-bottom: 2px solid #ff9900; padding-bottom: 0.5rem; }
+    table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+    th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+    th { background: #ff9900; color: white; }
+    tr:nth-child(even) { background: #f2f2f2; }
+  </style>
+</head>
+<body>
+  <h1>AWS Hosting & Storage Cheat Sheet</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Serviço</th>
+        <th>Tipo</th>
+        <th>Ideal para</th>
+        <th>Nível de Gerenciamento</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Amazon S3</strong></td>
+        <td>Storage de Objetos</td>
+        <td>Arquivos estáticos, uploads, backups, sites frontend (HTML/React).</td>
+        <td>Sem servidor (Serverless)</td>
+      </tr>
+      <tr>
+        <td><strong>Amazon CloudFront</strong></td>
+        <td>CDN / Distribuição</td>
+        <td>Acelerar entrega de conteúdo, HTTPS gratuito, segurança para S3.</td>
+        <td>Gerenciado pela AWS</td>
+      </tr>
+      <tr>
+        <td><strong>Amazon EC2</strong></td>
+        <td>Computação / Servidor Virtual</td>
+        <td>APIs, backends completos, controle total sobre SO e pacotes.</td>
+        <td>Você gerencia a máquina (Linux/Windows)</td>
+      </tr>
+      <tr>
+        <td><strong>AWS App Runner</strong></td>
+        <td>Container Hosting</td>
+        <td>Deploy simplificado de APIs Node/Python/Docker sem configurar EC2.</td>
+        <td>Totalmente Gerenciado</td>
+      </tr>
+      <tr>
+        <td><strong>Amazon RDS</strong></td>
+        <td>Banco de Dados Relacional</td>
+        <td>MySQL, PostgreSQL com backup automático e réplicas.</td>
+        <td>Gerenciado</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

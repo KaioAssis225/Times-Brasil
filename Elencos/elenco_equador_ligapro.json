@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "titulo": "Base Oficial de Elencos - LigaPro (Equador)",
+    "divisao": "LigaPro",
+    "pais": "Equador",
+    "temporada_base": "2026/2025",
+    "total_times": 1
+  },
+  "elencos": [
+    {
+      "id_time": "ldu_quito",
+      "nome_time": "LDU Quito",
+      "jogadores": [
+        {
+          "nome": "Alexander Domínguez",
+          "idade": 39,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Equador",
+          "camisa": 22
+        },
+        {
+          "nome": "Ricardo Adé",
+          "idade": 36,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Haiti",
+          "camisa": 4
+        },
+        {
+          "nome": "Richard Mina",
+          "idade": 27,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Equador",
+          "camisa": 29
+        },
+        {
+          "nome": "Leonel Quiñónez",
+          "idade": 33,
+          "pos_prim": "LE",
+          "pos_sec": [],
+          "nac": "Equador",
+          "camisa": 33
+        },
+        {
+          "nome": "José Quintero",
+          "idade": 36,
+          "pos_prim": "LD",
+          "pos_sec": [
+            "MD"
+          ],
+          "nac": "Equador",
+          "camisa": 14
+        },
+        {
+          "nome": "Ezequiel Piovi",
+          "idade": 33,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Argentina",
+          "camisa": 18
+        },
+        {
+          "nome": "Lucas Cornejo",
+          "idade": 21,
+          "pos_prim": "MC",
+          "pos_sec": [],
+          "nac": "Equador",
+          "camisa": 8
+        },
+        {
+          "nome": "Jhojan Julio",
+          "idade": 28,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Equador",
+          "camisa": 26
+        },
+        {
+          "nome": "Lisandro Alzugaray",
+          "idade": 36,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Argentina",
+          "camisa": 9
+        },
+        {
+          "nome": "Alex Arce",
+          "idade": 31,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Paraguai",
+          "camisa": 19
+        }
+      ]
+    }
+  ]
+}

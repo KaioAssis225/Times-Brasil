@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "titulo": "Base Oficial de Elencos - Primera División (Chile)",
+    "divisao": "Primera División",
+    "pais": "Chile",
+    "temporada_base": "2026/2025",
+    "total_times": 1
+  },
+  "elencos": [
+    {
+      "id_time": "colo_colo",
+      "nome_time": "Colo-Colo",
+      "jogadores": [
+        {
+          "nome": "Brayan Cortés",
+          "idade": 31,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Chile",
+          "camisa": 1
+        },
+        {
+          "nome": "Maximiliano Falcón",
+          "idade": 29,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Uruguai",
+          "camisa": 37
+        },
+        {
+          "nome": "Alan Saldivia",
+          "idade": 24,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Uruguai",
+          "camisa": 4
+        },
+        {
+          "nome": "Emiliano Amor",
+          "idade": 31,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Argentina",
+          "camisa": 15
+        },
+        {
+          "nome": "Erick Wiemberg",
+          "idade": 32,
+          "pos_prim": "LE",
+          "pos_sec": [
+            "ZAG"
+          ],
+          "nac": "Chile",
+          "camisa": 21
+        },
+        {
+          "nome": "Mauricio Isla",
+          "idade": 38,
+          "pos_prim": "LD",
+          "pos_sec": [
+            "MD"
+          ],
+          "nac": "Chile",
+          "camisa": 22
+        },
+        {
+          "nome": "Esteban Pavez",
+          "idade": 36,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "ZAG"
+          ],
+          "nac": "Chile",
+          "camisa": 8
+        },
+        {
+          "nome": "Arturo Vidal",
+          "idade": 39,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "VOL",
+            "MEI"
+          ],
+          "nac": "Chile",
+          "camisa": 23
+        },
+        {
+          "nome": "Leonardo Gil",
+          "idade": 35,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Chile",
+          "camisa": 5
+        },
+        {
+          "nome": "Carlos Palacios",
+          "idade": 26,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "PE",
+            "PD"
+          ],
+          "nac": "Chile",
+          "camisa": 7
+        },
+        {
+          "nome": "Lucas Cepeda",
+          "idade": 23,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "PD"
+          ],
+          "nac": "Chile",
+          "camisa": 32
+        },
+        {
+          "nome": "Javier Correa",
+          "idade": 33,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Argentina",
+          "camisa": 9
+        },
+        {
+          "nome": "Guillermo Paiva",
+          "idade": 29,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Paraguai",
+          "camisa": 29
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,409 @@
+{
+  "meta": {
+    "titulo": "Base Oficial de Idiomas dos Países das Ligas (1ª e 2ª Língua)",
+    "descricao": "Mapeamento simplificado de 2 idiomas por país/liga (1ª Língua Oficial + 2ª Língua Global/Internacional) para localização de UI, narração, coletivas de imprensa e áudio no jogo.",
+    "total_paises": 25
+  },
+  "paises_idiomas": [
+    {
+      "pais_ou_liga": "Brasileirao",
+      "nome_pais": "Brasil",
+      "codigo_iso_pais": "BR",
+      "lingua_oficial_1a": {
+        "nome": "Português",
+        "iso": "pt-BR",
+        "uso_no_jogo": "Idioma principal do país e narração oficial"
+      },
+      "lingua_2a": {
+        "nome": "Inglês",
+        "iso": "en-US",
+        "uso_no_jogo": "2º Idioma de comércio global, transferências e interface secundária"
+      },
+      "resumo_localizacao_game": "Nativo em Português BR; Internacional em Inglês."
+    },
+    {
+      "pais_ou_liga": "Futebol Argentina",
+      "nome_pais": "Argentina",
+      "codigo_iso_pais": "AR",
+      "lingua_oficial_1a": {
+        "nome": "Espanhol",
+        "iso": "es-AR",
+        "uso_no_jogo": "Idioma oficial e narração nativa"
+      },
+      "lingua_2a": {
+        "nome": "Inglês",
+        "iso": "en-US",
+        "uso_no_jogo": "Idioma internacional secundário de negócios e imprensa"
+      },
+      "resumo_localizacao_game": "Nativo em Espanhol Rioplatense; Internacional em Inglês."
+    },
+    {
+      "pais_ou_liga": "Futebol Espanha",
+      "nome_pais": "Espanha",
+      "codigo_iso_pais": "ES",
+      "lingua_oficial_1a": {
+        "nome": "Espanhol (Castelhano)",
+        "iso": "es-ES",
+        "uso_no_jogo": "Idioma oficial nacional"
+      },
+      "lingua_2a": {
+        "nome": "Inglês",
+        "iso": "en-GB",
+        "uso_no_jogo": "Idioma global de turismo e transferências"
+      },
+      "resumo_localizacao_game": "Nativo em Espanhol; Internacional em Inglês."
+    },
+    {
+      "pais_ou_liga": "Futebol Inglaterra",
+      "nome_pais": "Inglaterra (Reino Unido)",
+      "codigo_iso_pais": "GB-ENG",
+      "lingua_oficial_1a": {
+        "nome": "Inglês",
+        "iso": "en-GB",
+        "uso_no_jogo": "Idioma oficial e lingua franca mundial"
+      },
+      "lingua_2a": {
+        "nome": "Francês",
+        "iso": "fr-FR",
+        "uso_no_jogo": "2ª Língua europeia mais ensinada e utilizada no futebol"
+      },
+      "resumo_localizacao_game": "Nativo em Inglês Britânico; Secundário em Francês."
+    },
+    {
+      "pais_ou_liga": "Futebol Italia",
+      "nome_pais": "Itália",
+      "codigo_iso_pais": "IT",
+      "lingua_oficial_1a": {
+        "nome": "Italiano",
+        "iso": "it-IT",
+        "uso_no_jogo": "Idioma oficial nativo"
+      },
+      "lingua_2a": {
+        "nome": "Inglês",
+        "iso": "en-US",
+        "uso_no_jogo": "Idioma internacional para imprensa e torneios europeus"
+      },
+      "resumo_localizacao_game": "Nativo em Italiano; Internacional em Inglês."
+    },
+    {
+      "pais_ou_liga": "Futebol Alemanha",
+      "nome_pais": "Alemanha",
+      "codigo_iso_pais": "DE",
+      "lingua_oficial_1a": {
+        "nome": "Alemão",
+        "iso": "de-DE",
+        "uso_no_jogo": "Idioma oficial nacional"
+      },
+      "lingua_2a": {
+        "nome": "Inglês",
+        "iso": "en-GB",
+        "uso_no_jogo": "2ª Língua com altíssima fluência na população e futebol"
+      },
+      "resumo_localizacao_game": "Nativo em Alemão; Bilinguismo operacional em Inglês."
+    },
+    {
+      "pais_ou_liga": "Futebol Franca",
+      "nome_pais": "França",
+      "codigo_iso_pais": "FR",
+      "lingua_oficial_1a": {
+        "nome": "Francês",
+        "iso": "fr-FR",
+        "uso_no_jogo": "Idioma oficial nacional"
+      },
+      "lingua_2a": {
+        "nome": "Inglês",
+        "iso": "en-GB",
+        "uso_no_jogo": "2ª Língua internacional de negócios e futebol europeu"
+      },
+      "resumo_localizacao_game": "Nativo em Francês; Internacional em Inglês."
+    },
+    {
+      "pais_ou_liga": "Futebol Holanda",
+      "nome_pais": "Holanda (Países Baixos)",
+      "codigo_iso_pais": "NL",
+      "lingua_oficial_1a": {
+        "nome": "Holandês / Neerlandês",
+        "iso": "nl-NL",
+        "uso_no_jogo": "Idioma oficial nativo"
+      },
+      "lingua_2a": {
+        "nome": "Inglês",
+        "iso": "en-GB",
+        "uso_no_jogo": "Fluência extrema na população nacional (>90%)"
+      },
+      "resumo_localizacao_game": "Nativo em Neerlandês; Praticamente bilíngue em Inglês."
+    },
+    {
+      "pais_ou_liga": "Futebol Portugal",
+      "nome_pais": "Portugal",
+      "codigo_iso_pais": "PT",
+      "lingua_oficial_1a": {
+        "nome": "Português",
+        "iso": "pt-PT",
+        "uso_no_jogo": "Idioma oficial nativo"
+      },
+      "lingua_2a": {
+        "nome": "Inglês",
+        "iso": "en-GB",
+        "uso_no_jogo": "2ª Língua com altíssima fluência no turismo e futebol"
+      },
+      "resumo_localizacao_game": "Nativo em Português PT; Fluência ampla em Inglês."
+    },
+    {
+      "pais_ou_liga": "Futebol Arabia Saudita",
+      "nome_pais": "Arábia Saudita",
+      "codigo_iso_pais": "SA",
+      "lingua_oficial_1a": {
+        "nome": "Árabe",
+        "iso": "ar-SA",
+        "uso_no_jogo": "Idioma oficial nacional e narração nativa"
+      },
+      "lingua_2a": {
+        "nome": "Inglês",
+        "iso": "en-US",
+        "uso_no_jogo": "Língua franca obrigatória na liga para astros e comissões internacionais"
+      },
+      "resumo_localizacao_game": "Nativo em Árabe; Operação esportiva internacional em Inglês."
+    },
+    {
+      "pais_ou_liga": "Futebol Turquia",
+      "nome_pais": "Turquia",
+      "codigo_iso_pais": "TR",
+      "lingua_oficial_1a": {
+        "nome": "Turco",
+        "iso": "tr-TR",
+        "uso_no_jogo": "Idioma oficial nacional"
+      },
+      "lingua_2a": {
+        "nome": "Inglês",
+        "iso": "en-US",
+        "uso_no_jogo": "2ª Língua comercial e de transferências de atletas"
+      },
+      "resumo_localizacao_game": "Nativo em Turco; Internacional em Inglês."
+    },
+    {
+      "pais_ou_liga": "MLS",
+      "nome_pais": "Estados Unidos / Canadá",
+      "codigo_iso_pais": "US / CA",
+      "lingua_oficial_1a": {
+        "nome": "Inglês",
+        "iso": "en-US",
+        "uso_no_jogo": "Idioma oficial primário"
+      },
+      "lingua_2a": {
+        "nome": "Espanhol",
+        "iso": "es-US",
+        "uso_no_jogo": "2ª Língua mais falada (Base gigante latina na MLS)"
+      },
+      "resumo_localizacao_game": "Inglês e Espanhol como línguas primárias de mídia."
+    },
+    {
+      "pais_ou_liga": "Futebol Escocia",
+      "nome_pais": "Escócia",
+      "codigo_iso_pais": "GB-SCT",
+      "lingua_oficial_1a": {
+        "nome": "Inglês",
+        "iso": "en-GB-SCT",
+        "uso_no_jogo": "Idioma oficial nacional"
+      },
+      "lingua_2a": {
+        "nome": "Francês",
+        "iso": "fr-FR",
+        "uso_no_jogo": "2ª Língua europeia ensinada nas escolas"
+      },
+      "resumo_localizacao_game": "Nativo em Inglês; Secundário em Francês."
+    },
+    {
+      "pais_ou_liga": "Futebol Belgica",
+      "nome_pais": "Bélgica",
+      "codigo_iso_pais": "BE",
+      "lingua_oficial_1a": {
+        "nome": "Holandês / Neerlandês",
+        "iso": "nl-BE",
+        "uso_no_jogo": "Idioma oficial (60% da população em Flandres)"
+      },
+      "lingua_2a": {
+        "nome": "Francês",
+        "iso": "fr-BE",
+        "uso_no_jogo": "Idioma oficial (40% da população na Valônia e Bruxelas)"
+      },
+      "resumo_localizacao_game": "Bilíngue nacional em Holandês e Francês."
+    },
+    {
+      "pais_ou_liga": "Futebol Japao",
+      "nome_pais": "Japão",
+      "codigo_iso_pais": "JP",
+      "lingua_oficial_1a": {
+        "nome": "Japonês",
+        "iso": "ja-JP",
+        "uso_no_jogo": "Idioma oficial nacional"
+      },
+      "lingua_2a": {
+        "nome": "Inglês",
+        "iso": "en-US",
+        "uso_no_jogo": "2ª Língua estudada obrigatória para negócios e esporte"
+      },
+      "resumo_localizacao_game": "Nativo em Japonês; Internacional em Inglês."
+    },
+    {
+      "pais_ou_liga": "Futebol Egito",
+      "nome_pais": "Egito",
+      "codigo_iso_pais": "EG",
+      "lingua_oficial_1a": {
+        "nome": "Árabe",
+        "iso": "ar-EG",
+        "uso_no_jogo": "Idioma oficial nacional"
+      },
+      "lingua_2a": {
+        "nome": "Inglês",
+        "iso": "en-EG",
+        "uso_no_jogo": "2ª Língua amplamente ensinada para negócios e turismo"
+      },
+      "resumo_localizacao_game": "Nativo em Árabe Egípcio; Internacional em Inglês."
+    },
+    {
+      "pais_ou_liga": "Futebol Russia",
+      "nome_pais": "Rússia",
+      "codigo_iso_pais": "RU",
+      "lingua_oficial_1a": {
+        "nome": "Russo",
+        "iso": "ru-RU",
+        "uso_no_jogo": "Idioma oficial nacional"
+      },
+      "lingua_2a": {
+        "nome": "Inglês",
+        "iso": "en-US",
+        "uso_no_jogo": "2ª Língua estudada para torneios internacionais"
+      },
+      "resumo_localizacao_game": "Nativo em Russo; Internacional em Inglês."
+    },
+    {
+      "pais_ou_liga": "Futebol Mexico",
+      "nome_pais": "México",
+      "codigo_iso_pais": "MX",
+      "lingua_oficial_1a": {
+        "nome": "Espanhol",
+        "iso": "es-MX",
+        "uso_no_jogo": "Idioma oficial nacional"
+      },
+      "lingua_2a": {
+        "nome": "Inglês",
+        "iso": "en-US",
+        "uso_no_jogo": "2ª Língua mais falada (Fronteira e comércio massivo com EUA)"
+      },
+      "resumo_localizacao_game": "Nativo em Espanhol; Forte presença do Inglês."
+    },
+    {
+      "pais_ou_liga": "Futebol Colombia",
+      "nome_pais": "Colômbia",
+      "codigo_iso_pais": "CO",
+      "lingua_oficial_1a": {
+        "nome": "Espanhol",
+        "iso": "es-CO",
+        "uso_no_jogo": "Idioma oficial nacional"
+      },
+      "lingua_2a": {
+        "nome": "Inglês",
+        "iso": "en-US",
+        "uso_no_jogo": "2ª Língua de educação e comércio internacional"
+      },
+      "resumo_localizacao_game": "Nativo em Espanhol; Internacional em Inglês."
+    },
+    {
+      "pais_ou_liga": "Futebol Equador",
+      "nome_pais": "Equador",
+      "codigo_iso_pais": "EC",
+      "lingua_oficial_1a": {
+        "nome": "Espanhol",
+        "iso": "es-EC",
+        "uso_no_jogo": "Idioma oficial nacional"
+      },
+      "lingua_2a": {
+        "nome": "Inglês",
+        "iso": "en-US",
+        "uso_no_jogo": "2ª Língua de comércio exterior (Economia dolarizada)"
+      },
+      "resumo_localizacao_game": "Nativo em Espanhol; Internacional em Inglês."
+    },
+    {
+      "pais_ou_liga": "Futebol Chile",
+      "nome_pais": "Chile",
+      "codigo_iso_pais": "CL",
+      "lingua_oficial_1a": {
+        "nome": "Espanhol",
+        "iso": "es-CL",
+        "uso_no_jogo": "Idioma oficial nacional"
+      },
+      "lingua_2a": {
+        "nome": "Inglês",
+        "iso": "en-US",
+        "uso_no_jogo": "2ª Língua de negócios e turismo internacional"
+      },
+      "resumo_localizacao_game": "Nativo em Espanhol; Internacional em Inglês."
+    },
+    {
+      "pais_ou_liga": "Futebol Uruguai",
+      "nome_pais": "Uruguai",
+      "codigo_iso_pais": "UY",
+      "lingua_oficial_1a": {
+        "nome": "Espanhol",
+        "iso": "es-UY",
+        "uso_no_jogo": "Idioma oficial nacional"
+      },
+      "lingua_2a": {
+        "nome": "Português",
+        "iso": "pt-BR",
+        "uso_no_jogo": "2ª Língua amplamente compreendida (Fronteira com Brasil)"
+      },
+      "resumo_localizacao_game": "Nativo em Espanhol; Ampla fluência em Português."
+    },
+    {
+      "pais_ou_liga": "Futebol Paraguai",
+      "nome_pais": "Paraguai",
+      "codigo_iso_pais": "PY",
+      "lingua_oficial_1a": {
+        "nome": "Espanhol",
+        "iso": "es-PY",
+        "uso_no_jogo": "Idioma oficial de governo e mídia"
+      },
+      "lingua_2a": {
+        "nome": "Português",
+        "iso": "pt-BR",
+        "uso_no_jogo": "2ª Língua mais falada comercialmente (Fronteira com Brasil)"
+      },
+      "resumo_localizacao_game": "Espanhol nativo com forte presença do Português."
+    },
+    {
+      "pais_ou_liga": "Futebol Peru",
+      "nome_pais": "Peru",
+      "codigo_iso_pais": "PE",
+      "lingua_oficial_1a": {
+        "nome": "Espanhol",
+        "iso": "es-PE",
+        "uso_no_jogo": "Idioma oficial nacional"
+      },
+      "lingua_2a": {
+        "nome": "Inglês",
+        "iso": "en-US",
+        "uso_no_jogo": "2ª Língua de turismo e negócios internacionais"
+      },
+      "resumo_localizacao_game": "Nativo em Espanhol; Internacional em Inglês."
+    },
+    {
+      "pais_ou_liga": "Futebol Bolivia",
+      "nome_pais": "Bolívia",
+      "codigo_iso_pais": "BO",
+      "lingua_oficial_1a": {
+        "nome": "Espanhol",
+        "iso": "es-BO",
+        "uso_no_jogo": "Idioma oficial de transmissão esportiva"
+      },
+      "lingua_2a": {
+        "nome": "Inglês",
+        "iso": "en-US",
+        "uso_no_jogo": "2ª Língua de negócios internacionais e turismo"
+      },
+      "resumo_localizacao_game": "Nativo em Espanhol; Internacional em Inglês."
+    }
+  ]
+}

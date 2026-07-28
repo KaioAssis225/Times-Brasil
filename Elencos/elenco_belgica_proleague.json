@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "titulo": "Base Oficial de Elencos - Belgian Pro League (Bélgica)",
+    "divisao": "Pro League",
+    "pais": "Bélgica",
+    "temporada_base": "2026/2025",
+    "total_times": 1
+  },
+  "elencos": [
+    {
+      "id_time": "club_brugge",
+      "nome_time": "Club Brugge",
+      "jogadores": [
+        {
+          "nome": "Simon Mignolet",
+          "idade": 38,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Bélgica",
+          "camisa": 22
+        },
+        {
+          "nome": "Brandon Mechele",
+          "idade": 33,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Bélgica",
+          "camisa": 44
+        },
+        {
+          "nome": "Joel Ordóñez",
+          "idade": 22,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Equador",
+          "camisa": 4
+        },
+        {
+          "nome": "Maxim De Cuyper",
+          "idade": 25,
+          "pos_prim": "LE",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Bélgica",
+          "camisa": 55
+        },
+        {
+          "nome": "Kyriani Sabbe",
+          "idade": 21,
+          "pos_prim": "LD",
+          "pos_sec": [],
+          "nac": "Bélgica",
+          "camisa": 64
+        },
+        {
+          "nome": "Raphael Onyedika",
+          "idade": 25,
+          "pos_prim": "VOL",
+          "pos_sec": [],
+          "nac": "Nigéria",
+          "camisa": 15
+        },
+        {
+          "nome": "Ardon Jashari",
+          "idade": 24,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "VOL"
+          ],
+          "nac": "Suíça",
+          "camisa": 30
+        },
+        {
+          "nome": "Hans Vanaken",
+          "idade": 33,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Bélgica",
+          "camisa": 20
+        },
+        {
+          "nome": "Andreas Skov Olsen",
+          "idade": 26,
+          "pos_prim": "PD",
+          "pos_sec": [],
+          "nac": "Dinamarca",
+          "camisa": 7
+        },
+        {
+          "nome": "Christos Tzolis",
+          "idade": 24,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Grécia",
+          "camisa": 8
+        },
+        {
+          "nome": "Ferran Jutglà",
+          "idade": 27,
+          "pos_prim": "ATA",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Espanha",
+          "camisa": 9
+        },
+        {
+          "nome": "Gustaf Nilsson",
+          "idade": 29,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Suécia",
+          "camisa": 19
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,458 @@
+{
+  "meta": {
+    "titulo": "Base Oficial de Elencos do Futebol Argentino - Liga Profesional",
+    "divisao": "Primera División",
+    "pais": "Argentina",
+    "temporada_base": "2026/2025",
+    "total_times": 3
+  },
+  "elencos": [
+    {
+      "id_time": "boca_juniors",
+      "nome_time": "Boca Juniors",
+      "jogadores": [
+        {
+          "nome": "Sergio Romero",
+          "idade": 39,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Argentina",
+          "camisa": 1
+        },
+        {
+          "nome": "Leandro Brey",
+          "idade": 23,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Argentina",
+          "camisa": 12
+        },
+        {
+          "nome": "Marcos Rojo",
+          "idade": 36,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "LE"
+          ],
+          "nac": "Argentina",
+          "camisa": 6
+        },
+        {
+          "nome": "Cristian Lema",
+          "idade": 36,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Argentina",
+          "camisa": 2
+        },
+        {
+          "nome": "Nicolas Figueira",
+          "idade": 30,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "LD"
+          ],
+          "nac": "Argentina",
+          "camisa": 4
+        },
+        {
+          "nome": "Marcelo Saracchi",
+          "idade": 28,
+          "pos_prim": "LE",
+          "pos_sec": [],
+          "nac": "Uruguai",
+          "camisa": 3
+        },
+        {
+          "nome": "Lautaro Blanco",
+          "idade": 27,
+          "pos_prim": "LE",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Argentina",
+          "camisa": 23
+        },
+        {
+          "nome": "Luis Advíncula",
+          "idade": 36,
+          "pos_prim": "LD",
+          "pos_sec": [
+            "PD"
+          ],
+          "nac": "Peru",
+          "camisa": 17
+        },
+        {
+          "nome": "Pol Fernández",
+          "idade": 34,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Argentina",
+          "camisa": 8
+        },
+        {
+          "nome": "Cristian Medina",
+          "idade": 24,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Argentina",
+          "camisa": 36
+        },
+        {
+          "nome": "Kevin Zenón",
+          "idade": 25,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "MEI",
+            "MC"
+          ],
+          "nac": "Argentina",
+          "camisa": 22
+        },
+        {
+          "nome": "Ignacio Miramón",
+          "idade": 23,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Argentina",
+          "camisa": 21
+        },
+        {
+          "nome": "Edinson Cavani",
+          "idade": 39,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Uruguai",
+          "camisa": 10
+        },
+        {
+          "nome": "Miguel Merentiel",
+          "idade": 30,
+          "pos_prim": "ATA",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Uruguai",
+          "camisa": 16
+        },
+        {
+          "nome": "Exequiel Zeballos",
+          "idade": 24,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "PD"
+          ],
+          "nac": "Argentina",
+          "camisa": 7
+        },
+        {
+          "nome": "Brian Aguirre",
+          "idade": 23,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Argentina",
+          "camisa": 33
+        }
+      ]
+    },
+    {
+      "id_time": "river_plate",
+      "nome_time": "River Plate",
+      "jogadores": [
+        {
+          "nome": "Franco Armani",
+          "idade": 39,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Argentina",
+          "camisa": 1
+        },
+        {
+          "nome": "Jeremías Ledesma",
+          "idade": 33,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Argentina",
+          "camisa": 25
+        },
+        {
+          "nome": "Germán Pezzella",
+          "idade": 35,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Argentina",
+          "camisa": 6
+        },
+        {
+          "nome": "Paulo Díaz",
+          "idade": 31,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "LD"
+          ],
+          "nac": "Chile",
+          "camisa": 17
+        },
+        {
+          "nome": "Leandro González Pirez",
+          "idade": 34,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Argentina",
+          "camisa": 14
+        },
+        {
+          "nome": "Marcos Acuña",
+          "idade": 34,
+          "pos_prim": "LE",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Argentina",
+          "camisa": 24
+        },
+        {
+          "nome": "Enzo Díaz",
+          "idade": 30,
+          "pos_prim": "LE",
+          "pos_sec": [
+            "ZAG"
+          ],
+          "nac": "Argentina",
+          "camisa": 13
+        },
+        {
+          "nome": "Fabricio Bustos",
+          "idade": 28,
+          "pos_prim": "LD",
+          "pos_sec": [],
+          "nac": "Argentina",
+          "camisa": 16
+        },
+        {
+          "nome": "Matías Kranevitter",
+          "idade": 33,
+          "pos_prim": "VOL",
+          "pos_sec": [],
+          "nac": "Argentina",
+          "camisa": 5
+        },
+        {
+          "nome": "Santiago Simón",
+          "idade": 24,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "LD",
+            "MD"
+          ],
+          "nac": "Argentina",
+          "camisa": 31
+        },
+        {
+          "nome": "Maximiliano Meza",
+          "idade": 33,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "PD",
+            "PE"
+          ],
+          "nac": "Argentina",
+          "camisa": 8
+        },
+        {
+          "nome": "Claudio Echeverri",
+          "idade": 20,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Argentina",
+          "camisa": 19
+        },
+        {
+          "nome": "Franco Mastantuono",
+          "idade": 18,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "PD"
+          ],
+          "nac": "Argentina",
+          "camisa": 30
+        },
+        {
+          "nome": "Ignacio Fernández",
+          "idade": 36,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Argentina",
+          "camisa": 26
+        },
+        {
+          "nome": "Manuel Lanzini",
+          "idade": 33,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Argentina",
+          "camisa": 10
+        },
+        {
+          "nome": "Facundo Colidio",
+          "idade": 26,
+          "pos_prim": "ATA",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Argentina",
+          "camisa": 11
+        },
+        {
+          "nome": "Miguel Borja",
+          "idade": 33,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Colômbia",
+          "camisa": 9
+        },
+        {
+          "nome": "Adam Bareiro",
+          "idade": 30,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Paraguai",
+          "camisa": 7
+        }
+      ]
+    },
+    {
+      "id_time": "racing",
+      "nome_time": "Racing Club",
+      "jogadores": [
+        {
+          "nome": "Gabriel Arias",
+          "idade": 38,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Chile",
+          "camisa": 21
+        },
+        {
+          "nome": "Marco Di Cesare",
+          "idade": 24,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Argentina",
+          "camisa": 6
+        },
+        {
+          "nome": "Agustín García Basso",
+          "idade": 34,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "LE"
+          ],
+          "nac": "Argentina",
+          "camisa": 2
+        },
+        {
+          "nome": "Santiago Sosa",
+          "idade": 27,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "ZAG"
+          ],
+          "nac": "Argentina",
+          "camisa": 13
+        },
+        {
+          "nome": "Gabriel Rojas",
+          "idade": 29,
+          "pos_prim": "LE",
+          "pos_sec": [],
+          "nac": "Argentina",
+          "camisa": 3
+        },
+        {
+          "nome": "Gastón Martirena",
+          "idade": 26,
+          "pos_prim": "LD",
+          "pos_sec": [
+            "MD"
+          ],
+          "nac": "Uruguai",
+          "camisa": 15
+        },
+        {
+          "nome": "Juan Nardoni",
+          "idade": 24,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "VOL"
+          ],
+          "nac": "Argentina",
+          "camisa": 5
+        },
+        {
+          "nome": "Agustín Almendra",
+          "idade": 26,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Argentina",
+          "camisa": 32
+        },
+        {
+          "nome": "Juan Fernando Quintero",
+          "idade": 33,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "PD"
+          ],
+          "nac": "Colômbia",
+          "camisa": 8
+        },
+        {
+          "nome": "Maximilian Salas",
+          "idade": 28,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "ATA"
+          ],
+          "nac": "Argentina",
+          "camisa": 7
+        },
+        {
+          "nome": "Adrian Martínez",
+          "idade": 34,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Argentina",
+          "camisa": 9
+        },
+        {
+          "nome": "Luciano Vietto",
+          "idade": 32,
+          "pos_prim": "ATA",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Argentina",
+          "camisa": 10
+        }
+      ]
+    }
+  ]
+}

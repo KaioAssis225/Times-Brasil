@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cheat Sheet: Docker + AWS (FastAPI & PostgreSQL)</title>
+  <style>
+    body { font-family: sans-serif; padding: 2rem; background: #fafafa; color: #333; line-height: 1.6; }
+    h1 { border-bottom: 2px solid #58a6ff; padding-bottom: 0.5rem; }
+    pre { background: #1e1e1e; color: #d4d4d4; padding: 1rem; border-radius: 8px; overflow-x: auto; }
+    code { font-family: monospace; }
+  </style>
+</head>
+<body>
+  <h1>Docker + AWS Deployment Cheat Sheet</h1>
+  
+  <h2>1. Comandos para autenticar e enviar imagem FastAPI ao Amazon ECR:</h2>
+  <pre><code># 1. Login no ECR via AWS CLI
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com
+
+# 2. Build da imagem Docker da FastAPI
+docker build -t meu-fastapi-backend .
+
+# 3. Tag para a AWS
+docker tag meu-fastapi-backend:latest ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/meu-fastapi-backend:latest
+
+# 4. Push da imagem
+docker push ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/meu-fastapi-backend:latest</code></pre>
+
+  <h2>2. String de Conexão com o PostgreSQL no RDS:</h2>
+  <pre><code>DATABASE_URL=postgresql://usuario:senha@meu-postgres.c123456789.us-east-1.rds.amazonaws.com:5432/nome_do_banco</code></pre>
+</body>
+</html>

@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "titulo": "Base Oficial de Elencos - Liga 1 (Peru)",
+    "divisao": "Liga 1",
+    "pais": "Peru",
+    "temporada_base": "2026/2025",
+    "total_times": 1
+  },
+  "elencos": [
+    {
+      "id_time": "universitario",
+      "nome_time": "Universitario",
+      "jogadores": [
+        {
+          "nome": "Sebastian Britos",
+          "idade": 38,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Uruguai",
+          "camisa": 1
+        },
+        {
+          "nome": "Aldo Corzo",
+          "idade": 37,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "LD"
+          ],
+          "nac": "Peru",
+          "camisa": 29
+        },
+        {
+          "nome": "Williams Riveros",
+          "idade": 33,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Paraguai",
+          "camisa": 3
+        },
+        {
+          "nome": "Matías Di Benedetto",
+          "idade": 34,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Argentina",
+          "camisa": 5
+        },
+        {
+          "nome": "Segundo Portocarrero",
+          "idade": 29,
+          "pos_prim": "LE",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Equador",
+          "camisa": 34
+        },
+        {
+          "nome": "Andy Polo",
+          "idade": 31,
+          "pos_prim": "LD",
+          "pos_sec": [
+            "PD"
+          ],
+          "nac": "Peru",
+          "camisa": 24
+        },
+        {
+          "nome": "Rodrigo Ureña",
+          "idade": 33,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Chile",
+          "camisa": 18
+        },
+        {
+          "nome": "Horacio Calcaterra",
+          "idade": 37,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Peru",
+          "camisa": 10
+        },
+        {
+          "nome": "Jairo Concha",
+          "idade": 27,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Peru",
+          "camisa": 17
+        },
+        {
+          "nome": "Edison Flores",
+          "idade": 32,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "ATA"
+          ],
+          "nac": "Peru",
+          "camisa": 19
+        },
+        {
+          "nome": "Alex Valera",
+          "idade": 30,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Peru",
+          "camisa": 20
+        }
+      ]
+    }
+  ]
+}

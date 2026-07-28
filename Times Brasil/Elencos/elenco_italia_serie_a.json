@@ -1,0 +1,519 @@
+{
+  "meta": {
+    "titulo": "Base Oficial de Elencos do Futebol Italiano - Serie A",
+    "divisao": "Serie A",
+    "pais": "Itália",
+    "temporada_base": "2026/2025",
+    "total_times": 3
+  },
+  "elencos": [
+    {
+      "id_time": "inter_milan",
+      "nome_time": "Inter de Milão",
+      "jogadores": [
+        {
+          "nome": "Yann Sommer",
+          "idade": 37,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Suíça",
+          "camisa": 1
+        },
+        {
+          "nome": "Josep Martínez",
+          "idade": 28,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Espanha",
+          "camisa": 13
+        },
+        {
+          "nome": "Alessandro Bastoni",
+          "idade": 27,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "LE"
+          ],
+          "nac": "Itália",
+          "camisa": 95
+        },
+        {
+          "nome": "Benjamin Pavard",
+          "idade": 30,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "LD"
+          ],
+          "nac": "França",
+          "camisa": 28
+        },
+        {
+          "nome": "Stefan de Vrij",
+          "idade": 34,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Holanda",
+          "camisa": 6
+        },
+        {
+          "nome": "Francesco Acerbi",
+          "idade": 38,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Itália",
+          "camisa": 15
+        },
+        {
+          "nome": "Yann Bisseck",
+          "idade": 25,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Alemanha",
+          "camisa": 31
+        },
+        {
+          "nome": "Federico Dimarco",
+          "idade": 28,
+          "pos_prim": "LE",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Itália",
+          "camisa": 32
+        },
+        {
+          "nome": "Carlos Augusto",
+          "idade": 27,
+          "pos_prim": "LE",
+          "pos_sec": [
+            "ZAG"
+          ],
+          "nac": "Brasil",
+          "camisa": 30
+        },
+        {
+          "nome": "Denzel Dumfries",
+          "idade": 30,
+          "pos_prim": "LD",
+          "pos_sec": [
+            "PD"
+          ],
+          "nac": "Holanda",
+          "camisa": 2
+        },
+        {
+          "nome": "Matteo Darmian",
+          "idade": 36,
+          "pos_prim": "LD",
+          "pos_sec": [
+            "ZAG",
+            "LE"
+          ],
+          "nac": "Itália",
+          "camisa": 36
+        },
+        {
+          "nome": "Hakan Çalhanoglu",
+          "idade": 32,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Turquia",
+          "camisa": 20
+        },
+        {
+          "nome": "Nicolò Barella",
+          "idade": 29,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "VOL",
+            "MEI"
+          ],
+          "nac": "Itália",
+          "camisa": 23
+        },
+        {
+          "nome": "Henrikh Mkhitaryan",
+          "idade": 37,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Armênia",
+          "camisa": 22
+        },
+        {
+          "nome": "Davide Frattesi",
+          "idade": 26,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Itália",
+          "camisa": 16
+        },
+        {
+          "nome": "Piotr Zielinski",
+          "idade": 32,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Polônia",
+          "camisa": 7
+        },
+        {
+          "nome": "Lautaro Martínez",
+          "idade": 28,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Argentina",
+          "camisa": 10
+        },
+        {
+          "nome": "Marcus Thuram",
+          "idade": 28,
+          "pos_prim": "ATA",
+          "pos_sec": [
+            "PE",
+            "PD"
+          ],
+          "nac": "França",
+          "camisa": 9
+        },
+        {
+          "nome": "Mehdi Taremi",
+          "idade": 34,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Irã",
+          "camisa": 99
+        },
+        {
+          "nome": "Joaquín Correa",
+          "idade": 31,
+          "pos_prim": "ATA",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Argentina",
+          "camisa": 11
+        }
+      ]
+    },
+    {
+      "id_time": "juventus",
+      "nome_time": "Juventus",
+      "jogadores": [
+        {
+          "nome": "Michele Di Gregorio",
+          "idade": 29,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Itália",
+          "camisa": 29
+        },
+        {
+          "nome": "Mattia Perin",
+          "idade": 33,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Itália",
+          "camisa": 1
+        },
+        {
+          "nome": "Gleison Bremer",
+          "idade": 29,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 3
+        },
+        {
+          "nome": "Federico Gatti",
+          "idade": 28,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Itália",
+          "camisa": 4
+        },
+        {
+          "nome": "Pierre Kalulu",
+          "idade": 26,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "LD"
+          ],
+          "nac": "França",
+          "camisa": 15
+        },
+        {
+          "nome": "Andrea Cambiaso",
+          "idade": 26,
+          "pos_prim": "LE",
+          "pos_sec": [
+            "LD",
+            "MC"
+          ],
+          "nac": "Itália",
+          "camisa": 27
+        },
+        {
+          "nome": "Juan Cabal",
+          "idade": 25,
+          "pos_prim": "LE",
+          "pos_sec": [
+            "ZAG"
+          ],
+          "nac": "Colômbia",
+          "camisa": 32
+        },
+        {
+          "nome": "Manuel Locatelli",
+          "idade": 28,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Itália",
+          "camisa": 5
+        },
+        {
+          "nome": "Douglas Luiz",
+          "idade": 28,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "VOL"
+          ],
+          "nac": "Brasil",
+          "camisa": 26
+        },
+        {
+          "nome": "Teun Koopmeiners",
+          "idade": 28,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Holanda",
+          "camisa": 8
+        },
+        {
+          "nome": "Weston McKennie",
+          "idade": 27,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "LD",
+            "MD"
+          ],
+          "nac": "Estados Unidos",
+          "camisa": 16
+        },
+        {
+          "nome": "Kenan Yildiz",
+          "idade": 21,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Turquia",
+          "camisa": 10
+        },
+        {
+          "nome": "Nico González",
+          "idade": 28,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Argentina",
+          "camisa": 11
+        },
+        {
+          "nome": "Francisco Conceição",
+          "idade": 23,
+          "pos_prim": "PD",
+          "pos_sec": [],
+          "nac": "Portugal",
+          "camisa": 7
+        },
+        {
+          "nome": "Timothy Weah",
+          "idade": 26,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "LD"
+          ],
+          "nac": "Estados Unidos",
+          "camisa": 22
+        },
+        {
+          "nome": "Dušan Vlahovic",
+          "idade": 26,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Sérvia",
+          "camisa": 9
+        },
+        {
+          "nome": "Arkadiusz Milik",
+          "idade": 32,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Polônia",
+          "camisa": 14
+        }
+      ]
+    },
+    {
+      "id_time": "ac_milan",
+      "nome_time": "AC Milan",
+      "jogadores": [
+        {
+          "nome": "Mike Maignan",
+          "idade": 31,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "França",
+          "camisa": 1
+        },
+        {
+          "nome": "Fikayo Tomori",
+          "idade": 28,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Inglaterra",
+          "camisa": 23
+        },
+        {
+          "nome": "Strahinja Pavlovic",
+          "idade": 25,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Sérvia",
+          "camisa": 31
+        },
+        {
+          "nome": "Malick Thiaw",
+          "idade": 24,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Alemanha",
+          "camisa": 28
+        },
+        {
+          "nome": "Theo Hernández",
+          "idade": 28,
+          "pos_prim": "LE",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "França",
+          "camisa": 19
+        },
+        {
+          "nome": "Emerson Royal",
+          "idade": 27,
+          "pos_prim": "LD",
+          "pos_sec": [
+            "ZAG"
+          ],
+          "nac": "Brasil",
+          "camisa": 22
+        },
+        {
+          "nome": "Davide Calabria",
+          "idade": 29,
+          "pos_prim": "LD",
+          "pos_sec": [],
+          "nac": "Itália",
+          "camisa": 2
+        },
+        {
+          "nome": "Youssouf Fofana",
+          "idade": 27,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "França",
+          "camisa": 29
+        },
+        {
+          "nome": "Tijjani Reijnders",
+          "idade": 28,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Holanda",
+          "camisa": 14
+        },
+        {
+          "nome": "Ruben Loftus-Cheek",
+          "idade": 30,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Inglaterra",
+          "camisa": 8
+        },
+        {
+          "nome": "Christian Pulisic",
+          "idade": 27,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "MEI",
+            "PE"
+          ],
+          "nac": "Estados Unidos",
+          "camisa": 11
+        },
+        {
+          "nome": "Rafael Leão",
+          "idade": 27,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "ATA"
+          ],
+          "nac": "Portugal",
+          "camisa": 10
+        },
+        {
+          "nome": "Samuel Chukwueze",
+          "idade": 27,
+          "pos_prim": "PD",
+          "pos_sec": [],
+          "nac": "Nigéria",
+          "camisa": 21
+        },
+        {
+          "nome": "Álvaro Morata",
+          "idade": 33,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Espanha",
+          "camisa": 7
+        },
+        {
+          "nome": "Tammy Abraham",
+          "idade": 28,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Inglaterra",
+          "camisa": 90
+        },
+        {
+          "nome": "Luka Jovic",
+          "idade": 28,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Sérvia",
+          "camisa": 9
+        }
+      ]
+    }
+  ]
+}

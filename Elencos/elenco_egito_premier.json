@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "titulo": "Base Oficial de Elencos - Egyptian Premier League (Egito)",
+    "divisao": "Premier League",
+    "pais": "Egito",
+    "temporada_base": "2026/2025",
+    "total_times": 1
+  },
+  "elencos": [
+    {
+      "id_time": "al_ahly",
+      "nome_time": "Al-Ahly",
+      "jogadores": [
+        {
+          "nome": "Mohamed El-Shenawy",
+          "idade": 37,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Egito",
+          "camisa": 1
+        },
+        {
+          "nome": "Mostafa Shobeir",
+          "idade": 26,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Egito",
+          "camisa": 31
+        },
+        {
+          "nome": "Yasser Ibrahim",
+          "idade": 33,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Egito",
+          "camisa": 6
+        },
+        {
+          "nome": "Rami Rabia",
+          "idade": 33,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Egito",
+          "camisa": 5
+        },
+        {
+          "nome": "Ali Maâloul",
+          "idade": 36,
+          "pos_prim": "LE",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Tunísia",
+          "camisa": 21
+        },
+        {
+          "nome": "Yahia Attiyat Allah",
+          "idade": 31,
+          "pos_prim": "LE",
+          "pos_sec": [],
+          "nac": "Marrocos",
+          "camisa": 15
+        },
+        {
+          "nome": "Mohamed Hany",
+          "idade": 30,
+          "pos_prim": "LD",
+          "pos_sec": [],
+          "nac": "Egito",
+          "camisa": 30
+        },
+        {
+          "nome": "Marwan Attia",
+          "idade": 28,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Egito",
+          "camisa": 13
+        },
+        {
+          "nome": "Aliou Dieng",
+          "idade": 28,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Mali",
+          "camisa": 14
+        },
+        {
+          "nome": "Emam Ashour",
+          "idade": 28,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Egito",
+          "camisa": 22
+        },
+        {
+          "nome": "Mohamed Magdy Afsha",
+          "idade": 30,
+          "pos_prim": "MEI",
+          "pos_sec": [],
+          "nac": "Egito",
+          "camisa": 19
+        },
+        {
+          "nome": "Hussein El-Shahat",
+          "idade": 34,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "PD"
+          ],
+          "nac": "Egito",
+          "camisa": 14
+        },
+        {
+          "nome": "Percy Tau",
+          "idade": 32,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "ATA"
+          ],
+          "nac": "África do Sul",
+          "camisa": 10
+        },
+        {
+          "nome": "Wessam Abou Ali",
+          "idade": 27,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Palestina",
+          "camisa": 9
+        }
+      ]
+    }
+  ]
+}

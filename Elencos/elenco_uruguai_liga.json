@@ -1,0 +1,255 @@
+{
+  "meta": {
+    "titulo": "Base Oficial de Elencos - Primera División (Uruguai)",
+    "divisao": "Primera División",
+    "pais": "Uruguai",
+    "temporada_base": "2026/2025",
+    "total_times": 2
+  },
+  "elencos": [
+    {
+      "id_time": "penarol",
+      "nome_time": "Peñarol",
+      "jogadores": [
+        {
+          "nome": "Washington Aguerre",
+          "idade": 33,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Uruguai",
+          "camisa": 1
+        },
+        {
+          "nome": "Javier Méndez",
+          "idade": 31,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "VOL"
+          ],
+          "nac": "Uruguai",
+          "camisa": 14
+        },
+        {
+          "nome": "Léo Coelho",
+          "idade": 33,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 3
+        },
+        {
+          "nome": "Guzmán Rodríguez",
+          "idade": 25,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Uruguai",
+          "camisa": 15
+        },
+        {
+          "nome": "Lucas Hernández",
+          "idade": 34,
+          "pos_prim": "LE",
+          "pos_sec": [],
+          "nac": "Uruguai",
+          "camisa": 22
+        },
+        {
+          "nome": "Pedro Milans",
+          "idade": 24,
+          "pos_prim": "LD",
+          "pos_sec": [],
+          "nac": "Uruguai",
+          "camisa": 27
+        },
+        {
+          "nome": "Damian García",
+          "idade": 22,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Uruguai",
+          "camisa": 5
+        },
+        {
+          "nome": "Gastón Ramírez",
+          "idade": 35,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Uruguai",
+          "camisa": 10
+        },
+        {
+          "nome": "Eduardo Darias",
+          "idade": 28,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Uruguai",
+          "camisa": 18
+        },
+        {
+          "nome": "Leonardo Sequeira",
+          "idade": 31,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Argentina",
+          "camisa": 11
+        },
+        {
+          "nome": "Jaime Báez",
+          "idade": 31,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "PD"
+          ],
+          "nac": "Uruguai",
+          "camisa": 28
+        },
+        {
+          "nome": "Maximilian Silvera",
+          "idade": 28,
+          "pos_prim": "ATA",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Uruguai",
+          "camisa": 9
+        },
+        {
+          "nome": "Facundo Batista",
+          "idade": 27,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Uruguai",
+          "camisa": 29
+        }
+      ]
+    },
+    {
+      "id_time": "nacional",
+      "nome_time": "Nacional",
+      "jogadores": [
+        {
+          "nome": "Luis Mejía",
+          "idade": 35,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Panamá",
+          "camisa": 12
+        },
+        {
+          "nome": "Sebastian Coates",
+          "idade": 35,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Uruguai",
+          "camisa": 3
+        },
+        {
+          "nome": "Diego Polenta",
+          "idade": 34,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "LE"
+          ],
+          "nac": "Uruguai",
+          "camisa": 23
+        },
+        {
+          "nome": "Gabriel Báez",
+          "idade": 31,
+          "pos_prim": "LE",
+          "pos_sec": [],
+          "nac": "Argentina",
+          "camisa": 14
+        },
+        {
+          "nome": "Leandro Lozano",
+          "idade": 27,
+          "pos_prim": "LD",
+          "pos_sec": [],
+          "nac": "Uruguai",
+          "camisa": 13
+        },
+        {
+          "nome": "Lucas Sanabria",
+          "idade": 22,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Uruguai",
+          "camisa": 8
+        },
+        {
+          "nome": "Christian Oliva",
+          "idade": 30,
+          "pos_prim": "VOL",
+          "pos_sec": [],
+          "nac": "Uruguai",
+          "camisa": 5
+        },
+        {
+          "nome": "Mauricio Pereyra",
+          "idade": 36,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Uruguai",
+          "camisa": 10
+        },
+        {
+          "nome": "Jeremía Recoba",
+          "idade": 22,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Uruguai",
+          "camisa": 70
+        },
+        {
+          "nome": "Alexis Castro",
+          "idade": 31,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Argentina",
+          "camisa": 16
+        },
+        {
+          "nome": "Antonio Galeano",
+          "idade": 26,
+          "pos_prim": "PD",
+          "pos_sec": [],
+          "nac": "Paraguai",
+          "camisa": 7
+        },
+        {
+          "nome": "Federico Santander",
+          "idade": 35,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Paraguai",
+          "camisa": 29
+        },
+        {
+          "nome": "Ruben Bentancourt",
+          "idade": 33,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Uruguai",
+          "camisa": 9
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "titulo": "Regras Oficiais de Negociação de Transferências e Contratos (Game Engine)",
+    "descricao": "Especificação técnica e econométrica de mecânicas financeiras, moedas de referência, risco cambial, mecanismo de solidariedade FIFA, cláusulas e salários para motor de jogo de futebol.",
+    "moeda_base_sistema_interna": "USD",
+    "versao": "1.0"
+  },
+  "arquitetura_financeira_engine": {
+    "unidade_de_conta_interna": "USD (Dólar Americano)",
+    "motivo_design": "Evitar inconsistências cambiais no banco de dados e facilitar comparações globais de valor de mercado dos atletas.",
+    "conversao_dinamica_ui": {
+      "Brasil": {
+        "moeda": "BRL (R$)",
+        "multiplicador_exibicao": 5.65
+      },
+      "Inglaterra": {
+        "moeda": "GBP (£)",
+        "multiplicador_exibicao": 0.78
+      },
+      "Zona_Euro": {
+        "moeda": "EUR (€)",
+        "multiplicador_exibicao": 0.92
+      },
+      "Arabia_Saudita": {
+        "moeda": "SAR (SR)",
+        "multiplicador_exibicao": 3.75
+      },
+      "EUA": {
+        "moeda": "USD ($)",
+        "multiplicador_exibicao": 1.0
+      },
+      "Argentina": {
+        "moeda": "ARS ($)",
+        "multiplicador_exibicao": 930.0
+      },
+      "Japao": {
+        "moeda": "JPY (¥)",
+        "multiplicador_exibicao": 154.5
+      }
+    }
+  },
+  "regras_transferencias": [
+    {
+      "id": "negociacao_nacional",
+      "tipo": "Negociação Nacional (Mesmo País)",
+      "moeda_utilizada": "Moeda Local Oficial do País",
+      "risco_cambial": false,
+      "regras_chave": [
+        "Transação realizada 100% na moeda corrente local (ex: R$ no Brasil, £ na Inglaterra).",
+        "Sem perda por taxa de conversão bancária.",
+        "Parcelamento direto de transferência em prazos fixos nominais.",
+        "Pagamento de impostos e taxas federativas conforme legislação local do país."
+      ],
+      "exemplo": "Palmeiras compra jogador do Bahia por R$ 30.000.000 (Valores 100% nominais sem variação cambial)."
+    },
+    {
+      "id": "negociacao_internacional",
+      "tipo": "Negociação Internacional (Cross-Border)",
+      "moeda_utilizada": "Moeda Forte Global (USD $ ou EUR €)",
+      "risco_cambial": true,
+      "regras_chave": [
+        "Contrato obrigatoriamente registrado em USD ($) ou EUR (€) no FIFA TMS (Transfer Matching System).",
+        "Conversão bancária automática para a moeda local do clube vendedor na data da liquidação.",
+        "Mecanismo de Solidariedade FIFA: 5% do valor total da venda retido e redistribuído aos clubes formadores dos 12 aos 23 anos.",
+        "Variação Cambial em Parcelas: Se parcelado em 3 anos, o valor em moeda local flutua conforme o câmbio futuro.",
+        "Tributação de Imposto de Renda Local: Retenções tributárias diferenciadas conforme o país do comprador/vendedor."
+      ],
+      "exemplo": "Real Madrid compra jogador do Flamengo por € 45.000.000 (Registrado em EUR; convertido para R$ na taxa do dia)."
+    },
+    {
+      "id": "negociacao_sul_americana",
+      "tipo": "Negociação Inter-Sul-Americana (Ex: Brasil x Argentina x Colômbia)",
+      "moeda_utilizada": "Dólar Americano (USD $)",
+      "risco_cambial": true,
+      "regras_chave": [
+        "Cotação em Dólares para proteger ambas as partes contra a volatilidade cambial das moedas locais (ARS, BRL, COP).",
+        "Pagamento garantido por carta de crédito bancária internacional."
+      ],
+      "exemplo": "Flamengo compra jogador do River Plate por USD $ 12.000.000."
+    }
+  ],
+  "clausulas_e_contratos_atleta": {
+    "estrutura_salarial": {
+      "salario_base": "Valor pago semanalmente (UK) ou mensalmente (Brasil/Europa/América Latina).",
+      "luvas_assinatura": "Bônus financeiro pago ao atleta no momento da assinatura do contrato.",
+      "direitos_de_imagem": "Percentual do salário pago via pessoa jurídica / direitos de marca (permitido até 40% no Brasil)."
+    },
+    "clausulas_especiais_game": [
+      {
+        "nome": "Cláusula Rescisória (Release Clause / Buyout Clause)",
+        "descricao": "Valor pré-definido no contrato que encerra o vínculo unilateralmente se depositado pelo comprador.",
+        "regras_pais": "Obrigatória por lei na Espanha e no Brasil (Multa Nacional e Internacional); Opcional na Inglaterra e Alemanha."
+      },
+      {
+        "nome": "Cláusula de Venda Futura (Sell-on Clause)",
+        "descricao": "Percentual mantido pelo clube vendedor sobre o lucro ou valor total de uma transferência futura (ex: 10% a 20%)."
+      },
+      {
+        "nome": "Bônus por Desempenho (Performance Incentives)",
+        "descricao": "Ganhos extras por metas de gols, assistências, jogos sem sofrer gol (Clean Sheet), classificação para Champions/Libertadores ou Títulos."
+      }
+    ]
+  }
+}

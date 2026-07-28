@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "titulo": "Base Oficial de Elencos - Russian Premier League (Rússia)",
+    "divisao": "Premier League",
+    "pais": "Rússia",
+    "temporada_base": "2026/2025",
+    "total_times": 1
+  },
+  "elencos": [
+    {
+      "id_time": "zenit",
+      "nome_time": "Zenit Saint Petersburg",
+      "jogadores": [
+        {
+          "nome": "Evgeniy Latyshonok",
+          "idade": 28,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Rússia",
+          "camisa": 1
+        },
+        {
+          "nome": "Nino",
+          "idade": 29,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 27
+        },
+        {
+          "nome": "Strahinja Erakovic",
+          "idade": 25,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "LD"
+          ],
+          "nac": "Sérvia",
+          "camisa": 25
+        },
+        {
+          "nome": "Douglas Santos",
+          "idade": 32,
+          "pos_prim": "LE",
+          "pos_sec": [
+            "VOL"
+          ],
+          "nac": "Brasil",
+          "camisa": 3
+        },
+        {
+          "nome": "Vyacheslav Karavaev",
+          "idade": 31,
+          "pos_prim": "LD",
+          "pos_sec": [],
+          "nac": "Rússia",
+          "camisa": 15
+        },
+        {
+          "nome": "Wilmar Barrios",
+          "idade": 32,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "ZAG"
+          ],
+          "nac": "Colômbia",
+          "camisa": 5
+        },
+        {
+          "nome": "Wendel",
+          "idade": 28,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Brasil",
+          "camisa": 8
+        },
+        {
+          "nome": "Claudinho",
+          "idade": 29,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "PE",
+            "MC"
+          ],
+          "nac": "Brasil",
+          "camisa": 11
+        },
+        {
+          "nome": "Pedro",
+          "idade": 20,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "PD"
+          ],
+          "nac": "Brasil",
+          "camisa": 24
+        },
+        {
+          "nome": "Artur",
+          "idade": 28,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Brasil",
+          "camisa": 9
+        },
+        {
+          "nome": "Mateo Cassierra",
+          "idade": 29,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Colômbia",
+          "camisa": 30
+        },
+        {
+          "nome": "Luciano Gondou",
+          "idade": 25,
+          "pos_prim": "ATA",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Argentina",
+          "camisa": 32
+        }
+      ]
+    }
+  ]
+}

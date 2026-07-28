@@ -1,0 +1,239 @@
+{
+  "meta": {
+    "titulo": "Base Oficial de Elencos - Liga BetPlay (Colômbia)",
+    "divisao": "Primera A",
+    "pais": "Colômbia",
+    "temporada_base": "2026/2025",
+    "total_times": 2
+  },
+  "elencos": [
+    {
+      "id_time": "millonarios",
+      "nome_time": "Millonarios",
+      "jogadores": [
+        {
+          "nome": "Álvaro Montero",
+          "idade": 31,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Colômbia",
+          "camisa": 31
+        },
+        {
+          "nome": "Juan Pablo Vargas",
+          "idade": 31,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Costa Rica",
+          "camisa": 26
+        },
+        {
+          "nome": "Andrés Llinás",
+          "idade": 29,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Colômbia",
+          "camisa": 4
+        },
+        {
+          "nome": "Danovis Banguero",
+          "idade": 36,
+          "pos_prim": "LE",
+          "pos_sec": [],
+          "nac": "Colômbia",
+          "camisa": 20
+        },
+        {
+          "nome": "Delvin Alfonzo",
+          "idade": 25,
+          "pos_prim": "LD",
+          "pos_sec": [],
+          "nac": "Venezuela",
+          "camisa": 22
+        },
+        {
+          "nome": "Stiven Vega",
+          "idade": 28,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "LD"
+          ],
+          "nac": "Colômbia",
+          "camisa": 28
+        },
+        {
+          "nome": "Daniel Giraldo",
+          "idade": 34,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Colômbia",
+          "camisa": 8
+        },
+        {
+          "nome": "David Mackalister Silva",
+          "idade": 39,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Colômbia",
+          "camisa": 14
+        },
+        {
+          "nome": "Daniel Cataño",
+          "idade": 34,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "PD"
+          ],
+          "nac": "Colômbia",
+          "camisa": 10
+        },
+        {
+          "nome": "Jader Valencia",
+          "idade": 26,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "ATA"
+          ],
+          "nac": "Colômbia",
+          "camisa": 16
+        },
+        {
+          "nome": "Radamel Falcao García",
+          "idade": 40,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Colômbia",
+          "camisa": 9
+        },
+        {
+          "nome": "Leonardo Castro",
+          "idade": 34,
+          "pos_prim": "ATA",
+          "pos_sec": [
+            "PD"
+          ],
+          "nac": "Colômbia",
+          "camisa": 23
+        }
+      ]
+    },
+    {
+      "id_time": "atletico_nacional",
+      "nome_time": "Atlético Nacional",
+      "jogadores": [
+        {
+          "nome": "David Ospina",
+          "idade": 37,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Colômbia",
+          "camisa": 1
+        },
+        {
+          "nome": "Harlen Castillo",
+          "idade": 32,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Colômbia",
+          "camisa": 25
+        },
+        {
+          "nome": "William Tesillo",
+          "idade": 36,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "LE"
+          ],
+          "nac": "Colômbia",
+          "camisa": 16
+        },
+        {
+          "nome": "Felipe Aguirre",
+          "idade": 29,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Colômbia",
+          "camisa": 3
+        },
+        {
+          "nome": "Álvaro Angulo",
+          "idade": 28,
+          "pos_prim": "LE",
+          "pos_sec": [],
+          "nac": "Colômbia",
+          "camisa": 77
+        },
+        {
+          "nome": "Andrés Román",
+          "idade": 30,
+          "pos_prim": "LD",
+          "pos_sec": [
+            "MD"
+          ],
+          "nac": "Colômbia",
+          "camisa": 6
+        },
+        {
+          "nome": "Jorman Campuzano",
+          "idade": 30,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Colômbia",
+          "camisa": 21
+        },
+        {
+          "nome": "Matheus Uribe",
+          "idade": 35,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "VOL"
+          ],
+          "nac": "Colômbia",
+          "camisa": 8
+        },
+        {
+          "nome": "Edwin Cardona",
+          "idade": 33,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Colômbia",
+          "camisa": 10
+        },
+        {
+          "nome": "Marlos Moreno",
+          "idade": 29,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Colômbia",
+          "camisa": 17
+        },
+        {
+          "nome": "Kevin Viveros",
+          "idade": 26,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Colômbia",
+          "camisa": 9
+        },
+        {
+          "nome": "Alfredo Morelos",
+          "idade": 30,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Colômbia",
+          "camisa": 11
+        }
+      ]
+    }
+  ]
+}

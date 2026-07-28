@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "titulo": "Base Oficial de Elencos - Scottish Premiership (Escócia)",
+    "divisao": "Premiership",
+    "pais": "Escócia",
+    "temporada_base": "2026/2025",
+    "total_times": 1
+  },
+  "elencos": [
+    {
+      "id_time": "celtic",
+      "nome_time": "Celtic FC",
+      "jogadores": [
+        {
+          "nome": "Kasper Schmeichel",
+          "idade": 39,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Dinamarca",
+          "camisa": 1
+        },
+        {
+          "nome": "Cameron Carter-Vickers",
+          "idade": 28,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Estados Unidos",
+          "camisa": 20
+        },
+        {
+          "nome": "Liam Scales",
+          "idade": 28,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "LE"
+          ],
+          "nac": "Irlanda",
+          "camisa": 5
+        },
+        {
+          "nome": "Greg Taylor",
+          "idade": 28,
+          "pos_prim": "LE",
+          "pos_sec": [],
+          "nac": "Escócia",
+          "camisa": 3
+        },
+        {
+          "nome": "Alistair Johnston",
+          "idade": 27,
+          "pos_prim": "LD",
+          "pos_sec": [],
+          "nac": "Canadá",
+          "camisa": 2
+        },
+        {
+          "nome": "Callum McGregor",
+          "idade": 33,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Escócia",
+          "camisa": 42
+        },
+        {
+          "nome": "Reo Hatate",
+          "idade": 28,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Japão",
+          "camisa": 41
+        },
+        {
+          "nome": "Arne Engels",
+          "idade": 22,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "VOL"
+          ],
+          "nac": "Bélgica",
+          "camisa": 27
+        },
+        {
+          "nome": "Daizen Maeda",
+          "idade": 28,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "ATA"
+          ],
+          "nac": "Japão",
+          "camisa": 38
+        },
+        {
+          "nome": "Nicolas Kühn",
+          "idade": 26,
+          "pos_prim": "PD",
+          "pos_sec": [],
+          "nac": "Alemanha",
+          "camisa": 10
+        },
+        {
+          "nome": "Kyogo Furuhashi",
+          "idade": 31,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Japão",
+          "camisa": 8
+        },
+        {
+          "nome": "Adam Idah",
+          "idade": 25,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Irlanda",
+          "camisa": 9
+        }
+      ]
+    }
+  ]
+}

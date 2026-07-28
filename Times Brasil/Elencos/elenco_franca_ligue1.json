@@ -1,0 +1,450 @@
+{
+  "meta": {
+    "titulo": "Base Oficial de Elencos do Futebol Francês - Ligue 1",
+    "divisao": "Ligue 1",
+    "pais": "França",
+    "temporada_base": "2026/2025",
+    "total_times": 3
+  },
+  "elencos": [
+    {
+      "id_time": "paris_saint_germain",
+      "nome_time": "Paris Saint-Germain",
+      "jogadores": [
+        {
+          "nome": "Gianluigi Donnarumma",
+          "idade": 27,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Itália",
+          "camisa": 1
+        },
+        {
+          "nome": "Matvey Safonov",
+          "idade": 27,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Rússia",
+          "camisa": 39
+        },
+        {
+          "nome": "Marquinhos",
+          "idade": 32,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "VOL"
+          ],
+          "nac": "Brasil",
+          "camisa": 5
+        },
+        {
+          "nome": "Willian Pacho",
+          "idade": 24,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "LE"
+          ],
+          "nac": "Equador",
+          "camisa": 51
+        },
+        {
+          "nome": "Lucas Beraldo",
+          "idade": 22,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "LE"
+          ],
+          "nac": "Brasil",
+          "camisa": 35
+        },
+        {
+          "nome": "Presnel Kimpembe",
+          "idade": 30,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "França",
+          "camisa": 3
+        },
+        {
+          "nome": "Nuno Mendes",
+          "idade": 24,
+          "pos_prim": "LE",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Portugal",
+          "camisa": 25
+        },
+        {
+          "nome": "Lucas Hernández",
+          "idade": 30,
+          "pos_prim": "LE",
+          "pos_sec": [
+            "ZAG"
+          ],
+          "nac": "França",
+          "camisa": 21
+        },
+        {
+          "nome": "Achraf Hakimi",
+          "idade": 27,
+          "pos_prim": "LD",
+          "pos_sec": [
+            "MD"
+          ],
+          "nac": "Marrocos",
+          "camisa": 2
+        },
+        {
+          "nome": "Vitinha",
+          "idade": 26,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "VOL",
+            "MEI"
+          ],
+          "nac": "Portugal",
+          "camisa": 17
+        },
+        {
+          "nome": "João Neves",
+          "idade": 21,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "VOL"
+          ],
+          "nac": "Portugal",
+          "camisa": 87
+        },
+        {
+          "nome": "Warren Zaïre-Emery",
+          "idade": 20,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "LD",
+            "VOL"
+          ],
+          "nac": "França",
+          "camisa": 33
+        },
+        {
+          "nome": "Fabian Ruiz",
+          "idade": 30,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Espanha",
+          "camisa": 8
+        },
+        {
+          "nome": "Lee Kang-in",
+          "idade": 25,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "PD",
+            "PE"
+          ],
+          "nac": "Coreia do Sul",
+          "camisa": 19
+        },
+        {
+          "nome": "Ousmane Dembélé",
+          "idade": 29,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "França",
+          "camisa": 10
+        },
+        {
+          "nome": "Bradley Barcola",
+          "idade": 23,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "PD"
+          ],
+          "nac": "França",
+          "camisa": 29
+        },
+        {
+          "nome": "Desiré Doué",
+          "idade": 21,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "França",
+          "camisa": 14
+        },
+        {
+          "nome": "Gonçalo Ramos",
+          "idade": 25,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Portugal",
+          "camisa": 9
+        },
+        {
+          "nome": "Randal Kolo Muani",
+          "idade": 27,
+          "pos_prim": "ATA",
+          "pos_sec": [
+            "PD"
+          ],
+          "nac": "França",
+          "camisa": 23
+        }
+      ]
+    },
+    {
+      "id_time": "olympique_lyonnais",
+      "nome_time": "Olympique Lyonnais",
+      "jogadores": [
+        {
+          "nome": "Lucas Perri",
+          "idade": 28,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 23
+        },
+        {
+          "nome": "Moussa Niakhaté",
+          "idade": 28,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Senegal",
+          "camisa": 19
+        },
+        {
+          "nome": "Duje Caleta-Car",
+          "idade": 29,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Croácia",
+          "camisa": 55
+        },
+        {
+          "nome": "Abner Vinícius",
+          "idade": 26,
+          "pos_prim": "LE",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 16
+        },
+        {
+          "nome": "Ainsley Maitland-Niles",
+          "idade": 28,
+          "pos_prim": "LD",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Inglaterra",
+          "camisa": 98
+        },
+        {
+          "nome": "Nemanja Matic",
+          "idade": 37,
+          "pos_prim": "VOL",
+          "pos_sec": [],
+          "nac": "Sérvia",
+          "camisa": 31
+        },
+        {
+          "nome": "Maxence Caqueret",
+          "idade": 26,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "VOL"
+          ],
+          "nac": "França",
+          "camisa": 6
+        },
+        {
+          "nome": "Corentin Tolisso",
+          "idade": 31,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "França",
+          "camisa": 8
+        },
+        {
+          "nome": "Rayan Cherki",
+          "idade": 22,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "PD",
+            "PE"
+          ],
+          "nac": "França",
+          "camisa": 18
+        },
+        {
+          "nome": "Ernest Nuamah",
+          "idade": 22,
+          "pos_prim": "PD",
+          "pos_sec": [],
+          "nac": "Gana",
+          "camisa": 37
+        },
+        {
+          "nome": "Malick Fofana",
+          "idade": 21,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "PD"
+          ],
+          "nac": "Bélgica",
+          "camisa": 11
+        },
+        {
+          "nome": "Alexandre Lacazette",
+          "idade": 35,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "França",
+          "camisa": 10
+        },
+        {
+          "nome": "Georges Mikautadze",
+          "idade": 25,
+          "pos_prim": "ATA",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Geórgia",
+          "camisa": 69
+        }
+      ]
+    },
+    {
+      "id_time": "marseille",
+      "nome_time": "Olympique de Marseille",
+      "jogadores": [
+        {
+          "nome": "Geronimo Rulli",
+          "idade": 34,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Argentina",
+          "camisa": 1
+        },
+        {
+          "nome": "Leonardo Balerdi",
+          "idade": 27,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Argentina",
+          "camisa": 5
+        },
+        {
+          "nome": "Derek Cornelius",
+          "idade": 28,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Canadá",
+          "camisa": 13
+        },
+        {
+          "nome": "Quentin Merlin",
+          "idade": 24,
+          "pos_prim": "LE",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "França",
+          "camisa": 3
+        },
+        {
+          "nome": "Michael Murillo",
+          "idade": 30,
+          "pos_prim": "LD",
+          "pos_sec": [],
+          "nac": "Panamá",
+          "camisa": 62
+        },
+        {
+          "nome": "Pierre-Emile Højbjerg",
+          "idade": 30,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Dinamarca",
+          "camisa": 23
+        },
+        {
+          "nome": "Geoffrey Kondogbia",
+          "idade": 33,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "ZAG"
+          ],
+          "nac": "Rep. Centro-Africana",
+          "camisa": 19
+        },
+        {
+          "nome": "Adrien Rabiot",
+          "idade": 31,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "VOL"
+          ],
+          "nac": "França",
+          "camisa": 25
+        },
+        {
+          "nome": "Amine Harit",
+          "idade": 29,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Marrocos",
+          "camisa": 11
+        },
+        {
+          "nome": "Mason Greenwood",
+          "idade": 24,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "PE",
+            "ATA"
+          ],
+          "nac": "Inglaterra",
+          "camisa": 10
+        },
+        {
+          "nome": "Luis Henrique",
+          "idade": 24,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "PD"
+          ],
+          "nac": "Brasil",
+          "camisa": 44
+        },
+        {
+          "nome": "Elye Wahi",
+          "idade": 23,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "França",
+          "camisa": 9
+        },
+        {
+          "nome": "Neal Maupay",
+          "idade": 29,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "França",
+          "camisa": 32
+        }
+      ]
+    }
+  ]
+}

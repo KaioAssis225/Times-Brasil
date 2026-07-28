@@ -1,0 +1,608 @@
+{
+  "meta": {
+    "titulo": "Base Oficial de Elencos e Jogadores do Futebol Brasileiro - Série B",
+    "divisao": "Série B",
+    "pais": "Brasil",
+    "temporada_base": "2026/2025",
+    "total_times": 5
+  },
+  "elencos": [
+    {
+      "id_time": "santos",
+      "nome_time": "Santos",
+      "jogadores": [
+        {
+          "nome": "Gabriel Brazão",
+          "idade": 25,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 77
+        },
+        {
+          "nome": "João Paulo",
+          "idade": 31,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 34
+        },
+        {
+          "nome": "Gil",
+          "idade": 39,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 4
+        },
+        {
+          "nome": "Joaquim / Jair",
+          "idade": 21,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 32
+        },
+        {
+          "nome": "Luan Peres",
+          "idade": 32,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "LE"
+          ],
+          "nac": "Brasil",
+          "camisa": 14
+        },
+        {
+          "nome": "Escobar",
+          "idade": 29,
+          "pos_prim": "LE",
+          "pos_sec": [],
+          "nac": "Argentina",
+          "camisa": 31
+        },
+        {
+          "nome": "Kevyson",
+          "idade": 22,
+          "pos_prim": "LE",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 38
+        },
+        {
+          "nome": "JP Chermont",
+          "idade": 20,
+          "pos_prim": "LD",
+          "pos_sec": [
+            "MD"
+          ],
+          "nac": "Brasil",
+          "camisa": 44
+        },
+        {
+          "nome": "Aderlan",
+          "idade": 35,
+          "pos_prim": "LD",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 13
+        },
+        {
+          "nome": "João Schmidt",
+          "idade": 33,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Brasil",
+          "camisa": 5
+        },
+        {
+          "nome": "Diego Pituca",
+          "idade": 33,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Brasil",
+          "camisa": 21
+        },
+        {
+          "nome": "Tomas Rincón",
+          "idade": 38,
+          "pos_prim": "VOL",
+          "pos_sec": [],
+          "nac": "Venezuela",
+          "camisa": 8
+        },
+        {
+          "nome": "Giuliano",
+          "idade": 36,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Brasil",
+          "camisa": 10
+        },
+        {
+          "nome": "Serginho",
+          "idade": 31,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "PD"
+          ],
+          "nac": "Brasil",
+          "camisa": 37
+        },
+        {
+          "nome": "Otero",
+          "idade": 33,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Venezuela",
+          "camisa": 22
+        },
+        {
+          "nome": "Pedrinho",
+          "idade": 26,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "PD"
+          ],
+          "nac": "Brasil",
+          "camisa": 17
+        },
+        {
+          "nome": "Guilherme",
+          "idade": 31,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "ATA"
+          ],
+          "nac": "Brasil",
+          "camisa": 11
+        },
+        {
+          "nome": "Laquintana",
+          "idade": 27,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Uruguai",
+          "camisa": 66
+        },
+        {
+          "nome": "Julio Furch",
+          "idade": 36,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Argentina",
+          "camisa": 9
+        },
+        {
+          "nome": "Wendel Silva",
+          "idade": 25,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 88
+        }
+      ]
+    },
+    {
+      "id_time": "sport_recife",
+      "nome_time": "Sport Recife",
+      "jogadores": [
+        {
+          "nome": "Caíque França",
+          "idade": 31,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 22
+        },
+        {
+          "nome": "Rafael Thyere",
+          "idade": 33,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 15
+        },
+        {
+          "nome": "Luciano Castán",
+          "idade": 36,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 4
+        },
+        {
+          "nome": "Felipinho",
+          "idade": 29,
+          "pos_prim": "LE",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 6
+        },
+        {
+          "nome": "Igor Cariús",
+          "idade": 33,
+          "pos_prim": "LE",
+          "pos_sec": [
+            "LD"
+          ],
+          "nac": "Brasil",
+          "camisa": 26
+        },
+        {
+          "nome": "Pedro Lima / Roberto Rosales",
+          "idade": 37,
+          "pos_prim": "LD",
+          "pos_sec": [],
+          "nac": "Venezuela",
+          "camisa": 2
+        },
+        {
+          "nome": "Felipe",
+          "idade": 35,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Brasil",
+          "camisa": 8
+        },
+        {
+          "nome": "Fabricio Domínguez",
+          "idade": 28,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC",
+            "LD"
+          ],
+          "nac": "Uruguai",
+          "camisa": 5
+        },
+        {
+          "nome": "Lucas Lima",
+          "idade": 36,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Brasil",
+          "camisa": 10
+        },
+        {
+          "nome": "Titi Ortíz",
+          "idade": 33,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Argentina",
+          "camisa": 59
+        },
+        {
+          "nome": "Barletta",
+          "idade": 25,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Brasil",
+          "camisa": 30
+        },
+        {
+          "nome": "Gustavo Coutinho",
+          "idade": 27,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 9
+        },
+        {
+          "nome": "Zé Roberto",
+          "idade": 32,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 99
+        }
+      ]
+    },
+    {
+      "id_time": "america_mineiro",
+      "nome_time": "América Mineiro",
+      "jogadores": [
+        {
+          "nome": "Dalberson",
+          "idade": 29,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 1
+        },
+        {
+          "nome": "Éder",
+          "idade": 31,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 33
+        },
+        {
+          "nome": "Ricardo Silva",
+          "idade": 33,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 4
+        },
+        {
+          "nome": "Marlon",
+          "idade": 32,
+          "pos_prim": "LE",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 6
+        },
+        {
+          "nome": "Mateus Henrique",
+          "idade": 24,
+          "pos_prim": "LD",
+          "pos_sec": [
+            "VOL"
+          ],
+          "nac": "Brasil",
+          "camisa": 2
+        },
+        {
+          "nome": "Juninho",
+          "idade": 38,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Brasil",
+          "camisa": 8
+        },
+        {
+          "nome": "Alê",
+          "idade": 36,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Brasil",
+          "camisa": 30
+        },
+        {
+          "nome": "Moisés",
+          "idade": 38,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Brasil",
+          "camisa": 10
+        },
+        {
+          "nome": "Fabinho",
+          "idade": 27,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Brasil",
+          "camisa": 7
+        },
+        {
+          "nome": "Renato Marques",
+          "idade": 22,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 9
+        },
+        {
+          "nome": "Brenner",
+          "idade": 32,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 19
+        }
+      ]
+    },
+    {
+      "id_time": "novorizontino",
+      "nome_time": "Novorizontino",
+      "jogadores": [
+        {
+          "nome": "Jordi",
+          "idade": 32,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 1
+        },
+        {
+          "nome": "Rafael Donato",
+          "idade": 37,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 3
+        },
+        {
+          "nome": "Patrick",
+          "idade": 27,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 4
+        },
+        {
+          "nome": "Reinaldo",
+          "idade": 34,
+          "pos_prim": "LE",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 6
+        },
+        {
+          "nome": "Rodrigo Soares",
+          "idade": 33,
+          "pos_prim": "LD",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 2
+        },
+        {
+          "nome": "Geovane",
+          "idade": 27,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Brasil",
+          "camisa": 5
+        },
+        {
+          "nome": "Marlon",
+          "idade": 34,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Brasil",
+          "camisa": 8
+        },
+        {
+          "nome": "Lucca",
+          "idade": 36,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "ATA"
+          ],
+          "nac": "Brasil",
+          "camisa": 11
+        },
+        {
+          "nome": "Rodolfo",
+          "idade": 34,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 9
+        },
+        {
+          "nome": "Neto Pessoa",
+          "idade": 32,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 19
+        }
+      ]
+    },
+    {
+      "id_time": "mirassol",
+      "nome_time": "Mirassol",
+      "jogadores": [
+        {
+          "nome": "Alex Muralha",
+          "idade": 36,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 23
+        },
+        {
+          "nome": "João Victor",
+          "idade": 28,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 4
+        },
+        {
+          "nome": "Luiz Otávio",
+          "idade": 37,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 3
+        },
+        {
+          "nome": "Zeca",
+          "idade": 32,
+          "pos_prim": "LE",
+          "pos_sec": [
+            "LD"
+          ],
+          "nac": "Brasil",
+          "camisa": 6
+        },
+        {
+          "nome": "Lucas Ramon",
+          "idade": 32,
+          "pos_prim": "LD",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 2
+        },
+        {
+          "nome": "Yuri Lara",
+          "idade": 32,
+          "pos_prim": "VOL",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 5
+        },
+        {
+          "nome": "Gabriel",
+          "idade": 36,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Brasil",
+          "camisa": 10
+        },
+        {
+          "nome": "Negueba",
+          "idade": 34,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Brasil",
+          "camisa": 7
+        },
+        {
+          "nome": "Dellatorre",
+          "idade": 34,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 9
+        },
+        {
+          "nome": "Léo Gamalho",
+          "idade": 40,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 19
+        }
+      ]
+    }
+  ]
+}

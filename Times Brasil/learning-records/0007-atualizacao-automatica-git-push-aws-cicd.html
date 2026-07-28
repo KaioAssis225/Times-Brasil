@@ -1,0 +1,8 @@
+# Automação de Deploy na AWS ao Dar `git push` (CI/CD)
+
+Registramos o procedimento para automatizar as atualizações de produção no Backend e Frontend assim que alterações forem enviadas via Git.
+
+## Como Funciona:
+1. **Backend FastAPI (AWS App Runner)**: Integração nativa com GitHub ativada com *Automatic Deployment*. Cada `git push origin main` compila o Dockerfile e atualiza a API em produção com zero oscilação (*zero-downtime*).
+2. **Frontend (GitHub Actions + S3 + CloudFront)**: Arquivo `.github/workflows/deploy-frontend.yml` que compila o React/Vite com `npm run build`, sincroniza a pasta `dist/` no Amazon S3 e invalida o cache do CloudFront (`create-invalidation`).
+3. **Estrutura de Banco (Migrations)**: Comandos do Alembic (`alembic upgrade head`) executados no momento do boot da aplicação ou via pipeline.
