@@ -1,0 +1,569 @@
+{
+  "meta": {
+    "titulo": "Base Oficial de Elencos do Futebol Inglês - Premier League",
+    "divisao": "Premier League",
+    "pais": "Inglaterra",
+    "temporada_base": "2026/2025",
+    "total_times": 3
+  },
+  "elencos": [
+    {
+      "id_time": "manchester_city",
+      "nome_time": "Manchester City",
+      "jogadores": [
+        {
+          "nome": "Ederson",
+          "idade": 32,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 31
+        },
+        {
+          "nome": "Stefan Ortega",
+          "idade": 33,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Alemanha",
+          "camisa": 18
+        },
+        {
+          "nome": "Rúben Dias",
+          "idade": 29,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Portugal",
+          "camisa": 3
+        },
+        {
+          "nome": "Manuel Akanji",
+          "idade": 31,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "LD",
+            "LE"
+          ],
+          "nac": "Suíça",
+          "camisa": 25
+        },
+        {
+          "nome": "Nathan Aké",
+          "idade": 31,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "LE"
+          ],
+          "nac": "Holanda",
+          "camisa": 6
+        },
+        {
+          "nome": "Josko Gvardiol",
+          "idade": 24,
+          "pos_prim": "LE",
+          "pos_sec": [
+            "ZAG"
+          ],
+          "nac": "Croácia",
+          "camisa": 24
+        },
+        {
+          "nome": "Kyle Walker",
+          "idade": 36,
+          "pos_prim": "LD",
+          "pos_sec": [
+            "ZAG"
+          ],
+          "nac": "Inglaterra",
+          "camisa": 2
+        },
+        {
+          "nome": "Rico Lewis",
+          "idade": 21,
+          "pos_prim": "LD",
+          "pos_sec": [
+            "VOL",
+            "MC"
+          ],
+          "nac": "Inglaterra",
+          "camisa": 82
+        },
+        {
+          "nome": "Rodri",
+          "idade": 30,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Espanha",
+          "camisa": 16
+        },
+        {
+          "nome": "Mateo Kovačić",
+          "idade": 32,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "VOL"
+          ],
+          "nac": "Croácia",
+          "camisa": 8
+        },
+        {
+          "nome": "Bernardo Silva",
+          "idade": 31,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "PD",
+            "MEI"
+          ],
+          "nac": "Portugal",
+          "camisa": 20
+        },
+        {
+          "nome": "Kevin De Bruyne",
+          "idade": 35,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Bélgica",
+          "camisa": 17
+        },
+        {
+          "nome": "Phil Foden",
+          "idade": 26,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "PD",
+            "PE"
+          ],
+          "nac": "Inglaterra",
+          "camisa": 47
+        },
+        {
+          "nome": "Ilkay Gündogan",
+          "idade": 35,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Alemanha",
+          "camisa": 19
+        },
+        {
+          "nome": "Jack Grealish",
+          "idade": 30,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Inglaterra",
+          "camisa": 10
+        },
+        {
+          "nome": "Jérémy Doku",
+          "idade": 24,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "PD"
+          ],
+          "nac": "Bélgica",
+          "camisa": 11
+        },
+        {
+          "nome": "Savinho",
+          "idade": 22,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Brasil",
+          "camisa": 26
+        },
+        {
+          "nome": "Erling Haaland",
+          "idade": 26,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Noruega",
+          "camisa": 9
+        }
+      ]
+    },
+    {
+      "id_time": "arsenal",
+      "nome_time": "Arsenal",
+      "jogadores": [
+        {
+          "nome": "David Raya",
+          "idade": 30,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Espanha",
+          "camisa": 22
+        },
+        {
+          "nome": "Neto",
+          "idade": 37,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 32
+        },
+        {
+          "nome": "William Saliba",
+          "idade": 25,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "França",
+          "camisa": 2
+        },
+        {
+          "nome": "Gabriel Magalhães",
+          "idade": 28,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 6
+        },
+        {
+          "nome": "Riccardo Calafiori",
+          "idade": 24,
+          "pos_prim": "LE",
+          "pos_sec": [
+            "ZAG"
+          ],
+          "nac": "Itália",
+          "camisa": 33
+        },
+        {
+          "nome": "Oleksandr Zinchenko",
+          "idade": 29,
+          "pos_prim": "LE",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Ucrânia",
+          "camisa": 17
+        },
+        {
+          "nome": "Jurriën Timber",
+          "idade": 25,
+          "pos_prim": "LD",
+          "pos_sec": [
+            "LE",
+            "ZAG"
+          ],
+          "nac": "Holanda",
+          "camisa": 12
+        },
+        {
+          "nome": "Ben White",
+          "idade": 28,
+          "pos_prim": "LD",
+          "pos_sec": [
+            "ZAG"
+          ],
+          "nac": "Inglaterra",
+          "camisa": 4
+        },
+        {
+          "nome": "Declan Rice",
+          "idade": 27,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Inglaterra",
+          "camisa": 41
+        },
+        {
+          "nome": "Thomas Partey",
+          "idade": 33,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "LD"
+          ],
+          "nac": "Gana",
+          "camisa": 5
+        },
+        {
+          "nome": "Mikel Merino",
+          "idade": 30,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "VOL"
+          ],
+          "nac": "Espanha",
+          "camisa": 23
+        },
+        {
+          "nome": "Martin Ødegaard",
+          "idade": 27,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Noruega",
+          "camisa": 8
+        },
+        {
+          "nome": "Bukayo Saka",
+          "idade": 24,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Inglaterra",
+          "camisa": 7
+        },
+        {
+          "nome": "Gabriel Martinelli",
+          "idade": 25,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "ATA"
+          ],
+          "nac": "Brasil",
+          "camisa": 11
+        },
+        {
+          "nome": "Leandro Trossard",
+          "idade": 31,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "MEI",
+            "ATA"
+          ],
+          "nac": "Bélgica",
+          "camisa": 19
+        },
+        {
+          "nome": "Raheem Sterling",
+          "idade": 31,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Inglaterra",
+          "camisa": 30
+        },
+        {
+          "nome": "Kai Havertz",
+          "idade": 27,
+          "pos_prim": "ATA",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Alemanha",
+          "camisa": 29
+        },
+        {
+          "nome": "Gabriel Jesus",
+          "idade": 29,
+          "pos_prim": "ATA",
+          "pos_sec": [
+            "PD",
+            "PE"
+          ],
+          "nac": "Brasil",
+          "camisa": 9
+        }
+      ]
+    },
+    {
+      "id_time": "liverpool",
+      "nome_time": "Liverpool",
+      "jogadores": [
+        {
+          "nome": "Alisson Becker",
+          "idade": 33,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Brasil",
+          "camisa": 1
+        },
+        {
+          "nome": "Caoimhin Kelleher",
+          "idade": 27,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Irlanda",
+          "camisa": 62
+        },
+        {
+          "nome": "Virgil van Dijk",
+          "idade": 35,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Holanda",
+          "camisa": 4
+        },
+        {
+          "nome": "Ibrahima Konaté",
+          "idade": 27,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "França",
+          "camisa": 5
+        },
+        {
+          "nome": "Joe Gomez",
+          "idade": 29,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "LD",
+            "LE"
+          ],
+          "nac": "Inglaterra",
+          "camisa": 2
+        },
+        {
+          "nome": "Andrew Robertson",
+          "idade": 32,
+          "pos_prim": "LE",
+          "pos_sec": [],
+          "nac": "Escócia",
+          "camisa": 26
+        },
+        {
+          "nome": "Kostas Tsimikas",
+          "idade": 30,
+          "pos_prim": "LE",
+          "pos_sec": [],
+          "nac": "Grécia",
+          "camisa": 21
+        },
+        {
+          "nome": "Trent Alexander-Arnold",
+          "idade": 27,
+          "pos_prim": "LD",
+          "pos_sec": [
+            "MC",
+            "VOL"
+          ],
+          "nac": "Inglaterra",
+          "camisa": 66
+        },
+        {
+          "nome": "Conor Bradley",
+          "idade": 23,
+          "pos_prim": "LD",
+          "pos_sec": [],
+          "nac": "Irlanda do Norte",
+          "camisa": 84
+        },
+        {
+          "nome": "Alexis Mac Allister",
+          "idade": 27,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "VOL",
+            "MEI"
+          ],
+          "nac": "Argentina",
+          "camisa": 10
+        },
+        {
+          "nome": "Dominik Szoboszlai",
+          "idade": 25,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "MC",
+            "PD"
+          ],
+          "nac": "Húngria",
+          "camisa": 8
+        },
+        {
+          "nome": "Ryan Gravenberch",
+          "idade": 24,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Holanda",
+          "camisa": 38
+        },
+        {
+          "nome": "Wataru Endo",
+          "idade": 33,
+          "pos_prim": "VOL",
+          "pos_sec": [],
+          "nac": "Japão",
+          "camisa": 3
+        },
+        {
+          "nome": "Curtis Jones",
+          "idade": 25,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Inglaterra",
+          "camisa": 17
+        },
+        {
+          "nome": "Mohamed Salah",
+          "idade": 34,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "ATA"
+          ],
+          "nac": "Egito",
+          "camisa": 11
+        },
+        {
+          "nome": "Luis Díaz",
+          "idade": 29,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "PD"
+          ],
+          "nac": "Colômbia",
+          "camisa": 7
+        },
+        {
+          "nome": "Cody Gakpo",
+          "idade": 27,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "ATA"
+          ],
+          "nac": "Holanda",
+          "camisa": 18
+        },
+        {
+          "nome": "Federico Chiesa",
+          "idade": 28,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Itália",
+          "camisa": 14
+        },
+        {
+          "nome": "Darwin Núñez",
+          "idade": 27,
+          "pos_prim": "ATA",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Uruguai",
+          "camisa": 9
+        },
+        {
+          "nome": "Diogo Jota",
+          "idade": 29,
+          "pos_prim": "ATA",
+          "pos_sec": [
+            "PE",
+            "PD"
+          ],
+          "nac": "Portugal",
+          "camisa": 20
+        }
+      ]
+    }
+  ]
+}
