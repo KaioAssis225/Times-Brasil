@@ -1,0 +1,559 @@
+{
+  "meta": {
+    "titulo": "Base Oficial de Elencos do Futebol Alemão - Bundesliga",
+    "divisao": "Bundesliga",
+    "pais": "Alemanha",
+    "temporada_base": "2026/2025",
+    "total_times": 3
+  },
+  "elencos": [
+    {
+      "id_time": "bayern_munich",
+      "nome_time": "Bayern de Munique",
+      "jogadores": [
+        {
+          "nome": "Manuel Neuer",
+          "idade": 40,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Alemanha",
+          "camisa": 1
+        },
+        {
+          "nome": "Sven Ulreich",
+          "idade": 38,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Alemanha",
+          "camisa": 26
+        },
+        {
+          "nome": "Dayot Upamecano",
+          "idade": 27,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "França",
+          "camisa": 2
+        },
+        {
+          "nome": "Kim Min-jae",
+          "idade": 29,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Coreia do Sul",
+          "camisa": 3
+        },
+        {
+          "nome": "Eric Dier",
+          "idade": 32,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "VOL"
+          ],
+          "nac": "Inglaterra",
+          "camisa": 15
+        },
+        {
+          "nome": "Hiroki Ito",
+          "idade": 27,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "LE"
+          ],
+          "nac": "Japão",
+          "camisa": 21
+        },
+        {
+          "nome": "Alphonso Davies",
+          "idade": 25,
+          "pos_prim": "LE",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Canadá",
+          "camisa": 19
+        },
+        {
+          "nome": "Raphaël Guerreiro",
+          "idade": 32,
+          "pos_prim": "LE",
+          "pos_sec": [
+            "MC",
+            "VOL"
+          ],
+          "nac": "Portugal",
+          "camisa": 22
+        },
+        {
+          "nome": "Josip Stanisic",
+          "idade": 26,
+          "pos_prim": "LD",
+          "pos_sec": [
+            "ZAG"
+          ],
+          "nac": "Croácia",
+          "camisa": 44
+        },
+        {
+          "nome": "Sacha Boey",
+          "idade": 25,
+          "pos_prim": "LD",
+          "pos_sec": [],
+          "nac": "França",
+          "camisa": 23
+        },
+        {
+          "nome": "Joshua Kimmich",
+          "idade": 31,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC",
+            "LD"
+          ],
+          "nac": "Alemanha",
+          "camisa": 6
+        },
+        {
+          "nome": "João Palhinha",
+          "idade": 31,
+          "pos_prim": "VOL",
+          "pos_sec": [],
+          "nac": "Portugal",
+          "camisa": 16
+        },
+        {
+          "nome": "Leon Goretzka",
+          "idade": 31,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "VOL"
+          ],
+          "nac": "Alemanha",
+          "camisa": 8
+        },
+        {
+          "nome": "Aleksandar Pavlovic",
+          "idade": 22,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "VOL"
+          ],
+          "nac": "Alemanha",
+          "camisa": 45
+        },
+        {
+          "nome": "Jamal Musiala",
+          "idade": 23,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "PE",
+            "MC"
+          ],
+          "nac": "Alemanha",
+          "camisa": 42
+        },
+        {
+          "nome": "Thomas Müller",
+          "idade": 36,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "ATA"
+          ],
+          "nac": "Alemanha",
+          "camisa": 25
+        },
+        {
+          "nome": "Leroy Sané",
+          "idade": 30,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Alemanha",
+          "camisa": 10
+        },
+        {
+          "nome": "Michael Olise",
+          "idade": 24,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "França",
+          "camisa": 17
+        },
+        {
+          "nome": "Kingsley Coman",
+          "idade": 30,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "PD"
+          ],
+          "nac": "França",
+          "camisa": 11
+        },
+        {
+          "nome": "Serge Gnabry",
+          "idade": 31,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "PE",
+            "ATA"
+          ],
+          "nac": "Alemanha",
+          "camisa": 7
+        },
+        {
+          "nome": "Harry Kane",
+          "idade": 33,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Inglaterra",
+          "camisa": 9
+        },
+        {
+          "nome": "Mathys Tel",
+          "idade": 21,
+          "pos_prim": "ATA",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "França",
+          "camisa": 39
+        }
+      ]
+    },
+    {
+      "id_time": "borussia_dortmund",
+      "nome_time": "Borussia Dortmund",
+      "jogadores": [
+        {
+          "nome": "Gregor Kobel",
+          "idade": 28,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Suíça",
+          "camisa": 1
+        },
+        {
+          "nome": "Nico Schlotterbeck",
+          "idade": 26,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "LE"
+          ],
+          "nac": "Alemanha",
+          "camisa": 4
+        },
+        {
+          "nome": "Niklas Süle",
+          "idade": 30,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "LD"
+          ],
+          "nac": "Alemanha",
+          "camisa": 25
+        },
+        {
+          "nome": "Waldemar Anton",
+          "idade": 30,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Alemanha",
+          "camisa": 3
+        },
+        {
+          "nome": "Ramy Bensebaini",
+          "idade": 31,
+          "pos_prim": "LE",
+          "pos_sec": [
+            "ZAG"
+          ],
+          "nac": "Argélia",
+          "camisa": 5
+        },
+        {
+          "nome": "Yan Couto",
+          "idade": 24,
+          "pos_prim": "LD",
+          "pos_sec": [
+            "MD"
+          ],
+          "nac": "Brasil",
+          "camisa": 2
+        },
+        {
+          "nome": "Julian Ryerson",
+          "idade": 28,
+          "pos_prim": "LD",
+          "pos_sec": [
+            "LE"
+          ],
+          "nac": "Noruega",
+          "camisa": 26
+        },
+        {
+          "nome": "Emre Can",
+          "idade": 32,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "ZAG",
+            "MC"
+          ],
+          "nac": "Alemanha",
+          "camisa": 23
+        },
+        {
+          "nome": "Pascal Groß",
+          "idade": 35,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "VOL",
+            "MEI"
+          ],
+          "nac": "Alemanha",
+          "camisa": 13
+        },
+        {
+          "nome": "Marcel Sabitzer",
+          "idade": 32,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "MEI",
+            "MD"
+          ],
+          "nac": "Áustria",
+          "camisa": 20
+        },
+        {
+          "nome": "Felix Nmecha",
+          "idade": 25,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "MEI"
+          ],
+          "nac": "Alemanha",
+          "camisa": 8
+        },
+        {
+          "nome": "Julian Brandt",
+          "idade": 30,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "MC",
+            "PD"
+          ],
+          "nac": "Alemanha",
+          "camisa": 10
+        },
+        {
+          "nome": "Donyell Malen",
+          "idade": 27,
+          "pos_prim": "PD",
+          "pos_sec": [
+            "ATA",
+            "PE"
+          ],
+          "nac": "Holanda",
+          "camisa": 21
+        },
+        {
+          "nome": "Karim Adeyemi",
+          "idade": 24,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "PD",
+            "ATA"
+          ],
+          "nac": "Alemanha",
+          "camisa": 27
+        },
+        {
+          "nome": "Jamie Gittens",
+          "idade": 21,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "PD"
+          ],
+          "nac": "Inglaterra",
+          "camisa": 43
+        },
+        {
+          "nome": "Serhou Guirassy",
+          "idade": 30,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Guiné",
+          "camisa": 9
+        },
+        {
+          "nome": "Maximilian Beier",
+          "idade": 23,
+          "pos_prim": "ATA",
+          "pos_sec": [
+            "PE"
+          ],
+          "nac": "Alemanha",
+          "camisa": 14
+        }
+      ]
+    },
+    {
+      "id_time": "bayer_leverkusen",
+      "nome_time": "Bayer Leverkusen",
+      "jogadores": [
+        {
+          "nome": "Lukas Hradecky",
+          "idade": 36,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Finlândia",
+          "camisa": 1
+        },
+        {
+          "nome": "Matej Kovar",
+          "idade": 26,
+          "pos_prim": "GOL",
+          "pos_sec": [],
+          "nac": "Tchéquia",
+          "camisa": 17
+        },
+        {
+          "nome": "Jonathan Tah",
+          "idade": 30,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Alemanha",
+          "camisa": 4
+        },
+        {
+          "nome": "Edmond Tapsoba",
+          "idade": 27,
+          "pos_prim": "ZAG",
+          "pos_sec": [],
+          "nac": "Burkina Faso",
+          "camisa": 12
+        },
+        {
+          "nome": "Piero Hincapié",
+          "idade": 24,
+          "pos_prim": "ZAG",
+          "pos_sec": [
+            "LE"
+          ],
+          "nac": "Equador",
+          "camisa": 3
+        },
+        {
+          "nome": "Álex Grimaldo",
+          "idade": 30,
+          "pos_prim": "LE",
+          "pos_sec": [
+            "ME"
+          ],
+          "nac": "Espanha",
+          "camisa": 20
+        },
+        {
+          "nome": "Jeremie Frimpong",
+          "idade": 25,
+          "pos_prim": "LD",
+          "pos_sec": [
+            "MD",
+            "PD"
+          ],
+          "nac": "Holanda",
+          "camisa": 30
+        },
+        {
+          "nome": "Granit Xhaka",
+          "idade": 33,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "MC"
+          ],
+          "nac": "Suíça",
+          "camisa": 34
+        },
+        {
+          "nome": "Robert Andrich",
+          "idade": 31,
+          "pos_prim": "VOL",
+          "pos_sec": [
+            "ZAG"
+          ],
+          "nac": "Alemanha",
+          "camisa": 8
+        },
+        {
+          "nome": "Exequiel Palacios",
+          "idade": 27,
+          "pos_prim": "MC",
+          "pos_sec": [
+            "VOL"
+          ],
+          "nac": "Argentina",
+          "camisa": 25
+        },
+        {
+          "nome": "Florian Wirtz",
+          "idade": 23,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "PE",
+            "PD"
+          ],
+          "nac": "Alemanha",
+          "camisa": 10
+        },
+        {
+          "nome": "Jonas Hofmann",
+          "idade": 34,
+          "pos_prim": "MEI",
+          "pos_sec": [
+            "PD"
+          ],
+          "nac": "Alemanha",
+          "camisa": 7
+        },
+        {
+          "nome": "Amine Adli",
+          "idade": 26,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "ATA"
+          ],
+          "nac": "Marrocos",
+          "camisa": 21
+        },
+        {
+          "nome": "Martin Terrier",
+          "idade": 29,
+          "pos_prim": "PE",
+          "pos_sec": [
+            "ATA"
+          ],
+          "nac": "França",
+          "camisa": 11
+        },
+        {
+          "nome": "Victor Boniface",
+          "idade": 25,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Nigéria",
+          "camisa": 22
+        },
+        {
+          "nome": "Patrik Schick",
+          "idade": 30,
+          "pos_prim": "ATA",
+          "pos_sec": [],
+          "nac": "Tchéquia",
+          "camisa": 14
+        }
+      ]
+    }
+  ]
+}
